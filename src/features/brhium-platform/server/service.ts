@@ -995,10 +995,49 @@ export async function syncRetellCalls(session: SessionUser) {
     }
 
     await mutateStore(async (draft) => {
-      const assistant = draft.assistants.find((a: any) => a.workspaceId === session.workspaceId);
+      let assistant = draft.assistants.find((a: any) => a.workspaceId === session.workspaceId);
+      
+      // AUTO-HEALING: Si no hay asistente (ej: se borró el JSON), lo creamos usando el ENV
+      if (!assistant && retellAgentId) {
+        console.log(`[Sync] Assistant not found in draft, creating auto-recovery for: ${retellAgentId}`);
+        const newAssistantId = retellAgentId;
+        const newConfigId = `config_${newAssistantId}`;
+        
+        assistant = {
+          id: newAssistantId,
+          workspaceId: session.workspaceId,
+          name: 'Asistente Brhium',
+          slug: 'asistente-brhium',
+          language: 'es-ES',
+          voiceStyle: 'clara y profesional',
+          status: 'active',
+          providerMode: 'provider_ready',
+          channels: ['web', 'phone'],
+          configId: newConfigId,
+          createdAt: new Date().toISOString(),
+        } as any;
+
+        draft.assistants.push(assistant);
+        
+        // Crear config básica si no existe
+        if (!draft.assistantConfigs.find(c => c.id === newConfigId)) {
+          draft.assistantConfigs.push({
+            id: newConfigId,
+            assistantId: newAssistantId,
+            agentName: 'Asistente Brhium',
+            language: 'es-ES',
+            voiceId: 'eleven_labs_spanish_female_1',
+            voiceSpeed: 1.0,
+            model: 'gpt-4o',
+            systemPrompt: 'Eres un asistente de voz de Brhium.',
+            updatedAt: new Date().toISOString(),
+          } as any);
+        }
+      }
+
       const assistantId = assistant?.id;
       if (!assistantId) {
-        console.error(`[Sync] No assistant found for workspace: ${session.workspaceId}`);
+        console.error(`[Sync] No assistant found and no RETELL_AGENT_ID available.`);
         return;
       }
 
