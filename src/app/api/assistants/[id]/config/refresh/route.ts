@@ -9,10 +9,10 @@ export async function POST(
   if (!session) return jsonError('Unauthorized', 401)
 
   const { id } = await context.params
-  const retellAgentId = process.env.RETELL_AGENT_ID?.replace(/['"]+/g, '').trim()
+  const retellAgentId = process.env.RETELL_AGENT_ID
 
   if (!retellAgentId) {
-    return jsonError('ID de agente no configurado en variables de entorno', 400)
+    return jsonError('ID de agente no configurado', 400)
   }
 
   try {

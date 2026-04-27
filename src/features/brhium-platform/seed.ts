@@ -16,13 +16,8 @@ function isoDaysAgo(days: number) {
 
 export function createSeedState(): PlatformStore {
   const workspaceId = 'workspace_brhium'
-  
-  // Usamos el ID de Retell de las variables de entorno si está disponible, 
-  // sino usamos un fallback para desarrollo local.
-  const envAgentId = process.env.RETELL_AGENT_ID?.replace(/['"]+/g, '').trim()
-  const assistantId = envAgentId || 'assistant_alba'
-  
-  const assistantConfigId = `config_${assistantId}`
+  const assistantId = 'assistant_alba'
+  const assistantConfigId = 'assistant_config_alba'
   const phoneNumberId = 'phone_main'
 
   const phoneCallId = 'call_siboval'
