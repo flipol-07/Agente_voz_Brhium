@@ -1003,7 +1003,7 @@ export async function syncRetellCalls(session: SessionUser) {
         const newAssistantId = retellAgentId;
         const newConfigId = `config_${newAssistantId}`;
         
-        assistant = {
+        const recoveryAssistant = {
           id: newAssistantId,
           workspaceId: session.workspaceId,
           name: 'Asistente Brhium',
@@ -1017,7 +1017,8 @@ export async function syncRetellCalls(session: SessionUser) {
           createdAt: new Date().toISOString(),
         } as any;
 
-        draft.assistants.push(assistant);
+        draft.assistants.push(recoveryAssistant);
+        assistant = recoveryAssistant;
         
         // Crear config básica si no existe
         if (!draft.assistantConfigs.find(c => c.id === newConfigId)) {
@@ -1043,7 +1044,7 @@ export async function syncRetellCalls(session: SessionUser) {
 
       // Sync system prompt if it was fetched successfully
       if (latestAgentConfig) {
-        const config = draft.assistantConfigs.find((c: any) => c.id === assistant.configId);
+        const config = draft.assistantConfigs.find((c: any) => c.id === assistant!.configId);
         if (config) {
           console.log(`[Sync] Updating local config for assistant: ${assistantId}`);
           if (latestAgentConfig.general_prompt) config.systemPrompt = latestAgentConfig.general_prompt;
