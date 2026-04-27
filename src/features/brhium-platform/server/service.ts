@@ -1255,8 +1255,9 @@ export async function fetchRetellVoices() {
 }
 
 export async function syncAssistantConfigFromRetell(assistantId: string, agentId: string) {
+  const cleanAgentId = agentId.replace(/['"]+/g, '').trim();
   try {
-    const agent = await fetchRetell(`/get-agent/${agentId}`);
+    const agent = await fetchRetell(`/get-agent/${cleanAgentId}`);
     const llmId = agent.response_engine?.llm_id;
     
     let llm: any = {};

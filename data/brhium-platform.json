@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-04-27T16:45:16.494Z",
+  "updatedAt": "2026-04-27T16:50:38.239Z",
   "workspaces": [
     {
       "id": "workspace_brhium",
@@ -35,7 +35,7 @@
   ],
   "assistants": [
     {
-      "id": "assistant_alba",
+      "id": "agent_008f7c2686aa4abfffa6c79d10",
       "workspaceId": "workspace_brhium",
       "name": "Asistente Brhium DEMO",
       "slug": "alba-brhium",
@@ -47,14 +47,14 @@
         "web",
         "phone"
       ],
-      "configId": "assistant_config_alba",
+      "configId": "config_agent_008f7c2686aa4abfffa6c79d10",
       "createdAt": "2026-04-05T08:11:21.518Z"
     }
   ],
   "assistantConfigs": [
     {
-      "id": "assistant_config_alba",
-      "assistantId": "assistant_alba",
+      "id": "config_agent_008f7c2686aa4abfffa6c79d10",
+      "assistantId": "agent_008f7c2686aa4abfffa6c79d10",
       "agentName": "Asistente Brhium DEMO",
       "language": "es-ES",
       "interruptionSensitivity": 0.8,
@@ -138,7 +138,7 @@
       "workspaceId": "workspace_brhium",
       "label": "Central atencion Brhium",
       "e164": "+34 910 000 321",
-      "assistantId": "assistant_alba",
+      "assistantId": "agent_008f7c2686aa4abfffa6c79d10",
       "isActive": false,
       "forwardTo": "+34 911 111 222",
       "createdAt": "2026-04-05T08:11:21.518Z"
@@ -148,7 +148,7 @@
       "workspaceId": "workspace_brhium",
       "label": "Linea soporte lanzamientos",
       "e164": "+34 910 000 654",
-      "assistantId": "assistant_alba",
+      "assistantId": "agent_008f7c2686aa4abfffa6c79d10",
       "isActive": false,
       "forwardTo": "+34 911 111 222",
       "createdAt": "2026-04-07T08:11:21.518Z"
@@ -205,7 +205,7 @@
     {
       "id": "call_03002a26e1adf9ddd582b6d52dd",
       "workspaceId": "workspace_brhium",
-      "assistantId": "assistant_alba",
+      "assistantId": "agent_008f7c2686aa4abfffa6c79d10",
       "source": "web_demo",
       "direction": "demo",
       "callerDisplay": "Llamada Web Brhium",
@@ -218,7 +218,7 @@
     {
       "id": "call_c9dde4d2760a673fd7702686de7",
       "workspaceId": "workspace_brhium",
-      "assistantId": "assistant_alba",
+      "assistantId": "agent_008f7c2686aa4abfffa6c79d10",
       "source": "web_demo",
       "direction": "demo",
       "callerDisplay": "Llamada Web Brhium",
@@ -231,7 +231,7 @@
     {
       "id": "call_7925c4a7ded3e7e1954db01065a",
       "workspaceId": "workspace_brhium",
-      "assistantId": "assistant_alba",
+      "assistantId": "agent_008f7c2686aa4abfffa6c79d10",
       "source": "web_demo",
       "direction": "demo",
       "callerDisplay": "Llamada Web Brhium",
@@ -244,7 +244,7 @@
     {
       "id": "call_21eec183b44bbdb21def59f83cd",
       "workspaceId": "workspace_brhium",
-      "assistantId": "assistant_alba",
+      "assistantId": "agent_008f7c2686aa4abfffa6c79d10",
       "source": "web_demo",
       "direction": "demo",
       "callerDisplay": "Llamada Web Brhium",
@@ -257,7 +257,7 @@
     {
       "id": "call_50e8b777e7616752c846804994f",
       "workspaceId": "workspace_brhium",
-      "assistantId": "assistant_alba",
+      "assistantId": "agent_008f7c2686aa4abfffa6c79d10",
       "source": "web_demo",
       "direction": "demo",
       "callerDisplay": "Llamada Web Brhium",
@@ -270,7 +270,7 @@
     {
       "id": "call_f1accac43eace75c9536f4c707a",
       "workspaceId": "workspace_brhium",
-      "assistantId": "assistant_alba",
+      "assistantId": "agent_008f7c2686aa4abfffa6c79d10",
       "source": "web_demo",
       "direction": "demo",
       "callerDisplay": "Llamada Web Brhium",
@@ -283,7 +283,7 @@
     {
       "id": "call_6c856fe981501b96c60bff78ba9",
       "workspaceId": "workspace_brhium",
-      "assistantId": "assistant_alba",
+      "assistantId": "agent_008f7c2686aa4abfffa6c79d10",
       "source": "web_demo",
       "direction": "demo",
       "callerDisplay": "Llamada Web Brhium",
@@ -296,7 +296,7 @@
     {
       "id": "call_8c894fee43f5c3e3364149b7f57",
       "workspaceId": "workspace_brhium",
-      "assistantId": "assistant_alba",
+      "assistantId": "agent_008f7c2686aa4abfffa6c79d10",
       "source": "web_demo",
       "direction": "demo",
       "callerDisplay": "Llamada Web Brhium",
@@ -309,7 +309,7 @@
     {
       "id": "call_f1dddb170ba3c18ba487e9e3ade",
       "workspaceId": "workspace_brhium",
-      "assistantId": "assistant_alba",
+      "assistantId": "agent_008f7c2686aa4abfffa6c79d10",
       "source": "web_demo",
       "direction": "demo",
       "callerDisplay": "Llamada Web Brhium",
@@ -322,7 +322,7 @@
     {
       "id": "call_c0c05ebd3e96edb94ff7698815d",
       "workspaceId": "workspace_brhium",
-      "assistantId": "assistant_alba",
+      "assistantId": "agent_008f7c2686aa4abfffa6c79d10",
       "source": "web_demo",
       "direction": "demo",
       "callerDisplay": "Llamada Web Brhium",
@@ -335,7 +335,7 @@
     {
       "id": "call_70ebc3aca6f3f4394aaf4ba3803",
       "workspaceId": "workspace_brhium",
-      "assistantId": "assistant_alba",
+      "assistantId": "agent_008f7c2686aa4abfffa6c79d10",
       "source": "web_demo",
       "direction": "demo",
       "callerDisplay": "Llamada Web Brhium",
@@ -348,7 +348,7 @@
     {
       "id": "call_719d24ba5d1811728e65fbd86ad",
       "workspaceId": "workspace_brhium",
-      "assistantId": "assistant_alba",
+      "assistantId": "agent_008f7c2686aa4abfffa6c79d10",
       "source": "web_demo",
       "direction": "demo",
       "callerDisplay": "Llamada Web Brhium",
@@ -361,7 +361,7 @@
     {
       "id": "call_f3fa425937acc37f5faf24b3c4f",
       "workspaceId": "workspace_brhium",
-      "assistantId": "assistant_alba",
+      "assistantId": "agent_008f7c2686aa4abfffa6c79d10",
       "source": "web_demo",
       "direction": "demo",
       "callerDisplay": "Llamada Web Brhium",
@@ -374,7 +374,7 @@
     {
       "id": "call_f6fb618630ad54a32c155f17ac0",
       "workspaceId": "workspace_brhium",
-      "assistantId": "assistant_alba",
+      "assistantId": "agent_008f7c2686aa4abfffa6c79d10",
       "source": "web_demo",
       "direction": "demo",
       "callerDisplay": "Llamada Web Brhium",
@@ -387,7 +387,7 @@
     {
       "id": "call_aae92b4a41e77ba6284417895d8",
       "workspaceId": "workspace_brhium",
-      "assistantId": "assistant_alba",
+      "assistantId": "agent_008f7c2686aa4abfffa6c79d10",
       "source": "web_demo",
       "direction": "demo",
       "callerDisplay": "Llamada Web Brhium",
@@ -400,7 +400,7 @@
     {
       "id": "call_23d25163cff848e078bff5c2f61",
       "workspaceId": "workspace_brhium",
-      "assistantId": "assistant_alba",
+      "assistantId": "agent_008f7c2686aa4abfffa6c79d10",
       "source": "web_demo",
       "direction": "demo",
       "callerDisplay": "Llamada Web Brhium",
@@ -413,7 +413,7 @@
     {
       "id": "call_fd5a739204863b75f552e491a22",
       "workspaceId": "workspace_brhium",
-      "assistantId": "assistant_alba",
+      "assistantId": "agent_008f7c2686aa4abfffa6c79d10",
       "source": "web_demo",
       "direction": "demo",
       "callerDisplay": "Llamada Web Brhium",
@@ -426,7 +426,7 @@
     {
       "id": "call_e8942e4d5644e324afb670fb42b",
       "workspaceId": "workspace_brhium",
-      "assistantId": "assistant_alba",
+      "assistantId": "agent_008f7c2686aa4abfffa6c79d10",
       "source": "web_demo",
       "direction": "demo",
       "callerDisplay": "Llamada Web Brhium",
@@ -439,7 +439,7 @@
     {
       "id": "call_57a49581bff3d445ec0779fcee3",
       "workspaceId": "workspace_brhium",
-      "assistantId": "assistant_alba",
+      "assistantId": "agent_008f7c2686aa4abfffa6c79d10",
       "source": "web_demo",
       "direction": "demo",
       "callerDisplay": "Llamada Web Brhium",
@@ -452,7 +452,7 @@
     {
       "id": "call_ec2c41217260cb0d00fb8792f1e",
       "workspaceId": "workspace_brhium",
-      "assistantId": "assistant_alba",
+      "assistantId": "agent_008f7c2686aa4abfffa6c79d10",
       "source": "web_demo",
       "direction": "demo",
       "callerDisplay": "Llamada Web Brhium",
@@ -465,7 +465,7 @@
     {
       "id": "call_e0e24b73770ba7a781efdc94e8f",
       "workspaceId": "workspace_brhium",
-      "assistantId": "assistant_alba",
+      "assistantId": "agent_008f7c2686aa4abfffa6c79d10",
       "source": "web_demo",
       "direction": "demo",
       "callerDisplay": "Llamada Web Brhium",
@@ -478,7 +478,7 @@
     {
       "id": "call_7ceaba01422afa741b212181ac8",
       "workspaceId": "workspace_brhium",
-      "assistantId": "assistant_alba",
+      "assistantId": "agent_008f7c2686aa4abfffa6c79d10",
       "source": "web_demo",
       "direction": "demo",
       "callerDisplay": "Llamada Web Brhium",
@@ -491,7 +491,7 @@
     {
       "id": "call_cc497e562524948a0126f0b4043",
       "workspaceId": "workspace_brhium",
-      "assistantId": "assistant_alba",
+      "assistantId": "agent_008f7c2686aa4abfffa6c79d10",
       "source": "web_demo",
       "direction": "demo",
       "callerDisplay": "Llamada Web Brhium",
@@ -504,7 +504,7 @@
     {
       "id": "call_56abb7bd88e88d68c96b2b96aa9",
       "workspaceId": "workspace_brhium",
-      "assistantId": "assistant_alba",
+      "assistantId": "agent_008f7c2686aa4abfffa6c79d10",
       "source": "web_demo",
       "direction": "demo",
       "callerDisplay": "Llamada Web Brhium",
@@ -517,7 +517,7 @@
     {
       "id": "call_d48585be8298fb2eb30891e22d8",
       "workspaceId": "workspace_brhium",
-      "assistantId": "assistant_alba",
+      "assistantId": "agent_008f7c2686aa4abfffa6c79d10",
       "source": "web_demo",
       "direction": "demo",
       "callerDisplay": "Llamada web",
@@ -530,7 +530,7 @@
     {
       "id": "call_70e312539c54d497674e13cb665",
       "workspaceId": "workspace_brhium",
-      "assistantId": "assistant_alba",
+      "assistantId": "agent_008f7c2686aa4abfffa6c79d10",
       "source": "web_demo",
       "direction": "demo",
       "callerDisplay": "Llamada web",
@@ -543,7 +543,7 @@
     {
       "id": "call_a2ed1ab63abc553f3deeed509ab",
       "workspaceId": "workspace_brhium",
-      "assistantId": "assistant_alba",
+      "assistantId": "agent_008f7c2686aa4abfffa6c79d10",
       "source": "web_demo",
       "direction": "demo",
       "callerDisplay": "Llamada web",
@@ -556,7 +556,7 @@
     {
       "id": "call_6aa551367367452f195474f4a4f",
       "workspaceId": "workspace_brhium",
-      "assistantId": "assistant_alba",
+      "assistantId": "agent_008f7c2686aa4abfffa6c79d10",
       "source": "web_demo",
       "direction": "demo",
       "callerDisplay": "Llamada web",
@@ -569,7 +569,7 @@
     {
       "id": "call_6c029c5c4d6a9747205ce52e2d8",
       "workspaceId": "workspace_brhium",
-      "assistantId": "assistant_alba",
+      "assistantId": "agent_008f7c2686aa4abfffa6c79d10",
       "source": "web_demo",
       "direction": "demo",
       "callerDisplay": "Llamada web",
