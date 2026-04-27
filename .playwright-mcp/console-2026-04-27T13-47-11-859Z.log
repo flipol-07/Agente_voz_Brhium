@@ -1,0 +1,718 @@
+[    1266ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[    1555ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[    2158ms] [WARNING] Image with src "/presentation/shark-logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio. @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[  216175ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[  216735ms] [LOG] [Fast Refresh] done in 451ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[  218757ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[  218804ms] [LOG] [Fast Refresh] done in 148ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[  219318ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[  219321ms] [LOG] [Fast Refresh] done in 103ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[  219481ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[  219504ms] [LOG] [Fast Refresh] done in 123ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[  356190ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[  356355ms] [LOG] [Fast Refresh] done in 170ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[  377419ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[  380619ms] [LOG] [Fast Refresh] done in 2136ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[  440323ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[  440700ms] [LOG] [Fast Refresh] done in 479ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[  592709ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[  592879ms] [LOG] [Fast Refresh] done in 188ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[  592984ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[  592985ms] [LOG] [Fast Refresh] done in 101ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[  623104ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[  623246ms] [LOG] [Fast Refresh] done in 209ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[  749697ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[  749867ms] [LOG] [Fast Refresh] done in 194ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 1172493ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 1172638ms] [LOG] [Fast Refresh] done in 246ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 1183365ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 1183372ms] [LOG] [Fast Refresh] done in 107ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 1183509ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 1183544ms] [LOG] [Fast Refresh] done in 136ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 1217809ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 1220955ms] [LOG] [Fast Refresh] done in 3256ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 1221071ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 1222854ms] [LOG] [Fast Refresh] done in 1884ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 1224551ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 1224686ms] [LOG] [Fast Refresh] done in 234ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 1364994ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 1365211ms] [LOG] [Fast Refresh] done in 225ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 1496526ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 1496606ms] [LOG] [Fast Refresh] done in 113ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 1571482ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 1571531ms] [LOG] [Fast Refresh] done in 121ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 1571776ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 1571835ms] [LOG] [Fast Refresh] done in 161ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 1676094ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 1676178ms] [LOG] [Fast Refresh] done in 125ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 1692071ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 1692141ms] [LOG] [Fast Refresh] done in 111ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 1831908ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 1833989ms] [LOG] [Fast Refresh] done in 1933ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 1898100ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 1898341ms] [LOG] [Fast Refresh] done in 342ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 2160285ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 2160487ms] [LOG] [Fast Refresh] done in 303ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 2244426ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 2244492ms] [LOG] [Fast Refresh] done in 110ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 2251360ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 2251937ms] [LOG] [Fast Refresh] done in 580ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 2286119ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 2286302ms] [ERROR] ./src/features/brhium-platform/server/service.ts:139:9
+the name `handbookConfig` is defined multiple times
+  137 |   
+  138 |   const handbookConfig: any = {};
+> 139 |   const handbookConfig: any = {};
+      |         ^^^^^^^^^^^^^^
+  140 |   if (config.handbookDefaultPersonality !== undefined) handbookConfig.default_personality = Boolean(config.handbookDefaultPersonality);
+  141 |   if (config.handbookFillerWords !== undefined) handbookConfig.filler_words = config.handbookFillerWords;
+  142 |   if (config.handbookHighEmpathy !== undefined) handbookConfig.high_empathy = config.handbookHighEmpathy;
+
+Ecmascript file had an error
+
+Import trace:
+  Server Component:
+    ./src/features/brhium-platform/server/service.ts
+    ./src/app/(main)/dashboard/page.tsx @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:3272
+[ 2286787ms] [ERROR] ./src/features/brhium-platform/server/service.ts:139:9
+the name `handbookConfig` is defined multiple times
+  137 |   
+  138 |   const handbookConfig: any = {};
+> 139 |   const handbookConfig: any = {};
+      |         ^^^^^^^^^^^^^^
+  140 |   if (config.handbookDefaultPersonality !== undefined) handbookConfig.default_personality = Boolean(config.handbookDefaultPersonality);
+  141 |   if (config.handbookFillerWords !== undefined) handbookConfig.filler_words = config.handbookFillerWords;
+  142 |   if (config.handbookHighEmpathy !== undefined) handbookConfig.high_empathy = config.handbookHighEmpathy;
+
+Ecmascript file had an error
+
+Import trace:
+  Server Component:
+    ./src/features/brhium-platform/server/service.ts
+    ./src/app/(main)/dashboard/page.tsx @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:3272
+[ 2287369ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 2290072ms] [ERROR] ./src/features/brhium-platform/server/service.ts:139:9
+the name `handbookConfig` is defined multiple times
+  137 |   
+  138 |   const handbookConfig: any = {};
+> 139 |   const handbookConfig: any = {};
+      |         ^^^^^^^^^^^^^^
+  140 |   if (config.handbookDefaultPersonality !== undefined) handbookConfig.default_personality = Boolean(config.handbookDefaultPersonality);
+  141 |   if (config.handbookFillerWords !== undefined) handbookConfig.filler_words = config.handbookFillerWords;
+  142 |   if (config.handbookHighEmpathy !== undefined) handbookConfig.high_empathy = config.handbookHighEmpathy;
+
+Ecmascript file had an error
+
+Import trace:
+  Server Component:
+    ./src/features/brhium-platform/server/service.ts
+    ./src/app/(main)/dashboard/page.tsx @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:3272
+[ 2290095ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/presentacion?_rsc=1eg8k:0
+[ 2290163ms] [ERROR] ./src/features/brhium-platform/server/service.ts:139:9
+the name `handbookConfig` is defined multiple times
+  137 |   
+  138 |   const handbookConfig: any = {};
+> 139 |   const handbookConfig: any = {};
+      |         ^^^^^^^^^^^^^^
+  140 |   if (config.handbookDefaultPersonality !== undefined) handbookConfig.default_personality = Boolean(config.handbookDefaultPersonality);
+  141 |   if (config.handbookFillerWords !== undefined) handbookConfig.filler_words = config.handbookFillerWords;
+  142 |   if (config.handbookHighEmpathy !== undefined) handbookConfig.high_empathy = config.handbookHighEmpathy;
+
+Ecmascript file had an error
+
+Import trace:
+  Server Component:
+    ./src/features/brhium-platform/server/service.ts
+    ./src/app/(main)/dashboard/page.tsx @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:3272
+[ 2290174ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/presentacion?_rsc=1eg8k:0
+[ 2290254ms] [ERROR] ./src/features/brhium-platform/server/service.ts:139:9
+the name `handbookConfig` is defined multiple times
+  137 |   
+  138 |   const handbookConfig: any = {};
+> 139 |   const handbookConfig: any = {};
+      |         ^^^^^^^^^^^^^^
+  140 |   if (config.handbookDefaultPersonality !== undefined) handbookConfig.default_personality = Boolean(config.handbookDefaultPersonality);
+  141 |   if (config.handbookFillerWords !== undefined) handbookConfig.filler_words = config.handbookFillerWords;
+  142 |   if (config.handbookHighEmpathy !== undefined) handbookConfig.high_empathy = config.handbookHighEmpathy;
+
+Ecmascript file had an error
+
+Import trace:
+  Server Component:
+    ./src/features/brhium-platform/server/service.ts
+    ./src/app/(main)/dashboard/page.tsx @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:3272
+[ 2290264ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 2290311ms] [ERROR] ./src/features/brhium-platform/server/service.ts:139:9
+the name `handbookConfig` is defined multiple times
+  137 |   
+  138 |   const handbookConfig: any = {};
+> 139 |   const handbookConfig: any = {};
+      |         ^^^^^^^^^^^^^^
+  140 |   if (config.handbookDefaultPersonality !== undefined) handbookConfig.default_personality = Boolean(config.handbookDefaultPersonality);
+  141 |   if (config.handbookFillerWords !== undefined) handbookConfig.filler_words = config.handbookFillerWords;
+  142 |   if (config.handbookHighEmpathy !== undefined) handbookConfig.high_empathy = config.handbookHighEmpathy;
+
+Ecmascript file had an error
+
+Import trace:
+  Server Component:
+    ./src/features/brhium-platform/server/service.ts
+    ./src/app/(main)/dashboard/page.tsx @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:3272
+[ 2290378ms] [ERROR] ./src/features/brhium-platform/server/service.ts:139:9
+the name `handbookConfig` is defined multiple times
+  137 |   
+  138 |   const handbookConfig: any = {};
+> 139 |   const handbookConfig: any = {};
+      |         ^^^^^^^^^^^^^^
+  140 |   if (config.handbookDefaultPersonality !== undefined) handbookConfig.default_personality = Boolean(config.handbookDefaultPersonality);
+  141 |   if (config.handbookFillerWords !== undefined) handbookConfig.filler_words = config.handbookFillerWords;
+  142 |   if (config.handbookHighEmpathy !== undefined) handbookConfig.high_empathy = config.handbookHighEmpathy;
+
+Ecmascript file had an error
+
+Import trace:
+  Server Component:
+    ./src/features/brhium-platform/server/service.ts
+    ./src/app/(main)/dashboard/page.tsx @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:3272
+[ 2290383ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/presentacion?_rsc=1eg8k:0
+[ 2290414ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 2290469ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/presentacion:0
+[ 2291002ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/node_modules_react-dom_0bruynb._.js:15305
+[ 2291188ms] Error: ./src/features/brhium-platform/server/service.ts:139:9
+the name `handbookConfig` is defined multiple times
+  137 |   
+  138 |   const handbookConfig: any = {};
+> 139 |   const handbookConfig: any = {};
+      |         ^^^^^^^^^^^^^^
+  140 |   if (config.handbookDefaultPersonality !== undefined) handbookConfig.default_personality = Boolean(config.handbookDefaultPersonality);
+  141 |   if (config.handbookFillerWords !== undefined) handbookConfig.filler_words = config.handbookFillerWords;
+  142 |   if (config.handbookHighEmpathy !== undefined) handbookConfig.high_empathy = config.handbookHighEmpathy;
+
+Ecmascript file had an error
+
+Import trace:
+  Server Component:
+    ./src/features/brhium-platform/server/service.ts
+    ./src/app/(main)/dashboard/page.tsx
+
+
+    at <unknown> (Error: ./src/features/brhium-platform/server/service.ts:139:9)
+    at Object.getCompilationErrors (file:///home/plore/proyectos/software/Agente_voz_Brhium/node_modules/next/dist/server/dev/hot-reloader-turbopack.js:1186:59)
+    at DevBundlerService.getCompilationError (file:///home/plore/proyectos/software/Agente_voz_Brhium/node_modules/next/dist/server/lib/dev-bundler-service.js:44:55)
+    at DevServer.getCompilationError (file:///home/plore/proyectos/software/Agente_voz_Brhium/node_modules/next/dist/server/dev/next-dev-server.js:719:42)
+    at DevServer.findPageComponents (file:///home/plore/proyectos/software/Agente_voz_Brhium/node_modules/next/dist/server/dev/next-dev-server.js:689:43)
+    at async DevServer.renderErrorToResponseImpl (file:///home/plore/proyectos/software/Agente_voz_Brhium/node_modules/next/dist/server/base-server.js:1745:26)
+[ 2291188ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1226
+[ 2291198ms] [ERROR] ./src/features/brhium-platform/server/service.ts:139:9
+the name `handbookConfig` is defined multiple times
+  137 |   
+  138 |   const handbookConfig: any = {};
+> 139 |   const handbookConfig: any = {};
+      |         ^^^^^^^^^^^^^^
+  140 |   if (config.handbookDefaultPersonality !== undefined) handbookConfig.default_personality = Boolean(config.handbookDefaultPersonality);
+  141 |   if (config.handbookFillerWords !== undefined) handbookConfig.filler_words = config.handbookFillerWords;
+  142 |   if (config.handbookHighEmpathy !== undefined) handbookConfig.high_empathy = config.handbookHighEmpathy;
+
+Ecmascript file had an error
+
+Import trace:
+  Server Component:
+    ./src/features/brhium-platform/server/service.ts
+    ./src/app/(main)/dashboard/page.tsx @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[ 2291204ms] [ERROR] ./src/features/brhium-platform/server/service.ts:139:9
+the name `handbookConfig` is defined multiple times
+  137 |   
+  138 |   const handbookConfig: any = {};
+> 139 |   const handbookConfig: any = {};
+      |         ^^^^^^^^^^^^^^
+  140 |   if (config.handbookDefaultPersonality !== undefined) handbookConfig.default_personality = Boolean(config.handbookDefaultPersonality);
+  141 |   if (config.handbookFillerWords !== undefined) handbookConfig.filler_words = config.handbookFillerWords;
+  142 |   if (config.handbookHighEmpathy !== undefined) handbookConfig.high_empathy = config.handbookHighEmpathy;
+
+Ecmascript file had an error
+
+Import trace:
+  Server Component:
+    ./src/features/brhium-platform/server/service.ts
+    ./src/app/(main)/dashboard/page.tsx @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[ 2291212ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/favicon.ico:0
+[ 2291253ms] [ERROR] ./src/features/brhium-platform/server/service.ts:139:9
+the name `handbookConfig` is defined multiple times
+  137 |   
+  138 |   const handbookConfig: any = {};
+> 139 |   const handbookConfig: any = {};
+      |         ^^^^^^^^^^^^^^
+  140 |   if (config.handbookDefaultPersonality !== undefined) handbookConfig.default_personality = Boolean(config.handbookDefaultPersonality);
+  141 |   if (config.handbookFillerWords !== undefined) handbookConfig.filler_words = config.handbookFillerWords;
+  142 |   if (config.handbookHighEmpathy !== undefined) handbookConfig.high_empathy = config.handbookHighEmpathy;
+
+Ecmascript file had an error
+
+Import trace:
+  Server Component:
+    ./src/features/brhium-platform/server/service.ts
+    ./src/app/(main)/dashboard/page.tsx @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[ 2291362ms] [ERROR] ./src/features/brhium-platform/server/service.ts:139:9
+the name `handbookConfig` is defined multiple times
+  137 |   
+  138 |   const handbookConfig: any = {};
+> 139 |   const handbookConfig: any = {};
+      |         ^^^^^^^^^^^^^^
+  140 |   if (config.handbookDefaultPersonality !== undefined) handbookConfig.default_personality = Boolean(config.handbookDefaultPersonality);
+  141 |   if (config.handbookFillerWords !== undefined) handbookConfig.filler_words = config.handbookFillerWords;
+  142 |   if (config.handbookHighEmpathy !== undefined) handbookConfig.high_empathy = config.handbookHighEmpathy;
+
+Ecmascript file had an error
+
+Import trace:
+  Server Component:
+    ./src/features/brhium-platform/server/service.ts
+    ./src/app/(main)/dashboard/page.tsx @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[ 2291388ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1226
+[ 2293069ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1226
+[ 2293115ms] [LOG] [Fast Refresh] done in 132ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1226
+[ 2293294ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1226
+[ 2293474ms] [LOG] [Fast Refresh] done in 280ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1226
+[ 2294014ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1226
+[ 2294102ms] [LOG] [Fast Refresh] done in 192ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1226
+[ 2294991ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 2295059ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 2295261ms] [WARNING] Image with src "/presentation/shark-logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio. @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 2300423ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 2300487ms] [LOG] [Fast Refresh] done in 164ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 2464249ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 2464251ms] [LOG] [Fast Refresh] done in 102ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 2556955ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 2557609ms] [LOG] [Fast Refresh] done in 555ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 2716504ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 2716692ms] [LOG] [Fast Refresh] done in 289ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 2827399ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 2827464ms] [LOG] [Fast Refresh] done in 120ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 3055096ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 3055586ms] [LOG] [Fast Refresh] done in 447ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 3094333ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 3094384ms] [LOG] [Fast Refresh] done in 145ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 3101744ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 3101801ms] [LOG] [Fast Refresh] done in 117ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 3471882ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 3472329ms] [LOG] [Fast Refresh] done in 448ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 3483049ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 3483413ms] [LOG] [Fast Refresh] done in 364ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 3540404ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 3540870ms] [LOG] [Fast Refresh] done in 413ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 3552868ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 3553293ms] [LOG] [Fast Refresh] done in 410ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 3661489ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 3662407ms] [LOG] [Fast Refresh] done in 749ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 3672065ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 3672581ms] [LOG] [Fast Refresh] done in 530ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 3673122ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 3673182ms] [LOG] [Fast Refresh] done in 160ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 3675038ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 3675144ms] [LOG] [Fast Refresh] done in 210ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 3679372ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 3679378ms] [LOG] [Fast Refresh] done in 107ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 3680209ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 3680216ms] [LOG] [Fast Refresh] done in 107ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 3681507ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 3681534ms] [LOG] [Fast Refresh] done in 126ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 3683033ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 3683056ms] [LOG] [Fast Refresh] done in 123ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 3683802ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 3683869ms] [LOG] [Fast Refresh] done in 167ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 3685743ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 3685750ms] [LOG] [Fast Refresh] done in 108ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 3685895ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 3685923ms] [LOG] [Fast Refresh] done in 127ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 3688955ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 3688977ms] [LOG] [Fast Refresh] done in 122ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 3693279ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 3693305ms] [LOG] [Fast Refresh] done in 126ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 3693590ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 3693868ms] [LOG] [Fast Refresh] done in 232ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 3758859ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 3759078ms] [LOG] [Fast Refresh] done in 320ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 3916856ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 3916907ms] [LOG] [Fast Refresh] done in 151ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 3926641ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 3927898ms] [LOG] [Fast Refresh] done in 1351ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 3928043ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 3928356ms] [LOG] [Fast Refresh] done in 412ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 3930971ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 3930981ms] [LOG] [Fast Refresh] done in 110ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 3931769ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 3931786ms] [LOG] [Fast Refresh] done in 116ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 3932045ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 3932054ms] [LOG] [Fast Refresh] done in 109ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 3932620ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 3932660ms] [LOG] [Fast Refresh] done in 140ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 3934566ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 3934578ms] [LOG] [Fast Refresh] done in 113ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 3944145ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 3944416ms] [LOG] [Fast Refresh] done in 159ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 3944685ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 3944691ms] [LOG] [Fast Refresh] done in 107ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 3945627ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 3945631ms] [LOG] [Fast Refresh] done in 105ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 3951572ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 3951893ms] [LOG] [Fast Refresh] done in 168ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 3952121ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 3952154ms] [LOG] [Fast Refresh] done in 133ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 3952687ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 3952724ms] [LOG] [Fast Refresh] done in 138ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 3953053ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 3953105ms] [LOG] [Fast Refresh] done in 152ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 3953342ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 3953343ms] [LOG] [Fast Refresh] done in 101ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 3977913ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 3978180ms] [LOG] [Fast Refresh] done in 198ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 3978496ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 3978530ms] [LOG] [Fast Refresh] done in 134ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 3979535ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 3979538ms] [LOG] [Fast Refresh] done in 121ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 4036781ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 4036783ms] [LOG] [Fast Refresh] done in 103ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 4044994ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 4045095ms] [LOG] [Fast Refresh] done in 201ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 4108202ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 4108223ms] [LOG] [Fast Refresh] done in 121ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 4155993ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 4156268ms] [ERROR] ./src/features/brhium-platform/components/dashboard-client.tsx:457:15
+Expected '</', got 'jsx text'
+  455 |             </button>
+  456 |           </form>
+> 457 |         </div>
+      |               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 458 |       </aside>
+      | ^^^^^^
+  459 |
+  460 |       {/* Main Content */}
+  461 |       <main className="flex-1 overflow-auto p-6 lg:p-10">
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./src/features/brhium-platform/components/dashboard-client.tsx
+    ./src/app/(main)/dashboard/page.tsx @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:3272
+[ 4156493ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/presentacion?_rsc=1eg8k:0
+[ 4156526ms] [ERROR] ./src/features/brhium-platform/components/dashboard-client.tsx:457:15
+Expected '</', got 'jsx text'
+  455 |             </button>
+  456 |           </form>
+> 457 |         </div>
+      |               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 458 |       </aside>
+      | ^^^^^^
+  459 |
+  460 |       {/* Main Content */}
+  461 |       <main className="flex-1 overflow-auto p-6 lg:p-10">
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./src/features/brhium-platform/components/dashboard-client.tsx
+    ./src/app/(main)/dashboard/page.tsx @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:3272
+[ 4156533ms] [ERROR] ./src/features/brhium-platform/components/dashboard-client.tsx:457:15
+Expected '</', got 'jsx text'
+  455 |             </button>
+  456 |           </form>
+> 457 |         </div>
+      |               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 458 |       </aside>
+      | ^^^^^^
+  459 |
+  460 |       {/* Main Content */}
+  461 |       <main className="flex-1 overflow-auto p-6 lg:p-10">
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./src/features/brhium-platform/components/dashboard-client.tsx
+    ./src/app/(main)/dashboard/page.tsx @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:3272
+[ 4156638ms] [ERROR] ./src/features/brhium-platform/components/dashboard-client.tsx:457:15
+Expected '</', got 'jsx text'
+  455 |             </button>
+  456 |           </form>
+> 457 |         </div>
+      |               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 458 |       </aside>
+      | ^^^^^^
+  459 |
+  460 |       {/* Main Content */}
+  461 |       <main className="flex-1 overflow-auto p-6 lg:p-10">
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./src/features/brhium-platform/components/dashboard-client.tsx
+    ./src/app/(main)/dashboard/page.tsx @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:3272
+[ 4156644ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 4156686ms] [ERROR] ./src/features/brhium-platform/components/dashboard-client.tsx:457:15
+Expected '</', got 'jsx text'
+  455 |             </button>
+  456 |           </form>
+> 457 |         </div>
+      |               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 458 |       </aside>
+      | ^^^^^^
+  459 |
+  460 |       {/* Main Content */}
+  461 |       <main className="flex-1 overflow-auto p-6 lg:p-10">
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./src/features/brhium-platform/components/dashboard-client.tsx
+    ./src/app/(main)/dashboard/page.tsx @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:3272
+[ 4156697ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/presentacion?_rsc=1eg8k:0
+[ 4156842ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/presentacion:0
+[ 4157395ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/node_modules_react-dom_0bruynb._.js:15305
+[ 4157638ms] Error: ./src/features/brhium-platform/components/dashboard-client.tsx:457:15
+Expected '</', got 'jsx text'
+  455 |             </button>
+  456 |           </form>
+> 457 |         </div>
+      |               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 458 |       </aside>
+      | ^^^^^^
+  459 |
+  460 |       {/* Main Content */}
+  461 |       <main className="flex-1 overflow-auto p-6 lg:p-10">
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./src/features/brhium-platform/components/dashboard-client.tsx
+    ./src/app/(main)/dashboard/page.tsx
+
+
+    at <unknown> (Error: ./src/features/brhium-platform/components/dashboard-client.tsx:457:15)
+    at Object.getCompilationErrors (file:///home/plore/proyectos/software/Agente_voz_Brhium/node_modules/next/dist/server/dev/hot-reloader-turbopack.js:1186:59)
+    at DevBundlerService.getCompilationError (file:///home/plore/proyectos/software/Agente_voz_Brhium/node_modules/next/dist/server/lib/dev-bundler-service.js:44:55)
+    at DevServer.getCompilationError (file:///home/plore/proyectos/software/Agente_voz_Brhium/node_modules/next/dist/server/dev/next-dev-server.js:719:42)
+    at DevServer.findPageComponents (file:///home/plore/proyectos/software/Agente_voz_Brhium/node_modules/next/dist/server/dev/next-dev-server.js:689:43)
+    at async DevServer.renderErrorToResponseImpl (file:///home/plore/proyectos/software/Agente_voz_Brhium/node_modules/next/dist/server/base-server.js:1745:26)
+[ 4157640ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1226
+[ 4157661ms] [ERROR] ./src/features/brhium-platform/components/dashboard-client.tsx:457:15
+Expected '</', got 'jsx text'
+  455 |             </button>
+  456 |           </form>
+> 457 |         </div>
+      |               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 458 |       </aside>
+      | ^^^^^^
+  459 |
+  460 |       {/* Main Content */}
+  461 |       <main className="flex-1 overflow-auto p-6 lg:p-10">
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./src/features/brhium-platform/components/dashboard-client.tsx
+    ./src/app/(main)/dashboard/page.tsx @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[ 4157716ms] [ERROR] ./src/features/brhium-platform/components/dashboard-client.tsx:457:15
+Expected '</', got 'jsx text'
+  455 |             </button>
+  456 |           </form>
+> 457 |         </div>
+      |               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 458 |       </aside>
+      | ^^^^^^
+  459 |
+  460 |       {/* Main Content */}
+  461 |       <main className="flex-1 overflow-auto p-6 lg:p-10">
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./src/features/brhium-platform/components/dashboard-client.tsx
+    ./src/app/(main)/dashboard/page.tsx @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[ 4157826ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1226
+[ 4159154ms] [ERROR] ./src/features/brhium-platform/components/dashboard-client.tsx:457:15
+Expected '</', got 'jsx text'
+  455 |             </button>
+  456 |           </form>
+> 457 |         </div>
+      |               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 458 |       </aside>
+      | ^^^^^^
+  459 |
+  460 |       {/* Main Content */}
+  461 |       <main className="flex-1 overflow-auto p-6 lg:p-10">
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./src/features/brhium-platform/components/dashboard-client.tsx
+    ./src/app/(main)/dashboard/page.tsx @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[ 4159269ms] [ERROR] ./src/features/brhium-platform/components/dashboard-client.tsx:457:15
+Expected '</', got 'jsx text'
+  455 |             </button>
+  456 |           </form>
+> 457 |         </div>
+      |               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 458 |       </aside>
+      | ^^^^^^
+  459 |
+  460 |       {/* Main Content */}
+  461 |       <main className="flex-1 overflow-auto p-6 lg:p-10">
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./src/features/brhium-platform/components/dashboard-client.tsx
+    ./src/app/(main)/dashboard/page.tsx @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[ 4159319ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1226
+[ 4159391ms] [ERROR] ./src/features/brhium-platform/components/dashboard-client.tsx:457:15
+Expected '</', got 'jsx text'
+  455 |             </button>
+  456 |           </form>
+> 457 |         </div>
+      |               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 458 |       </aside>
+      | ^^^^^^
+  459 |
+  460 |       {/* Main Content */}
+  461 |       <main className="flex-1 overflow-auto p-6 lg:p-10">
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./src/features/brhium-platform/components/dashboard-client.tsx
+    ./src/app/(main)/dashboard/page.tsx @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[ 4159455ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1226
+[ 4160309ms] [ERROR] ./src/features/brhium-platform/components/dashboard-client.tsx:457:15
+Expected '</', got 'jsx text'
+  455 |             </button>
+  456 |           </form>
+> 457 |         </div>
+      |               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 458 |       </aside>
+      | ^^^^^^
+  459 |
+  460 |       {/* Main Content */}
+  461 |       <main className="flex-1 overflow-auto p-6 lg:p-10">
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./src/features/brhium-platform/components/dashboard-client.tsx
+    ./src/app/(main)/dashboard/page.tsx @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[ 4160371ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1226
+[ 4160524ms] [ERROR] ./src/features/brhium-platform/components/dashboard-client.tsx:457:15
+Expected '</', got 'jsx text'
+  455 |             </button>
+  456 |           </form>
+> 457 |         </div>
+      |               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 458 |       </aside>
+      | ^^^^^^
+  459 |
+  460 |       {/* Main Content */}
+  461 |       <main className="flex-1 overflow-auto p-6 lg:p-10">
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./src/features/brhium-platform/components/dashboard-client.tsx
+    ./src/app/(main)/dashboard/page.tsx @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[ 4160591ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1226
+[ 4160836ms] [ERROR] ./src/features/brhium-platform/components/dashboard-client.tsx:457:15
+Expected '</', got 'jsx text'
+  455 |             </button>
+  456 |           </form>
+> 457 |         </div>
+      |               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 458 |       </aside>
+      | ^^^^^^
+  459 |
+  460 |       {/* Main Content */}
+  461 |       <main className="flex-1 overflow-auto p-6 lg:p-10">
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./src/features/brhium-platform/components/dashboard-client.tsx
+    ./src/app/(main)/dashboard/page.tsx @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[ 4160901ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1226
+[ 4161985ms] [ERROR] ./src/features/brhium-platform/components/dashboard-client.tsx:457:15
+Expected '</', got 'jsx text'
+  455 |             </button>
+  456 |           </form>
+> 457 |         </div>
+      |               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 458 |       </aside>
+      | ^^^^^^
+  459 |
+  460 |       {/* Main Content */}
+  461 |       <main className="flex-1 overflow-auto p-6 lg:p-10">
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./src/features/brhium-platform/components/dashboard-client.tsx
+    ./src/app/(main)/dashboard/page.tsx @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[ 4162050ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1226
+[ 4166228ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1226
+[ 4166601ms] [LOG] [Fast Refresh] done in 271ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1226
+[ 4169995ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1226
+[ 4170006ms] [LOG] [Fast Refresh] done in 2736ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1226
+[ 4170987ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 4171095ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 4171318ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 4171627ms] [LOG] [Fast Refresh] done in 408ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 4171996ms] [WARNING] Image with src "/presentation/shark-logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio. @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 4268655ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 4268703ms] [LOG] [Fast Refresh] done in 149ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 5055735ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 5056869ms] [LOG] [Fast Refresh] done in 1235ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 5063892ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 5063925ms] [LOG] [Fast Refresh] done in 134ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 5064073ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 5064087ms] [LOG] [Fast Refresh] done in 113ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 5100442ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 5100575ms] [LOG] [Fast Refresh] done in 233ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 5232919ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 5233102ms] [LOG] [Fast Refresh] done in 283ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 6400868ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 6401515ms] [LOG] [Fast Refresh] done in 750ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 6408568ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 6409214ms] [LOG] [Fast Refresh] done in 747ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 6424510ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 6424746ms] [LOG] [Fast Refresh] done in 337ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 6432594ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 6432661ms] [LOG] [Fast Refresh] done in 177ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 6451375ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 6451761ms] [LOG] [Fast Refresh] done in 355ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 6453305ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 6453576ms] [LOG] [Fast Refresh] done in 491ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 6453795ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 6453823ms] [LOG] [Fast Refresh] done in 132ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 6457389ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 6457432ms] [LOG] [Fast Refresh] done in 143ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 6470226ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 6470640ms] [LOG] [Fast Refresh] done in 469ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 6865784ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 6866024ms] [LOG] [Fast Refresh] done in 301ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 7223327ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 7223356ms] [LOG] [Fast Refresh] done in 130ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 7270890ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 7270938ms] [LOG] [Fast Refresh] done in 148ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 7273006ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 7273028ms] [LOG] [Fast Refresh] done in 123ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 7418691ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431

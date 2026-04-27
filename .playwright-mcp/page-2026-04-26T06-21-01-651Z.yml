@@ -1,0 +1,430 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - complementary [ref=e4]:
+      - generic [ref=e5]:
+        - generic [ref=e6]:
+          - paragraph [ref=e7]: Brhium Voice Hub
+          - paragraph [ref=e8]: Demo web, supervision operativa y control del agente desde un mismo sitio.
+        - navigation [ref=e9]:
+          - link "Overview" [ref=e10] [cursor=pointer]:
+            - /url: /dashboard#overview
+            - img [ref=e11]
+            - text: Overview
+          - link "Demo voz" [ref=e13] [cursor=pointer]:
+            - /url: /dashboard#demo
+            - img [ref=e14]
+            - text: Demo voz
+          - link "Numeros" [ref=e17] [cursor=pointer]:
+            - /url: /dashboard#numbers
+            - img [ref=e18]
+            - text: Numeros
+          - link "Llamadas" [ref=e22] [cursor=pointer]:
+            - /url: /dashboard#calls
+            - img [ref=e23]
+            - text: Llamadas
+          - link "Knowledge" [ref=e25] [cursor=pointer]:
+            - /url: /dashboard#knowledge
+            - img [ref=e26]
+            - text: Knowledge
+          - link "Configuracion" [ref=e28] [cursor=pointer]:
+            - /url: /dashboard#settings
+            - img [ref=e29]
+            - text: Configuracion
+      - generic [ref=e32]:
+        - generic [ref=e33]:
+          - paragraph [ref=e34]: Lucia Ramos
+          - paragraph [ref=e35]: Admin agencia
+          - paragraph [ref=e36]: admin@brhium.demo
+        - button "Cerrar sesion" [ref=e38] [cursor=pointer]:
+          - img [ref=e39]
+          - text: Cerrar sesion
+    - main [ref=e43]:
+      - generic [ref=e44]:
+        - generic [ref=e45]:
+          - generic [ref=e46]:
+            - generic [ref=e47]:
+              - paragraph [ref=e48]: Plataforma centralizada
+              - heading "Agente de voz Brhium" [level=1] [ref=e49]
+              - paragraph [ref=e50]: El mismo lugar sirve para demo web, supervision diaria, configuracion guiada y trazabilidad completa de llamadas, transcripciones y gasto estimado.
+            - generic [ref=e51]:
+              - generic [ref=e52]:
+                - generic [ref=e55]: Vapi
+                - paragraph [ref=e56]: Demo browser ready
+              - generic [ref=e57]:
+                - generic [ref=e60]: Twilio
+                - paragraph [ref=e61]: Pendiente credenciales
+              - generic [ref=e62]:
+                - generic [ref=e65]: Sesion
+                - paragraph [ref=e66]: Usando secreto local
+          - generic [ref=e67]:
+            - article [ref=e68]:
+              - generic [ref=e69]:
+                - generic [ref=e70]: Llamadas
+                - img [ref=e71]
+              - paragraph [ref=e75]: "3"
+              - paragraph [ref=e76]: 3 atendidas
+            - article [ref=e77]:
+              - generic [ref=e78]:
+                - generic [ref=e79]: Duracion media
+                - img [ref=e80]
+              - paragraph [ref=e82]: 239s
+              - paragraph [ref=e83]: web y telefono
+            - article [ref=e84]:
+              - generic [ref=e85]:
+                - generic [ref=e86]: Transferencias
+                - img [ref=e87]
+              - paragraph [ref=e89]: "1"
+              - paragraph [ref=e90]: casos sensibles
+            - article [ref=e91]:
+              - generic [ref=e92]:
+                - generic [ref=e93]: Callbacks
+                - img [ref=e94]
+              - paragraph [ref=e98]: "1"
+              - paragraph [ref=e99]: pendientes
+          - generic [ref=e100]:
+            - article [ref=e101]:
+              - paragraph [ref=e102]: Coste llamadas
+              - paragraph [ref=e103]: 4.14 EUR
+              - paragraph [ref=e104]: Estimacion agregada en voz y orquestacion
+            - article [ref=e105]:
+              - paragraph [ref=e106]: WhatsApp
+              - paragraph [ref=e107]: 0.07 EUR
+              - paragraph [ref=e108]: Mensajes generados por el asistente
+            - article [ref=e109]:
+              - paragraph [ref=e110]: Total visible
+              - paragraph [ref=e111]: 4.21 EUR
+              - paragraph [ref=e112]: Sin conciliacion financiera exacta con proveedor
+        - generic [ref=e113]:
+          - generic [ref=e114]:
+            - generic [ref=e115]:
+              - generic [ref=e116]:
+                - paragraph [ref=e117]: Demo de voz web
+                - paragraph [ref=e118]: Usa el mismo nucleo de conocimiento que el agente telefonico. Puedes hablar o escribir y la conversacion se registra tambien en el historial.
+              - generic [ref=e119]: Listo
+            - generic [ref=e121]: Hola, soy Alba, la asistente de Brhium. Te ayudo con informacion de producto, seguimiento y contacto con el equipo.
+            - generic [ref=e122]:
+              - textbox "Escribe una consulta como si fueras un cliente..." [ref=e123]
+              - generic [ref=e124]:
+                - button "Hablar" [disabled] [ref=e125]:
+                  - img [ref=e126]
+                  - text: Hablar
+                - button "Enviar" [disabled] [ref=e129]:
+                  - img [ref=e130]
+                  - text: Enviar
+                - button "Cortar voz" [ref=e133] [cursor=pointer]:
+                  - img [ref=e134]
+                  - text: Cortar voz
+          - generic [ref=e138]:
+            - generic [ref=e139]:
+              - generic [ref=e140]:
+                - paragraph [ref=e141]: Configuracion guiada
+                - paragraph [ref=e142]: Ajusta tono, saludo, horarios y seguimiento sin exponer prompts internos.
+              - generic [ref=e143]: active
+            - generic [ref=e144]:
+              - generic [ref=e145]:
+                - generic [ref=e146]: Nombre visible
+                - textbox "Nombre visible" [disabled] [ref=e147]: Alba Brhium
+              - generic [ref=e148]:
+                - generic [ref=e149]: Saludo inicial
+                - textbox "Saludo inicial" [ref=e150]: Hola, soy Alba, la asistente de Brhium. Te ayudo con informacion de producto, seguimiento y contacto con el equipo.
+              - generic [ref=e151]:
+                - generic [ref=e152]: Tono
+                - textbox "Tono" [ref=e153]: cercano, sereno y preciso
+              - generic [ref=e154]:
+                - generic [ref=e155]: Mensaje fuera de horario
+                - textbox "Mensaje fuera de horario" [ref=e156]: Ahora mismo estamos fuera de horario. Puedo recoger tu consulta y el equipo te devolvera la llamada.
+              - generic [ref=e157]:
+                - generic [ref=e158]: Texto de derivacion
+                - textbox "Texto de derivacion" [ref=e159]: Voy a dejar esto preparado para que una persona del equipo de Brhium te contacte cuanto antes.
+              - generic [ref=e160]:
+                - generic [ref=e161]: Plantilla WhatsApp
+                - textbox "Plantilla WhatsApp" [ref=e162]: "Hola {{name}}, te comparto el resumen de la llamada con Brhium y el siguiente paso acordado."
+              - generic [ref=e163]:
+                - generic [ref=e164]: FAQs visibles
+                - textbox "FAQs visibles" [ref=e165]: Que producto puede encajar para bienestar intestinal Como se toma Siboval Que advertencias debo tener antes de tomar Relbix Como contactar con el equipo de Brhium
+              - generic [ref=e166]:
+                - generic [ref=e167]:
+                  - generic [ref=e168]: Inicio horario
+                  - textbox "Inicio horario" [ref=e169]: 09:00
+                - generic [ref=e170]:
+                  - generic [ref=e171]: Fin horario
+                  - textbox "Fin horario" [ref=e172]: 18:30
+            - button "Guardar configuracion" [ref=e173] [cursor=pointer]:
+              - img [ref=e174]
+              - text: Guardar configuracion
+        - generic [ref=e177]:
+          - generic [ref=e178]:
+            - generic [ref=e179]:
+              - img [ref=e181]
+              - heading "Numeros y activacion" [level=2] [ref=e185]
+            - paragraph [ref=e186]: Cada numero puede activarse, pausarse o reasignarse al asistente adecuado sin salir del panel.
+          - generic [ref=e187]:
+            - generic [ref=e188]:
+              - generic [ref=e189]:
+                - paragraph [ref=e190]: Central atencion Brhium
+                - paragraph [ref=e191]: +34 910 000 321 · deriva a +34 911 111 222
+              - combobox [ref=e192]:
+                - option "Alba Brhium" [selected]
+              - button "Activo" [ref=e193] [cursor=pointer]:
+                - img [ref=e194]
+                - text: Activo
+            - generic [ref=e197]:
+              - generic [ref=e198]:
+                - paragraph [ref=e199]: Linea soporte lanzamientos
+                - paragraph [ref=e200]: +34 910 000 654 · deriva a +34 911 111 222
+              - combobox [ref=e201]:
+                - option "Alba Brhium" [selected]
+              - button "Pausado" [ref=e202] [cursor=pointer]:
+                - img [ref=e203]
+                - text: Pausado
+        - generic [ref=e206]:
+          - generic [ref=e207]:
+            - generic [ref=e208]:
+              - generic [ref=e209]:
+                - img [ref=e211]
+                - heading "Historial de llamadas" [level=2] [ref=e215]
+              - paragraph [ref=e216]: Transcripciones, resumen, acciones ejecutadas y trazabilidad completa de demo web y telefono.
+            - generic [ref=e217]:
+              - img [ref=e218]
+              - textbox [ref=e221]:
+                - /placeholder: Buscar en llamadas, transcripciones o resumen...
+          - generic [ref=e222]:
+            - group [ref=e223]:
+              - generic "Demo navegador Demo web Demo de producto con comparativa entre Fluocol y Estavit desde navegador. 26 abr 2026, 7:43 1m 44s 0.38 EUR estimados" [ref=e224] [cursor=pointer]:
+                - generic [ref=e225]:
+                  - generic [ref=e226]:
+                    - generic [ref=e227]:
+                      - generic [ref=e229]: Demo navegador
+                      - generic [ref=e230]: Demo web
+                    - paragraph [ref=e231]: Demo de producto con comparativa entre Fluocol y Estavit desde navegador.
+                  - generic [ref=e232]:
+                    - generic [ref=e233]: 26 abr 2026, 7:43
+                    - generic [ref=e234]: 1m 44s
+                    - generic [ref=e235]: 0.38 EUR estimados
+            - group [ref=e236]:
+              - generic "Pablo Ruiz Telefono Caso sensible relacionado con medicacion concomitante. El agente limito la respuesta y preparo devolucion de llamada. 26 abr 2026, 7:09 4m 44s 1.82 EUR estimados" [ref=e237] [cursor=pointer]:
+                - generic [ref=e238]:
+                  - generic [ref=e239]:
+                    - generic [ref=e240]:
+                      - generic [ref=e242]: Pablo Ruiz
+                      - generic [ref=e243]: Telefono
+                    - paragraph [ref=e244]: Caso sensible relacionado con medicacion concomitante. El agente limito la respuesta y preparo devolucion de llamada.
+                  - generic [ref=e245]:
+                    - generic [ref=e246]: 26 abr 2026, 7:09
+                    - generic [ref=e247]: 4m 44s
+                    - generic [ref=e248]: 1.82 EUR estimados
+            - group [ref=e249]:
+              - generic "Marta Gil Telefono Consulta resuelta sobre modo de uso de Siboval. Se envio seguimiento por WhatsApp. 26 abr 2026, 5:52 5m 28s 1.94 EUR estimados" [ref=e250] [cursor=pointer]:
+                - generic [ref=e251]:
+                  - generic [ref=e252]:
+                    - generic [ref=e253]:
+                      - generic [ref=e255]: Marta Gil
+                      - generic [ref=e256]: Telefono
+                    - paragraph [ref=e257]: Consulta resuelta sobre modo de uso de Siboval. Se envio seguimiento por WhatsApp.
+                  - generic [ref=e258]:
+                    - generic [ref=e259]: 26 abr 2026, 5:52
+                    - generic [ref=e260]: 5m 28s
+                    - generic [ref=e261]: 1.94 EUR estimados
+        - generic [ref=e262]:
+          - generic [ref=e263]:
+            - generic [ref=e264]:
+              - generic [ref=e265]:
+                - img [ref=e267]
+                - heading "Leads" [level=3] [ref=e270]
+              - button "CSV" [ref=e271] [cursor=pointer]:
+                - img [ref=e272]
+                - text: CSV
+            - generic [ref=e275]:
+              - article [ref=e276]:
+                - paragraph [ref=e277]: Marta Gil
+                - paragraph [ref=e278]: +34 633 120 876
+                - paragraph [ref=e279]: Siboval · 26 abr 2026, 5:58
+                - paragraph [ref=e280]: Pide seguimiento por WhatsApp y quiere confirmar modo de uso.
+              - article [ref=e281]:
+                - paragraph [ref=e282]: Pablo Ruiz
+                - paragraph [ref=e283]: +34 622 889 110
+                - paragraph [ref=e284]: Relbix · 26 abr 2026, 7:13
+                - paragraph [ref=e285]: Solicita derivacion a equipo humano por interaccion con medicacion.
+          - generic [ref=e286]:
+            - generic [ref=e287]:
+              - generic [ref=e288]:
+                - img [ref=e290]
+                - heading "Incidencias" [level=3] [ref=e292]
+              - button "CSV" [ref=e293] [cursor=pointer]:
+                - img [ref=e294]
+                - text: CSV
+            - generic [ref=e297]:
+              - article [ref=e298]:
+                - paragraph [ref=e299]: Consulta sensible sobre Relbix y medicacion concomitante
+                - paragraph [ref=e300]: pendiente
+                - paragraph [ref=e301]: alta · Equipo Brhium
+                - paragraph [ref=e302]: Transferencia recomendada antes de sugerir uso.
+              - article [ref=e303]:
+                - paragraph [ref=e304]: Seguimiento por WhatsApp sobre Siboval
+                - paragraph [ref=e305]: contactado
+                - paragraph [ref=e306]: normal · Customer care
+                - paragraph [ref=e307]: Resumen enviado con recordatorio de toma.
+          - generic [ref=e308]:
+            - generic [ref=e309]:
+              - generic [ref=e310]:
+                - img [ref=e312]
+                - heading "Callbacks" [level=3] [ref=e316]
+              - button "CSV" [ref=e317] [cursor=pointer]:
+                - img [ref=e318]
+                - text: CSV
+            - article [ref=e322]:
+              - paragraph [ref=e323]: Devolucion por consulta con medicacion concomitante.
+              - paragraph [ref=e324]: Hoy 17:00-18:00
+              - paragraph [ref=e325]: pending · 26 abr 2026, 7:18
+        - generic [ref=e326]:
+          - generic [ref=e327]:
+            - generic [ref=e328]:
+              - img [ref=e330]
+              - heading "Knowledge aprobada" [level=2] [ref=e333]
+            - paragraph [ref=e334]: La demo y la atencion telefonica responden con esta base curada, sin scraping en vivo.
+          - generic [ref=e335]:
+            - paragraph [ref=e336]: Brhium trabaja con soluciones nutraceuticas orientadas a salud intestinal, urinaria, metabolismo y equilibrio emocional.
+            - paragraph [ref=e337]: La marca habla de bienestar desde un enfoque integral y de apoyo, sin sustituir la valoracion profesional individual.
+            - link "Formulario de contacto web y seguimiento operativo por telefono o WhatsApp." [ref=e338] [cursor=pointer]:
+              - /url: https://www.brhium.com/contacto/
+          - generic [ref=e339]:
+            - article [ref=e340]:
+              - generic [ref=e341]: Salud intestinal
+              - heading "Siboval" [level=3] [ref=e342]
+              - paragraph [ref=e343]: Complemento alimenticio orientado al equilibrio intestinal y el bienestar digestivo.
+              - generic [ref=e344]:
+                - paragraph [ref=e345]:
+                  - strong [ref=e346]: "Composicion:"
+                  - text: Lactobacillus rhamnosus LR06, Fructooligosacaridos
+                - paragraph [ref=e347]:
+                  - strong [ref=e348]: "Modo de uso:"
+                  - text: Una capsula al dia durante tres meses.
+                - paragraph [ref=e349]:
+                  - strong [ref=e350]: "Escalar si:"
+                  - text: Embarazo o lactancia, Menores, Sintomas digestivos agudos
+              - link "Ver fuente oficial" [ref=e351] [cursor=pointer]:
+                - /url: https://www.brhium.com/productos/siboval/
+            - article [ref=e352]:
+              - generic [ref=e353]: Salud urinaria
+              - heading "Irbosyn" [level=3] [ref=e354]
+              - paragraph [ref=e355]: Complemento alimenticio pensado para apoyar el confort y equilibrio del tracto urinario.
+              - generic [ref=e356]:
+                - paragraph [ref=e357]:
+                  - strong [ref=e358]: "Composicion:"
+                  - text: D-manosa, Arandano rojo americano, Lactobacillus acidophilus SGL11
+                - paragraph [ref=e359]:
+                  - strong [ref=e360]: "Modo de uso:"
+                  - text: Dos capsulas al dia durante quince dias. Despues, una capsula al dia hasta completar tres meses.
+                - paragraph [ref=e361]:
+                  - strong [ref=e362]: "Escalar si:"
+                  - text: Infeccion activa con sintomas intensos, Embarazo, Uso junto a medicacion prescrita
+              - link "Ver fuente oficial" [ref=e363] [cursor=pointer]:
+                - /url: https://www.brhium.com/productos/irbosyn/
+            - article [ref=e364]:
+              - generic [ref=e365]: Colesterol y riesgo cardiovascular
+              - heading "Fluocol" [level=3] [ref=e366]
+              - paragraph [ref=e367]: Complemento alimenticio dirigido al mantenimiento de niveles normales de colesterol junto a un estilo de vida saludable.
+              - generic [ref=e368]:
+                - paragraph [ref=e369]:
+                  - strong [ref=e370]: "Composicion:"
+                  - text: Monacolina K de arroz rojo fermentado, Policosanoles, Coenzima Q10
+                - paragraph [ref=e371]:
+                  - strong [ref=e372]: "Modo de uso:"
+                  - text: Una capsula al dia, preferiblemente por la noche.
+                - paragraph [ref=e373]:
+                  - strong [ref=e374]: "Escalar si:"
+                  - text: Uso de estatinas u otra medicacion, Antecedentes cardiovasculares, Embarazo o lactancia
+              - link "Ver fuente oficial" [ref=e375] [cursor=pointer]:
+                - /url: https://www.brhium.com/productos/fluocol/
+            - article [ref=e376]:
+              - generic [ref=e377]: Estres y sueno
+              - heading "Estavit" [level=3] [ref=e378]
+              - paragraph [ref=e379]: Complemento alimenticio asociado al equilibrio emocional, manejo del estres y descanso.
+              - generic [ref=e380]:
+                - paragraph [ref=e381]:
+                  - strong [ref=e382]: "Composicion:"
+                  - text: Ashwagandha, Magnesio, Vitaminas del grupo B
+                - paragraph [ref=e383]:
+                  - strong [ref=e384]: "Modo de uso:"
+                  - text: Una capsula al dia, preferiblemente de forma continuada durante tres meses.
+                - paragraph [ref=e385]:
+                  - strong [ref=e386]: "Escalar si:"
+                  - text: Ansiedad intensa, Insomnio grave, Uso junto a psicofarmacos
+              - link "Ver fuente oficial" [ref=e387] [cursor=pointer]:
+                - /url: https://www.brhium.com/productos/estavit/
+            - article [ref=e388]:
+              - generic [ref=e389]: Bienestar digestivo
+              - heading "Relbix" [level=3] [ref=e390]
+              - paragraph [ref=e391]: Complemento alimenticio relacionado con el bienestar gastrointestinal y el equilibrio digestivo.
+              - generic [ref=e392]:
+                - paragraph [ref=e393]:
+                  - strong [ref=e394]: "Composicion:"
+                  - text: Glutamina, Zinc, Vitaminas del grupo B
+                - paragraph [ref=e395]:
+                  - strong [ref=e396]: "Modo de uso:"
+                  - text: Dos capsulas al dia en una o dos tomas, segun la informacion publica.
+                - paragraph [ref=e397]:
+                  - strong [ref=e398]: "Escalar si:"
+                  - text: Medicacion concomitante, Sintomas persistentes, Embarazo o lactancia
+              - link "Ver fuente oficial" [ref=e399] [cursor=pointer]:
+                - /url: https://www.brhium.com/productos/relbix/
+            - article [ref=e400]:
+              - generic [ref=e401]: Microbiota
+              - heading "Micraflora" [level=3] [ref=e402]
+              - paragraph [ref=e403]: Complemento alimenticio con foco en el equilibrio de la microbiota y el bienestar digestivo.
+              - generic [ref=e404]:
+                - paragraph [ref=e405]:
+                  - strong [ref=e406]: "Composicion:"
+                  - text: Mezcla de probioticos, Prebioticos, Vitaminas de soporte
+                - paragraph [ref=e407]:
+                  - strong [ref=e408]: "Modo de uso:"
+                  - text: Una capsula al dia o segun pauta indicada en el envase.
+                - paragraph [ref=e409]:
+                  - strong [ref=e410]: "Escalar si:"
+                  - text: Inmunosupresion, Patologia digestiva activa, Embarazo o lactancia
+              - link "Ver fuente oficial" [ref=e411] [cursor=pointer]:
+                - /url: https://www.brhium.com/productos/micraflora/
+        - generic [ref=e412]:
+          - generic [ref=e413]:
+            - generic [ref=e414]:
+              - img [ref=e416]
+              - heading "Consumo reciente" [level=2] [ref=e418]
+            - paragraph [ref=e419]: Serie corta para revisar actividad y gasto visible de la ultima semana.
+          - generic [ref=e420]:
+            - article [ref=e421]:
+              - paragraph [ref=e422]: lun
+              - paragraph [ref=e423]: "6"
+              - paragraph [ref=e424]: 21 min
+              - paragraph [ref=e425]: 7.34 EUR
+            - article [ref=e426]:
+              - paragraph [ref=e427]: mar
+              - paragraph [ref=e428]: "8"
+              - paragraph [ref=e429]: 29 min
+              - paragraph [ref=e430]: 9.90 EUR
+            - article [ref=e431]:
+              - paragraph [ref=e432]: mié
+              - paragraph [ref=e433]: "7"
+              - paragraph [ref=e434]: 24 min
+              - paragraph [ref=e435]: 8.46 EUR
+            - article [ref=e436]:
+              - paragraph [ref=e437]: jue
+              - paragraph [ref=e438]: "9"
+              - paragraph [ref=e439]: 31 min
+              - paragraph [ref=e440]: 10.85 EUR
+            - article [ref=e441]:
+              - paragraph [ref=e442]: vie
+              - paragraph [ref=e443]: "6"
+              - paragraph [ref=e444]: 20 min
+              - paragraph [ref=e445]: 7.01 EUR
+            - article [ref=e446]:
+              - paragraph [ref=e447]: sáb
+              - paragraph [ref=e448]: "10"
+              - paragraph [ref=e449]: 34 min
+              - paragraph [ref=e450]: 11.88 EUR
+            - article [ref=e451]:
+              - paragraph [ref=e452]: dom
+              - paragraph [ref=e453]: "5"
+              - paragraph [ref=e454]: 17 min
+              - paragraph [ref=e455]: 5.97 EUR
+  - button "Open Next.js Dev Tools" [ref=e461] [cursor=pointer]:
+    - img [ref=e462]

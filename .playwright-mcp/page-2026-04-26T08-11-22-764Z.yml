@@ -1,0 +1,311 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - complementary [ref=e4]:
+      - generic [ref=e5]:
+        - generic [ref=e6]:
+          - paragraph [ref=e7]: Brhium Voice Hub
+          - paragraph [ref=e8]: Demo web, supervision operativa y control del agente desde un mismo sitio.
+        - navigation [ref=e9]:
+          - link "Overview" [ref=e10] [cursor=pointer]:
+            - /url: /dashboard#overview
+            - img [ref=e11]
+            - text: Overview
+          - link "Demo voz" [ref=e13] [cursor=pointer]:
+            - /url: /dashboard#demo
+            - img [ref=e14]
+            - text: Demo voz
+          - link "Numeros" [ref=e17] [cursor=pointer]:
+            - /url: /dashboard#numbers
+            - img [ref=e18]
+            - text: Numeros
+          - link "Llamadas" [ref=e22] [cursor=pointer]:
+            - /url: /dashboard#calls
+            - img [ref=e23]
+            - text: Llamadas
+          - link "Knowledge" [ref=e25] [cursor=pointer]:
+            - /url: /dashboard#knowledge
+            - img [ref=e26]
+            - text: Knowledge
+          - link "Configuracion" [ref=e28] [cursor=pointer]:
+            - /url: /dashboard#settings
+            - img [ref=e29]
+            - text: Configuracion
+      - generic [ref=e32]:
+        - generic [ref=e33]:
+          - paragraph [ref=e34]: Lucia Ramos
+          - paragraph [ref=e35]: Admin agencia
+          - paragraph [ref=e36]: admin@brhium.demo
+        - button "Cerrar sesion" [ref=e38] [cursor=pointer]:
+          - img [ref=e39]
+          - text: Cerrar sesion
+    - main [ref=e43]:
+      - generic [ref=e44]:
+        - generic [ref=e45]:
+          - generic [ref=e46]:
+            - generic [ref=e47]:
+              - paragraph [ref=e48]: Plataforma centralizada
+              - heading "Agente de voz Brhium" [level=1] [ref=e49]
+              - paragraph [ref=e50]: El mismo lugar sirve para demo web, supervision diaria, configuracion guiada y trazabilidad completa de llamadas, transcripciones y gasto estimado.
+            - generic [ref=e51]:
+              - generic [ref=e52]:
+                - generic [ref=e55]: Vapi
+                - paragraph [ref=e56]: Demo browser ready
+              - generic [ref=e57]:
+                - generic [ref=e60]: Twilio
+                - paragraph [ref=e61]: Pendiente credenciales
+              - generic [ref=e62]:
+                - generic [ref=e65]: Sesion
+                - paragraph [ref=e66]: Usando secreto local
+          - generic [ref=e67]:
+            - article [ref=e68]:
+              - generic [ref=e69]:
+                - generic [ref=e70]: Llamadas
+                - img [ref=e71]
+              - paragraph [ref=e75]: "0"
+              - paragraph [ref=e76]: 0 atendidas
+            - article [ref=e77]:
+              - generic [ref=e78]:
+                - generic [ref=e79]: Duracion media
+                - img [ref=e80]
+              - paragraph [ref=e82]: 0s
+              - paragraph [ref=e83]: web y telefono
+            - article [ref=e84]:
+              - generic [ref=e85]:
+                - generic [ref=e86]: Transferencias
+                - img [ref=e87]
+              - paragraph [ref=e89]: "0"
+              - paragraph [ref=e90]: casos sensibles
+            - article [ref=e91]:
+              - generic [ref=e92]:
+                - generic [ref=e93]: Callbacks
+                - img [ref=e94]
+              - paragraph [ref=e98]: "0"
+              - paragraph [ref=e99]: pendientes
+          - generic [ref=e100]:
+            - article [ref=e101]:
+              - paragraph [ref=e102]: Coste llamadas
+              - paragraph [ref=e103]: 0.00 EUR
+              - paragraph [ref=e104]: Estimacion agregada en voz y orquestacion
+            - article [ref=e105]:
+              - paragraph [ref=e106]: WhatsApp
+              - paragraph [ref=e107]: 0.00 EUR
+              - paragraph [ref=e108]: Mensajes generados por el asistente
+            - article [ref=e109]:
+              - paragraph [ref=e110]: Total visible
+              - paragraph [ref=e111]: 0.00 EUR
+              - paragraph [ref=e112]: Sin conciliacion financiera exacta con proveedor
+        - generic [ref=e113]:
+          - generic [ref=e114]:
+            - generic [ref=e115]:
+              - generic [ref=e116]:
+                - paragraph [ref=e117]: Demo interactiva (Retell AI)
+                - paragraph [ref=e118]: Haz clic en "Iniciar Llamada" para probar el agente de voz real a través de tu micrófono. Asegúrate de conceder los permisos del navegador.
+              - generic [ref=e119]: Listo para llamar
+            - generic [ref=e120]:
+              - img [ref=e123]
+              - button "Iniciar Llamada" [ref=e127] [cursor=pointer]:
+                - img [ref=e128]
+                - text: Iniciar Llamada
+          - generic [ref=e131]:
+            - generic [ref=e132]:
+              - generic [ref=e133]:
+                - paragraph [ref=e134]: Configuracion guiada
+                - paragraph [ref=e135]: Ajusta tono, saludo, horarios y seguimiento sin exponer prompts internos.
+              - generic [ref=e136]: active
+            - generic [ref=e137]:
+              - generic [ref=e138]:
+                - generic [ref=e139]: Nombre visible (Retell)
+                - textbox "Nombre visible (Retell)" [ref=e140]: Alba Brhium
+              - generic [ref=e141]:
+                - generic [ref=e142]: Idioma
+                - textbox "Idioma" [ref=e143]: es-ES
+              - generic [ref=e144]:
+                - generic [ref=e145]: System Prompt (Retell AI)
+                - textbox "System Prompt (Retell AI)" [ref=e146]: "Eres el asistente de voz oficial de BRHIUM (pronunciación: brium) nutraceuticos. Tu función es atender llamadas entrantes de clientes, farmacias y posibles distribuidores de forma clara, profesional y cercana. Representas a una marca de nutracéuticos centrada en la salud, el bienestar, la ciencia y la eficacia, así que tu tono debe ser tranquilo, seguro, educado y útil. OBJETIVOS PRINCIPALES - Resolver dudas generales sobre la marca y sus productos usando exclusivamente la información disponible en la base de conocimiento y en las instrucciones del sistema. - Explicar de forma sencilla qué hace la marca, cómo conseguir sus productos y a quién derivar cada consulta. - Recoger datos de contacto de farmacias, distribuidores o clientes interesados cuando sea útil. - Detectar cuándo una consulta requiere atención humana y escalarla correctamente. - Nunca inventar información médica, posologías, indicaciones específicas, precios, stock o promesas terapéuticas si no aparecen claramente en la base de conocimiento. CONTEXTO DE MARCA - BRHIUM nutraceutics es una marca orientada al bienestar y a la salud a través de nutracéuticos. - La marca comunica ciencia, honestidad, eficacia, salud natural y cercanía. - Sus productos pueden encontrarse en farmacias de España y en canales online de salud, según la información disponible en la base de conocimiento. ESTILO DE VOZ - Habla en español de España, de forma natural y telefónica. - Usa frases cortas y muy fáciles de entender. - Evita sonar robótico, demasiado formal o comercial. - No hables demasiado seguido; pausa mentalmente entre ideas. - Muestra empatía, pero sin dramatizar. - Nunca uses tecnicismos médicos sin explicarlos. REGLAS DE SEGURIDAD Y CUMPLIMIENTO - No des diagnósticos. - No sustituyas la opinión de un médico, farmacéutico u otro profesional sanitario. - No recomiendes un producto como tratamiento definitivo para una enfermedad. - Si la persona describe síntomas, embarazo, medicación, enfermedades previas, efectos adversos o una situación delicada, indica que debe consultar con su médico o farmacéutico. - Si no tienes certeza total, dilo con transparencia. - Nunca inventes una respuesta para “quedar bien”. QUÉ SÍ PUEDES HACER - Explicar qué es BRHIUM y cuál es su enfoque. - Contar, si la base de conocimiento lo permite, para qué sirve cada producto a nivel general. - Explicar dónde pueden comprarlo o pedirlo. - Recoger nombre, teléfono, email, farmacia, provincia y motivo de contacto. - Ofrecer derivación al equipo humano cuando la consulta lo requiera. QUÉ NO PUEDES HACER - Confirmar disponibilidad exacta en tiempo real si no hay integración. - Confirmar precios si no constan en la base de conocimiento. - Hacer recomendaciones médicas personalizadas. - Afirmar efectos clínicos no descritos explícitamente. - Inventar respuestas sobre logística, plazos o promociones. COMPORTAMIENTO CON CLIENTES - Si preguntan por un producto: responde solo con información oficial disponible. - Si preguntan “cuál necesito”: da orientación general, pero aclara que debe confirmarlo con un profesional sanitario. - Si preguntan dónde comprar: indica que pueden encontrarlo en farmacias y, si la base lo indica, también en plataformas online. - Si quieren que alguien les contacte: recoge sus datos y resume claramente el motivo. COMPORTAMIENTO CON FARMACIAS O DISTRIBUIDORES - Identifica si la llamada es profesional. - Recoge nombre de la farmacia o empresa, persona de contacto, teléfono, email, ciudad/provincia y motivo. - Si preguntan por distribución, colaboración o catálogo, explica brevemente lo que sí conste y ofrece escalar la solicitud al equipo comercial. ESCALADO A HUMANO Escala o recoge aviso para llamada posterior si ocurre cualquiera de estos casos: - consulta médica o clínica sensible - duda no resuelta por la base de conocimiento - reclamación - interés comercial serio - incidencia con pedido o producto - petición explícita de hablar con una persona MODO DE RESPUESTA - Primero responde brevemente a la pregunta. - Después ofrece siguiente paso útil. - Si faltan datos para ayudar, haz una sola pregunta cada vez. - No sueltes bloques largos de texto. - Cierra cada interacción con una frase de apoyo, por ejemplo: “Si quieres, también puedo tomar tus datos para que el equipo te contacte.” SI FALTA INFORMACIÓN Di una variante de: “No quiero darte una información inexacta. Si quieres, tomo tus datos y hago que el equipo lo revise contigo.” SALIDA ESPERADA EN LLAMADAS - Intención detectada - Respuesta breve y clara - Si aplica, solicitud de dato siguiente - Si aplica, propuesta de derivación o registro de lead"
+              - generic [ref=e147]:
+                - generic [ref=e148]:
+                  - generic [ref=e149]: Velocidad (0.5 - 2.0)
+                  - textbox "Velocidad (0.5 - 2.0)" [ref=e150]: "1"
+                - generic [ref=e151]:
+                  - generic [ref=e152]: Sensibilidad interrupcion (0 - 1)
+                  - textbox "Sensibilidad interrupcion (0 - 1)" [ref=e153]: "0.8"
+                - generic [ref=e154]:
+                  - generic [ref=e155]: Latencia / Responsiveness (0 - 1)
+                  - textbox "Latencia / Responsiveness (0 - 1)" [ref=e156]: "1"
+            - button "Guardar configuracion" [ref=e157] [cursor=pointer]:
+              - img [ref=e158]
+              - text: Guardar configuracion
+        - generic [ref=e161]:
+          - generic [ref=e162]:
+            - generic [ref=e163]:
+              - img [ref=e165]
+              - heading "Numeros y activacion" [level=2] [ref=e169]
+            - paragraph [ref=e170]: Cada numero puede activarse, pausarse o reasignarse al asistente adecuado sin salir del panel.
+          - generic [ref=e171]:
+            - generic [ref=e172]:
+              - generic [ref=e173]:
+                - paragraph [ref=e174]: Central atencion Brhium
+                - paragraph [ref=e175]: +34 910 000 321 · deriva a +34 911 111 222
+              - combobox [ref=e176]:
+                - option "Alba Brhium" [selected]
+              - button "Activo" [ref=e177] [cursor=pointer]:
+                - img [ref=e178]
+                - text: Activo
+            - generic [ref=e181]:
+              - generic [ref=e182]:
+                - paragraph [ref=e183]: Linea soporte lanzamientos
+                - paragraph [ref=e184]: +34 910 000 654 · deriva a +34 911 111 222
+              - combobox [ref=e185]:
+                - option "Alba Brhium" [selected]
+              - button "Pausado" [ref=e186] [cursor=pointer]:
+                - img [ref=e187]
+                - text: Pausado
+        - generic [ref=e191]:
+          - generic [ref=e192]:
+            - generic [ref=e193]:
+              - img [ref=e195]
+              - heading "Historial de llamadas" [level=2] [ref=e199]
+            - paragraph [ref=e200]: Transcripciones, resumen, acciones ejecutadas y trazabilidad completa de demo web y telefono.
+          - generic [ref=e201]:
+            - button "Sincronizar Retell" [ref=e202] [cursor=pointer]
+            - generic [ref=e203]:
+              - img [ref=e204]
+              - textbox [ref=e207]:
+                - /placeholder: Buscar en llamadas, transcripciones o resumen...
+        - generic [ref=e208]:
+          - generic [ref=e210]:
+            - generic [ref=e211]:
+              - img [ref=e213]
+              - heading "Leads" [level=3] [ref=e216]
+            - button "CSV" [ref=e217] [cursor=pointer]:
+              - img [ref=e218]
+              - text: CSV
+          - generic [ref=e222]:
+            - generic [ref=e223]:
+              - img [ref=e225]
+              - heading "Incidencias" [level=3] [ref=e227]
+            - button "CSV" [ref=e228] [cursor=pointer]:
+              - img [ref=e229]
+              - text: CSV
+          - generic [ref=e233]:
+            - generic [ref=e234]:
+              - img [ref=e236]
+              - heading "Callbacks" [level=3] [ref=e240]
+            - button "CSV" [ref=e241] [cursor=pointer]:
+              - img [ref=e242]
+              - text: CSV
+        - generic [ref=e245]:
+          - generic [ref=e246]:
+            - generic [ref=e247]:
+              - img [ref=e249]
+              - heading "Knowledge aprobada" [level=2] [ref=e252]
+            - paragraph [ref=e253]: La demo y la atencion telefonica responden con esta base curada, sin scraping en vivo.
+          - generic [ref=e254]:
+            - paragraph [ref=e255]: Brhium trabaja con soluciones nutraceuticas orientadas a salud intestinal, urinaria, metabolismo y equilibrio emocional.
+            - paragraph [ref=e256]: La marca habla de bienestar desde un enfoque integral y de apoyo, sin sustituir la valoracion profesional individual.
+            - link "Formulario de contacto web y seguimiento operativo por telefono o WhatsApp." [ref=e257] [cursor=pointer]:
+              - /url: https://www.brhium.com/contacto/
+          - generic [ref=e258]:
+            - article [ref=e259]:
+              - generic [ref=e260]: Salud intestinal
+              - heading "Siboval" [level=3] [ref=e261]
+              - paragraph [ref=e262]: Complemento alimenticio orientado al equilibrio intestinal y el bienestar digestivo.
+              - generic [ref=e263]:
+                - paragraph [ref=e264]:
+                  - strong [ref=e265]: "Composicion:"
+                  - text: Lactobacillus rhamnosus LR06, Fructooligosacaridos
+                - paragraph [ref=e266]:
+                  - strong [ref=e267]: "Modo de uso:"
+                  - text: Una capsula al dia durante tres meses.
+                - paragraph [ref=e268]:
+                  - strong [ref=e269]: "Escalar si:"
+                  - text: Embarazo o lactancia, Menores, Sintomas digestivos agudos
+              - link "Ver fuente oficial" [ref=e270] [cursor=pointer]:
+                - /url: https://www.brhium.com/productos/siboval/
+            - article [ref=e271]:
+              - generic [ref=e272]: Salud urinaria
+              - heading "Irbosyn" [level=3] [ref=e273]
+              - paragraph [ref=e274]: Complemento alimenticio pensado para apoyar el confort y equilibrio del tracto urinario.
+              - generic [ref=e275]:
+                - paragraph [ref=e276]:
+                  - strong [ref=e277]: "Composicion:"
+                  - text: D-manosa, Arandano rojo americano, Lactobacillus acidophilus SGL11
+                - paragraph [ref=e278]:
+                  - strong [ref=e279]: "Modo de uso:"
+                  - text: Dos capsulas al dia durante quince dias. Despues, una capsula al dia hasta completar tres meses.
+                - paragraph [ref=e280]:
+                  - strong [ref=e281]: "Escalar si:"
+                  - text: Infeccion activa con sintomas intensos, Embarazo, Uso junto a medicacion prescrita
+              - link "Ver fuente oficial" [ref=e282] [cursor=pointer]:
+                - /url: https://www.brhium.com/productos/irbosyn/
+            - article [ref=e283]:
+              - generic [ref=e284]: Colesterol y riesgo cardiovascular
+              - heading "Fluocol" [level=3] [ref=e285]
+              - paragraph [ref=e286]: Complemento alimenticio dirigido al mantenimiento de niveles normales de colesterol junto a un estilo de vida saludable.
+              - generic [ref=e287]:
+                - paragraph [ref=e288]:
+                  - strong [ref=e289]: "Composicion:"
+                  - text: Monacolina K de arroz rojo fermentado, Policosanoles, Coenzima Q10
+                - paragraph [ref=e290]:
+                  - strong [ref=e291]: "Modo de uso:"
+                  - text: Una capsula al dia, preferiblemente por la noche.
+                - paragraph [ref=e292]:
+                  - strong [ref=e293]: "Escalar si:"
+                  - text: Uso de estatinas u otra medicacion, Antecedentes cardiovasculares, Embarazo o lactancia
+              - link "Ver fuente oficial" [ref=e294] [cursor=pointer]:
+                - /url: https://www.brhium.com/productos/fluocol/
+            - article [ref=e295]:
+              - generic [ref=e296]: Estres y sueno
+              - heading "Estavit" [level=3] [ref=e297]
+              - paragraph [ref=e298]: Complemento alimenticio asociado al equilibrio emocional, manejo del estres y descanso.
+              - generic [ref=e299]:
+                - paragraph [ref=e300]:
+                  - strong [ref=e301]: "Composicion:"
+                  - text: Ashwagandha, Magnesio, Vitaminas del grupo B
+                - paragraph [ref=e302]:
+                  - strong [ref=e303]: "Modo de uso:"
+                  - text: Una capsula al dia, preferiblemente de forma continuada durante tres meses.
+                - paragraph [ref=e304]:
+                  - strong [ref=e305]: "Escalar si:"
+                  - text: Ansiedad intensa, Insomnio grave, Uso junto a psicofarmacos
+              - link "Ver fuente oficial" [ref=e306] [cursor=pointer]:
+                - /url: https://www.brhium.com/productos/estavit/
+            - article [ref=e307]:
+              - generic [ref=e308]: Bienestar digestivo
+              - heading "Relbix" [level=3] [ref=e309]
+              - paragraph [ref=e310]: Complemento alimenticio relacionado con el bienestar gastrointestinal y el equilibrio digestivo.
+              - generic [ref=e311]:
+                - paragraph [ref=e312]:
+                  - strong [ref=e313]: "Composicion:"
+                  - text: Glutamina, Zinc, Vitaminas del grupo B
+                - paragraph [ref=e314]:
+                  - strong [ref=e315]: "Modo de uso:"
+                  - text: Dos capsulas al dia en una o dos tomas, segun la informacion publica.
+                - paragraph [ref=e316]:
+                  - strong [ref=e317]: "Escalar si:"
+                  - text: Medicacion concomitante, Sintomas persistentes, Embarazo o lactancia
+              - link "Ver fuente oficial" [ref=e318] [cursor=pointer]:
+                - /url: https://www.brhium.com/productos/relbix/
+            - article [ref=e319]:
+              - generic [ref=e320]: Microbiota
+              - heading "Micraflora" [level=3] [ref=e321]
+              - paragraph [ref=e322]: Complemento alimenticio con foco en el equilibrio de la microbiota y el bienestar digestivo.
+              - generic [ref=e323]:
+                - paragraph [ref=e324]:
+                  - strong [ref=e325]: "Composicion:"
+                  - text: Mezcla de probioticos, Prebioticos, Vitaminas de soporte
+                - paragraph [ref=e326]:
+                  - strong [ref=e327]: "Modo de uso:"
+                  - text: Una capsula al dia o segun pauta indicada en el envase.
+                - paragraph [ref=e328]:
+                  - strong [ref=e329]: "Escalar si:"
+                  - text: Inmunosupresion, Patologia digestiva activa, Embarazo o lactancia
+              - link "Ver fuente oficial" [ref=e330] [cursor=pointer]:
+                - /url: https://www.brhium.com/productos/micraflora/
+        - generic [ref=e332]:
+          - generic [ref=e333]:
+            - img [ref=e335]
+            - heading "Consumo reciente" [level=2] [ref=e337]
+          - paragraph [ref=e338]: Serie corta para revisar actividad y gasto visible de la ultima semana.
+  - button "Open Next.js Dev Tools" [ref=e344] [cursor=pointer]:
+    - img [ref=e345]

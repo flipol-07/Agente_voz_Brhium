@@ -1,0 +1,42 @@
+- generic [active] [ref=e1]:
+  - link "Ir al contenido" [ref=e2] [cursor=pointer]:
+    - /url: "#content"
+  - banner [ref=e3]:
+    - generic [ref=e5]:
+      - link [ref=e8] [cursor=pointer]:
+        - /url: https://sauteri.com/
+      - navigation "Menu" [ref=e11]:
+        - list [ref=e12]:
+          - listitem [ref=e13]:
+            - link "Contacto" [ref=e14] [cursor=pointer]:
+              - /url: https://sauteri.com/contacto/
+          - listitem [ref=e15]:
+            - link "Servicios" [ref=e16] [cursor=pointer]:
+              - /url: https://sauteri.com/servicios/
+  - main [ref=e17]:
+    - generic [ref=e21]:
+      - heading "Hacemos que la IA funcione en tu negocio de verdad." [level=1] [ref=e24]
+      - heading "Automatizamos procesos, reducimos costes y aumentamos ingresos con soluciones adaptadas a tu día a día." [level=2] [ref=e27]
+      - generic [ref=e28]:
+        - link "Ver soluciones" [ref=e30] [cursor=pointer]:
+          - /url: https://sauteri.com/servicios/
+          - generic [ref=e32]: Ver soluciones
+        - link "Agendar consultoría" [ref=e34] [cursor=pointer]:
+          - /url: https://sauteri.com/contacto/
+          - generic [ref=e36]: Agendar consultoría
+  - contentinfo [ref=e49]:
+    - generic [ref=e51]:
+      - paragraph [ref=e55]: Automatización de procesos, agentes autónomos y sistemas con inteligencia artificial que optimizan el trabajo diario de tu equipo.
+      - generic [ref=e56]:
+        - generic [ref=e57]:
+          - paragraph [ref=e59]: Empresa
+          - paragraph [ref=e61]: Servicios
+          - paragraph [ref=e63]: Proceso
+          - paragraph [ref=e65]: Nosotros
+          - paragraph [ref=e67]: Contacto
+        - generic [ref=e68]:
+          - paragraph [ref=e70]: Legal
+          - paragraph [ref=e72]: Aviso legal
+          - paragraph [ref=e74]: Política de Privacidad
+          - paragraph [ref=e76]: Política de Cookies
+  - generic [ref=e77]: laptop

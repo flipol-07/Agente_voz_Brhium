@@ -1,0 +1,76 @@
+- generic [ref=e1]:
+  - main [ref=e4]:
+    - generic [ref=e5]:
+      - complementary [ref=e6]:
+        - generic [ref=e7]:
+          - img [ref=e9]
+          - generic [ref=e12]:
+            - generic [ref=e13]: Brhium AI
+            - generic [ref=e14]: Plataforma Voz
+        - navigation [ref=e15]:
+          - button "Dashboard Actividad y metricas" [ref=e16] [cursor=pointer]:
+            - img [ref=e18]
+            - generic [ref=e23]:
+              - paragraph [ref=e24]: Dashboard
+              - paragraph [ref=e25]: Actividad y metricas
+          - button "Asistente Prompt y configuracion" [ref=e26] [cursor=pointer]:
+            - img [ref=e28]
+            - generic [ref=e31]:
+              - paragraph [ref=e32]: Asistente
+              - paragraph [ref=e33]: Prompt y configuracion
+          - button "Operaciones Leads y resolucion" [active] [ref=e34] [cursor=pointer]:
+            - img [ref=e36]
+            - generic [ref=e40]:
+              - paragraph [ref=e41]: Operaciones
+              - paragraph [ref=e42]: Leads y resolucion
+          - button "Ajustes Privacidad y control" [ref=e43] [cursor=pointer]:
+            - img [ref=e45]
+            - generic [ref=e48]:
+              - paragraph [ref=e49]: Ajustes
+              - paragraph [ref=e50]: Privacidad y control
+        - generic [ref=e51]:
+          - generic [ref=e52]:
+            - img [ref=e54]
+            - generic [ref=e66]:
+              - paragraph [ref=e67]: Lucia Ramos
+              - paragraph [ref=e68]: Agency Admin
+          - button "Cerrar sesion" [ref=e70] [cursor=pointer]:
+            - img [ref=e71]
+            - text: Cerrar sesion
+      - main [ref=e74]:
+        - generic [ref=e519]:
+          - generic [ref=e520]:
+            - heading "Operaciones" [level=1] [ref=e521]
+            - paragraph [ref=e522]: Gestion de leads, incidencias y base de conocimiento activa.
+          - generic [ref=e523]:
+            - generic [ref=e525]:
+              - generic [ref=e526]:
+                - img [ref=e528]
+                - heading "Nuevos Contactos" [level=3] [ref=e531]
+              - button "CSV" [ref=e532] [cursor=pointer]:
+                - img [ref=e533]
+                - text: CSV
+            - generic [ref=e537]:
+              - generic [ref=e538]:
+                - img [ref=e540]
+                - heading "Incidencias" [level=3] [ref=e542]
+              - button "CSV" [ref=e543] [cursor=pointer]:
+                - img [ref=e544]
+                - text: CSV
+            - generic [ref=e549]:
+              - generic [ref=e550]:
+                - img [ref=e552]
+                - heading "Callbacks" [level=3] [ref=e556]
+              - button "CSV" [ref=e557] [cursor=pointer]:
+                - img [ref=e558]
+                - text: CSV
+          - generic [ref=e562]:
+            - generic [ref=e563]:
+              - img [ref=e565]
+              - generic [ref=e568]:
+                - heading "Base de Conocimiento Retell" [level=3] [ref=e569]
+                - paragraph [ref=e570]: Fuentes de informacion sincronizadas que el agente utiliza para responder preguntas.
+            - paragraph [ref=e573]: No hay bases de conocimiento sincronizadas.
+  - button "Open Next.js Dev Tools" [ref=e514] [cursor=pointer]:
+    - img [ref=e515]
+  - alert [ref=e518]

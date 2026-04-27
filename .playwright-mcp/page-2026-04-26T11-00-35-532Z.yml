@@ -1,0 +1,60 @@
+- generic [ref=e1]:
+  - main [ref=e4]:
+    - generic [ref=e5]:
+      - complementary [ref=e6]:
+        - generic [ref=e7]:
+          - img [ref=e9]
+          - generic [ref=e12]:
+            - generic [ref=e13]: Brhium AI
+            - generic [ref=e14]: Plataforma Voz
+        - navigation [ref=e15]:
+          - button "Dashboard Actividad y metricas" [ref=e16] [cursor=pointer]:
+            - img [ref=e18]
+            - generic [ref=e23]:
+              - paragraph [ref=e24]: Dashboard
+              - paragraph [ref=e25]: Actividad y metricas
+          - button "Asistente Prompt y configuracion" [ref=e26] [cursor=pointer]:
+            - img [ref=e28]
+            - generic [ref=e31]:
+              - paragraph [ref=e32]: Asistente
+              - paragraph [ref=e33]: Prompt y configuracion
+          - button "Operaciones Leads y resolucion" [ref=e34] [cursor=pointer]:
+            - img [ref=e36]
+            - generic [ref=e40]:
+              - paragraph [ref=e41]: Operaciones
+              - paragraph [ref=e42]: Leads y resolucion
+          - button "Ajustes Privacidad y control" [active] [ref=e43] [cursor=pointer]:
+            - img [ref=e45]
+            - generic [ref=e48]:
+              - paragraph [ref=e49]: Ajustes
+              - paragraph [ref=e50]: Privacidad y control
+        - generic [ref=e51]:
+          - generic [ref=e52]:
+            - img [ref=e54]
+            - generic [ref=e66]:
+              - paragraph [ref=e67]: Lucia Ramos
+              - paragraph [ref=e68]: Agency Admin
+          - button "Cerrar sesion" [ref=e70] [cursor=pointer]:
+            - img [ref=e71]
+            - text: Cerrar sesion
+      - main [ref=e74]:
+        - generic [ref=e694]:
+          - generic [ref=e695]:
+            - heading "Ajustes" [level=1] [ref=e696]
+            - paragraph [ref=e697]: Configuracion global de la plataforma y preferencias de privacidad.
+          - generic [ref=e698]:
+            - generic [ref=e699]:
+              - img [ref=e701]
+              - generic [ref=e703]:
+                - heading "Privacidad del Cliente" [level=3] [ref=e704]
+                - paragraph [ref=e705]: Configura que informacion es visible para el cliente final.
+            - generic [ref=e707]:
+              - generic [ref=e708]:
+                - paragraph [ref=e709]: Ocultar precios y costes
+                - paragraph [ref=e710]:
+                  - text: Si activas esta opcion, el cliente no podra ver ninguna estimacion economica.
+                  - strong [ref=e711]: "Nota: Esta opcion no es visible para el cliente."
+              - checkbox [checked] [ref=e713] [cursor=pointer]
+  - button "Open Next.js Dev Tools" [ref=e514] [cursor=pointer]:
+    - img [ref=e515]
+  - alert [ref=e518]

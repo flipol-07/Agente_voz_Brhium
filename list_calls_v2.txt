@@ -1,0 +1,32 @@
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   152  100   152    0     0    221      0 --:--:-- --:--:-- --:--:--   222
+HTTP/2 404 
+date: Sun, 26 Apr 2026 10:52:31 GMT
+content-type: text/html; charset=utf-8
+content-length: 152
+access-control-allow-origin: *
+content-security-policy: default-src 'none'
+cross-origin-opener-policy: same-origin
+cross-origin-resource-policy: same-origin
+origin-agent-cluster: ?1
+referrer-policy: no-referrer
+strict-transport-security: max-age=31536000; includeSubDomains
+x-content-type-options: nosniff
+x-dns-prefetch-control: off
+x-download-options: noopen
+x-frame-options: SAMEORIGIN
+x-permitted-cross-domain-policies: none
+x-xss-protection: 0
+vary: Accept-Encoding
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Error</title>
+</head>
+<body>
+<pre>Cannot GET /v2/list-calls</pre>
+</body>
+</html>

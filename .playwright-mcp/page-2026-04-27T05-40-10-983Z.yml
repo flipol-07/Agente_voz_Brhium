@@ -1,0 +1,105 @@
+- generic [active] [ref=e1]:
+  - link "Ir al contenido" [ref=e2] [cursor=pointer]:
+    - /url: "#content"
+  - banner [ref=e3]:
+    - generic [ref=e4]:
+      - link [ref=e7] [cursor=pointer]:
+        - /url: https://www.munacare.com/?page_id=31
+      - navigation "Menu" [ref=e10]:
+        - list [ref=e11]:
+          - listitem [ref=e12]:
+            - link "Productos" [ref=e13] [cursor=pointer]:
+              - /url: https://www.munacare.com/productos/
+              - text: Productos
+              - img [ref=e15]
+          - listitem [ref=e17]:
+            - link "Quienes somos" [ref=e18] [cursor=pointer]:
+              - /url: https://www.munacare.com/quienes-somos/
+          - listitem [ref=e19]:
+            - link "Contacto" [ref=e20] [cursor=pointer]:
+              - /url: https://www.munacare.com/contacto/
+  - main [ref=e21]:
+    - generic [ref=e23]:
+      - generic [ref=e25]:
+        - heading "Descubre el poder de tu bienestar íntimo." [level=2] [ref=e27]
+        - paragraph [ref=e30]: "Sin tabúes ni secretos: explora, aprende y da el primer paso hacia un bienestar auténtico. Tu cuidado íntimo, tu confianza."
+      - generic [ref=e31]:
+        - heading "¿Quiénes somos?" [level=2] [ref=e35]
+        - generic [ref=e41]:
+          - paragraph [ref=e42]:
+            - strong [ref=e43]: Munacare
+            - text: nace del compromiso de acompañar la salud íntima de la mujer en todas las etapas de su vida. Creado por profesionales apasionados por el bienestar femenino, desarrollamos productos naturales de calidad, con respaldo científico y sensibilidad, para brindar confianza y tranquilidad desde la adolescencia hasta la madurez.
+          - paragraph [ref=e44]: Estamos presentes en todas las farmacias, tanto físicas como de venta online, trabajando de la mano con especialistas y usuarias que, como nosotros, creen que cuidar lo íntimo es cuidar la vida.
+          - paragraph [ref=e45]:
+            - strong [ref=e46]: Munacare. Tu bienestar, nuestro compromiso.
+      - generic [ref=e57]:
+        - generic [ref=e58]:
+          - heading "¿Lista para sentirte mejor?" [level=2] [ref=e60]
+          - generic [ref=e62]:
+            - paragraph [ref=e63]: Hoy es el día para comenzar a transformar tu bienestar con productos naturales y efectivos. Haz de tu salud una prioridad y déjanos acompañarte en cada paso.
+            - paragraph [ref=e64]:
+              - strong [ref=e65]: ¡Da la bienvenida a tu nueva y mejorada versión!
+        - generic [ref=e66]:
+          - generic [ref=e67]:
+            - paragraph [ref=e69]:
+              - strong [ref=e70]: +1M
+            - paragraph [ref=e72]: Mujeres confían en Munacare
+          - generic [ref=e73]:
+            - paragraph [ref=e75]:
+              - strong [ref=e76]: +22K
+            - paragraph [ref=e78]: Farmacias colaboradoras
+          - generic [ref=e79]:
+            - paragraph [ref=e81]:
+              - strong [ref=e82]: 100%
+            - paragraph [ref=e84]: Ingredientes naturales
+      - generic [ref=e87]:
+        - paragraph [ref=e90]: En Munacare…
+        - generic [ref=e93]:
+          - paragraph [ref=e94]:
+            - text: acompañamos
+            - strong [ref=e95]: a cada mujer en todas las etapas de su vida.
+            - text: Creemos que el cuidado de la salud íntima debe ser seguro, eficaz y, sobre todo, accesible para todas.
+          - paragraph [ref=e96]: Nuestra gama actual —con productos como Oyun, Vuvaxil, Dopex, Lidra e Intimal Óvulos— ha sido creada de la mano de expertos y centros de referencia, lo que nos permite estar siempre un paso adelante en innovación y bienestar femenino.
+          - paragraph [ref=e97]: "Con el apoyo de un gran equipo de profesionales y gracias a la colaboración de más de 22.000 farmacias comunitarias, acercamos los últimos avances directamente al lugar donde más confías: tu farmacia de siempre."
+          - paragraph [ref=e98]:
+            - text: Desde 2021,
+            - strong [ref=e99]: más de un millón de mujeres han elegido Munacare
+            - text: "para cuidar su bienestar ginecológico. Hoy, con el respaldo de médicos y farmacéuticos, seguimos avanzando con un único propósito: ser tu aliado de confianza en la salud femenina."
+      - generic [ref=e101]:
+        - heading "Conoce nuestros productos" [level=2] [ref=e103]
+        - heading "¿Por qué y para quién?" [level=3] [ref=e105]
+        - generic [ref=e107]:
+          - paragraph [ref=e108]: Conoce nuestros productos y para quiénes están pensados.
+          - paragraph [ref=e109]: Cada producto de Munacare está diseñado para acompañar a mujeres en distintas etapas y necesidades de su vida íntima, con empatía y soluciones adaptadas a sus expectativas.
+        - link "Ver productos" [ref=e126] [cursor=pointer]:
+          - /url: https://www.munacare.com/productos/
+          - generic [ref=e128]: Ver productos
+  - contentinfo [ref=e129]:
+    - generic [ref=e134]:
+      - generic [ref=e136]:
+        - link "Aviso legal" [ref=e137] [cursor=pointer]:
+          - /url: https://www.munacare.com/aviso-legal/
+        - text: "|"
+        - link "Política de Privacidad" [ref=e138] [cursor=pointer]:
+          - /url: https://www.munacare.com/politica-de-privacidad/
+      - paragraph [ref=e142]:
+        - text: Munacare 2025 – Diseñado por
+        - link "Aurie" [ref=e143] [cursor=pointer]:
+          - /url: https://aurie.es/
+      - list [ref=e146]:
+        - listitem [ref=e147]:
+          - link "Instagram" [ref=e148] [cursor=pointer]:
+            - /url: https://www.instagram.com/munacare_es/
+            - generic [ref=e149]: Instagram
+            - img [ref=e150]
+        - listitem [ref=e152]:
+          - link "Youtube" [ref=e153] [cursor=pointer]:
+            - /url: https://www.youtube.com/@Munacare
+            - generic [ref=e154]: Youtube
+            - img [ref=e155]
+        - listitem [ref=e157]:
+          - link "Tiktok" [ref=e158] [cursor=pointer]:
+            - /url: https://www.tiktok.com/@munacare_es
+            - generic [ref=e159]: Tiktok
+            - img [ref=e160]
+  - generic [ref=e162]: laptop

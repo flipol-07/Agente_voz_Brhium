@@ -1,0 +1,28 @@
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100  1728  100  1728    0     0   2611      0 --:--:-- --:--:-- --:--:--  2614
+HTTP/2 200 
+date: Sun, 26 Apr 2026 10:52:46 GMT
+content-type: application/json; charset=utf-8
+content-length: 1728
+access-control-allow-origin: *
+content-security-policy: default-src 'self';base-uri 'self';font-src 'self' https: data:;form-action 'self';frame-ancestors 'self';img-src 'self' data:;object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests
+cross-origin-opener-policy: same-origin
+cross-origin-resource-policy: same-origin
+origin-agent-cluster: ?1
+referrer-policy: no-referrer
+strict-transport-security: max-age=31536000; includeSubDomains
+x-content-type-options: nosniff
+x-dns-prefetch-control: off
+x-download-options: noopen
+x-frame-options: SAMEORIGIN
+x-permitted-cross-domain-policies: none
+x-xss-protection: 0
+ratelimit-policy: 100;w=10
+ratelimit-limit: 100
+ratelimit-remaining: 99
+ratelimit-reset: 10
+etag: W/"6c0-hvS6o8ca/H4ks5qnHMwWG/dQVxE"
+vary: Accept-Encoding
+
+{"knowledge_base_id":"knowledge_base_4bd0809749908cfc","knowledge_base_name":"Brihum","knowledge_base_sources":[{"source_id":"kb_source_6f52894e7cad3c2c","type":"url","url":"https://www.brhium.com/wp-sitemap-users-1.xml"},{"source_id":"kb_source_459b04dd3f2d5153","type":"url","url":"https://www.brhium.com/wp-sitemap.xml"},{"source_id":"kb_source_e1fbdad3ef515fd1","type":"url","url":"https://www.brhium.com/wp-sitemap-posts-page-1.xml"},{"source_id":"kb_source_a26882b096767279","type":"url","url":"https://www.brhium.com"},{"source_id":"kb_source_3f3f3483cf087b0c","type":"url","url":"https://www.brhium.com/contacto"},{"source_id":"kb_source_73ca9b46cfbc5e7f","type":"url","url":"https://www.brhium.com/productos"},{"source_id":"kb_source_b577abb054957937","type":"url","url":"https://www.brhium.com/quienes-somos"},{"source_id":"kb_source_72961356298f3f33","type":"url","url":"https://www.brhium.com/productos/irbosyn"},{"source_id":"kb_source_8325b1a198edd324","type":"url","url":"https://www.brhium.com/productos/fluocol"},{"source_id":"kb_source_7433ccb54a8c64bd","type":"url","url":"https://www.brhium.com/productos/estavit"},{"source_id":"kb_source_6b49b87090281f38","type":"url","url":"https://www.brhium.com/productos/micraflora"},{"source_id":"kb_source_f3b80ffff9afdc7a","type":"url","url":"https://www.brhium.com/productos/relbix"},{"source_id":"kb_source_d67d5281ff4d4784","type":"url","url":"https://www.brhium.com/productos/siboval"},{"source_id":"kb_source_32959d32f51904de","type":"url","url":"https://www.brhium.com/author/brhium"}],"auto_crawling_paths":[{"path":"brhium.com","exclusion_urls":[]}],"enable_auto_refresh":false,"status":"complete","error_messages":[],"user_modified_timestamp":1776887351963}

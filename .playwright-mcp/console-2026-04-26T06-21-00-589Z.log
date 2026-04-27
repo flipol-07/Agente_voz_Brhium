@@ -1,0 +1,973 @@
+[     556ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[     613ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[   20320ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[   20534ms] [LOG] [Fast Refresh] done in 315ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[   63573ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[   64789ms] [LOG] [Fast Refresh] done in 1317ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[  144933ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[  145259ms] [LOG] [Fast Refresh] done in 427ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 1605072ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 1606648ms] [LOG] [Fast Refresh] done in 1676ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 1923834ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 1923837ms] [LOG] [Fast Refresh] done in 103ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 2085063ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 2085583ms] [ERROR] ./src/features/brhium-platform/server/service.ts:16:1
+Module not found: Can't resolve 'axios'
+  14 |   SessionUser,
+  15 | } from '@/features/brhium-platform/types'
+> 16 | import axios from 'axios';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  17 |
+  18 | const RETELL_API_BASE = 'https://api.retell.ai';
+  19 |
+
+Import trace:
+  Server Component:
+    ./src/features/brhium-platform/server/service.ts
+    ./src/app/(main)/dashboard/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:3272
+[ 2086093ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 2086235ms] [ERROR] ./src/features/brhium-platform/server/service.ts:16:1
+Module not found: Can't resolve 'axios'
+  14 |   SessionUser,
+  15 | } from '@/features/brhium-platform/types'
+> 16 | import axios from 'axios';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  17 |
+  18 | const RETELL_API_BASE = 'https://api.retell.ai';
+  19 |
+
+Import trace:
+  Server Component:
+    ./src/features/brhium-platform/server/service.ts
+    ./src/app/(main)/dashboard/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:3272
+[ 2086952ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 2087087ms] [ERROR] ./src/features/brhium-platform/server/service.ts:16:1
+Module not found: Can't resolve 'axios'
+  14 |   SessionUser,
+  15 | } from '@/features/brhium-platform/types'
+> 16 | import axios from 'axios';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  17 |
+  18 | const RETELL_API_BASE = 'https://api.retell.ai';
+  19 |
+
+Import trace:
+  Server Component:
+    ./src/features/brhium-platform/server/service.ts
+    ./src/app/(main)/dashboard/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:3272
+[ 2090105ms] [ERROR] ./src/features/brhium-platform/server/service.ts:16:1
+Module not found: Can't resolve 'axios'
+  14 |   SessionUser,
+  15 | } from '@/features/brhium-platform/types'
+> 16 | import axios from 'axios';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  17 |
+  18 | const RETELL_API_BASE = 'https://api.retell.ai';
+  19 |
+
+Import trace:
+  Server Component:
+    ./src/features/brhium-platform/server/service.ts
+    ./src/app/(main)/dashboard/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:3272
+[ 2090160ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 2090688ms] [ERROR] ./src/features/brhium-platform/server/service.ts:16:1
+Module not found: Can't resolve 'axios'
+  14 |   SessionUser,
+  15 | } from '@/features/brhium-platform/types'
+> 16 | import axios from 'axios';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  17 |
+  18 | const RETELL_API_BASE = 'https://api.retell.ai';
+  19 |
+
+Import trace:
+  Server Component:
+    ./src/features/brhium-platform/server/service.ts
+    ./src/app/(main)/dashboard/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:3272
+[ 2090752ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 2105056ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 2105062ms] [ERROR] ./src/features/brhium-platform/server/service.ts:16:1
+Module not found: Can't resolve 'axios'
+  14 |   SessionUser,
+  15 | } from '@/features/brhium-platform/types'
+> 16 | import axios from 'axios';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  17 |
+  18 | const RETELL_API_BASE = 'https://api.retell.ai';
+  19 |
+
+Import trace:
+  Server Component:
+    ./src/features/brhium-platform/server/service.ts
+    ./src/app/(main)/dashboard/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:3272
+[ 2108264ms] [ERROR] ./src/features/brhium-platform/server/service.ts:16:1
+Module not found: Can't resolve 'axios'
+  14 |   SessionUser,
+  15 | } from '@/features/brhium-platform/types'
+> 16 | import axios from 'axios';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  17 |
+  18 | const RETELL_API_BASE = 'https://api.retell.ai';
+  19 |
+
+Import trace:
+  Server Component:
+    ./src/features/brhium-platform/server/service.ts
+    ./src/app/(main)/dashboard/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:3272
+[ 2108327ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 2108998ms] [ERROR] ./src/features/brhium-platform/server/service.ts:16:1
+Module not found: Can't resolve 'axios'
+  14 |   SessionUser,
+  15 | } from '@/features/brhium-platform/types'
+> 16 | import axios from 'axios';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  17 |
+  18 | const RETELL_API_BASE = 'https://api.retell.ai';
+  19 |
+
+Import trace:
+  Server Component:
+    ./src/features/brhium-platform/server/service.ts
+    ./src/app/(main)/dashboard/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:3272
+[ 2109064ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 2117096ms] [ERROR] ./src/features/brhium-platform/server/service.ts:16:1
+Module not found: Can't resolve 'axios'
+  14 |   SessionUser,
+  15 | } from '@/features/brhium-platform/types'
+> 16 | import axios from 'axios';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  17 |
+  18 | const RETELL_API_BASE = 'https://api.retell.ai';
+  19 |
+
+Import trace:
+  Server Component:
+    ./src/features/brhium-platform/server/service.ts
+    ./src/app/(main)/dashboard/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:3272
+[ 2117199ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 2119157ms] [ERROR] ./src/features/brhium-platform/server/service.ts:16:1
+Module not found: Can't resolve 'axios'
+  14 |   SessionUser,
+  15 | } from '@/features/brhium-platform/types'
+> 16 | import axios from 'axios';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  17 |
+  18 | const RETELL_API_BASE = 'https://api.retell.ai';
+  19 |
+
+Import trace:
+  Server Component:
+    ./src/features/brhium-platform/server/service.ts
+    ./src/app/(main)/dashboard/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:3272
+[ 2119259ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 2120868ms] [ERROR] ./src/features/brhium-platform/server/service.ts:16:1
+Module not found: Can't resolve 'axios'
+  14 |   SessionUser,
+  15 | } from '@/features/brhium-platform/types'
+> 16 | import axios from 'axios';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  17 |
+  18 | const RETELL_API_BASE = 'https://api.retell.ai';
+  19 |
+
+Import trace:
+  Server Component:
+    ./src/features/brhium-platform/server/service.ts
+    ./src/app/(main)/dashboard/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:3272
+[ 2585368ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 2586113ms] [ERROR] ./src/features/brhium-platform/server/service.ts:16:1
+Module not found: Can't resolve 'axios'
+  14 |   SessionUser,
+  15 | } from '@/features/brhium-platform/types'
+> 16 | import axios from 'axios';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  17 |
+  18 | const RETELL_API_BASE = 'https://api.retell.ai';
+  19 |
+
+Import trace:
+  Server Component:
+    ./src/features/brhium-platform/server/service.ts
+    ./src/app/(main)/dashboard/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:3272
+[ 2586141ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/dashboard?_rsc=1g955:0
+[ 2586226ms] [ERROR] ./src/features/brhium-platform/server/service.ts:16:1
+Module not found: Can't resolve 'axios'
+  14 |   SessionUser,
+  15 | } from '@/features/brhium-platform/types'
+> 16 | import axios from 'axios';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  17 |
+  18 | const RETELL_API_BASE = 'https://api.retell.ai';
+  19 |
+
+Import trace:
+  Server Component:
+    ./src/features/brhium-platform/server/service.ts
+    ./src/app/(main)/dashboard/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:3272
+[ 2586228ms] [ERROR] ./src/features/brhium-platform/server/service.ts:16:1
+Module not found: Can't resolve 'axios'
+  14 |   SessionUser,
+  15 | } from '@/features/brhium-platform/types'
+> 16 | import axios from 'axios';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  17 |
+  18 | const RETELL_API_BASE = 'https://api.retell.ai';
+  19 |
+
+Import trace:
+  Server Component:
+    ./src/features/brhium-platform/server/service.ts
+    ./src/app/(main)/dashboard/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:3272
+[ 2586229ms] [ERROR] ./src/features/brhium-platform/server/service.ts:16:1
+Module not found: Can't resolve 'axios'
+  14 |   SessionUser,
+  15 | } from '@/features/brhium-platform/types'
+> 16 | import axios from 'axios';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  17 |
+  18 | const RETELL_API_BASE = 'https://api.retell.ai';
+  19 |
+
+Import trace:
+  Server Component:
+    ./src/features/brhium-platform/server/service.ts
+    ./src/app/(main)/dashboard/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:3272
+[ 2586263ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/dashboard?_rsc=1g955:0
+[ 2586271ms] [ERROR] ./src/features/brhium-platform/server/service.ts:16:1
+Module not found: Can't resolve 'axios'
+  14 |   SessionUser,
+  15 | } from '@/features/brhium-platform/types'
+> 16 | import axios from 'axios';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  17 |
+  18 | const RETELL_API_BASE = 'https://api.retell.ai';
+  19 |
+
+Import trace:
+  Server Component:
+    ./src/features/brhium-platform/server/service.ts
+    ./src/app/(main)/dashboard/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:3272
+[ 2586272ms] [ERROR] ./src/features/brhium-platform/server/service.ts:16:1
+Module not found: Can't resolve 'axios'
+  14 |   SessionUser,
+  15 | } from '@/features/brhium-platform/types'
+> 16 | import axios from 'axios';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  17 |
+  18 | const RETELL_API_BASE = 'https://api.retell.ai';
+  19 |
+
+Import trace:
+  Server Component:
+    ./src/features/brhium-platform/server/service.ts
+    ./src/app/(main)/dashboard/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:3272
+[ 2586277ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/dashboard?_rsc=1g955:0
+[ 2586285ms] [ERROR] ./src/features/brhium-platform/server/service.ts:16:1
+Module not found: Can't resolve 'axios'
+  14 |   SessionUser,
+  15 | } from '@/features/brhium-platform/types'
+> 16 | import axios from 'axios';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  17 |
+  18 | const RETELL_API_BASE = 'https://api.retell.ai';
+  19 |
+
+Import trace:
+  Server Component:
+    ./src/features/brhium-platform/server/service.ts
+    ./src/app/(main)/dashboard/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:3272
+[ 2586309ms] [ERROR] ./src/features/brhium-platform/server/service.ts:16:1
+Module not found: Can't resolve 'axios'
+  14 |   SessionUser,
+  15 | } from '@/features/brhium-platform/types'
+> 16 | import axios from 'axios';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  17 |
+  18 | const RETELL_API_BASE = 'https://api.retell.ai';
+  19 |
+
+Import trace:
+  Server Component:
+    ./src/features/brhium-platform/server/service.ts
+    ./src/app/(main)/dashboard/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:3272
+[ 2586311ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/dashboard?_rsc=1g955:0
+[ 2586332ms] [ERROR] ./src/features/brhium-platform/server/service.ts:16:1
+Module not found: Can't resolve 'axios'
+  14 |   SessionUser,
+  15 | } from '@/features/brhium-platform/types'
+> 16 | import axios from 'axios';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  17 |
+  18 | const RETELL_API_BASE = 'https://api.retell.ai';
+  19 |
+
+Import trace:
+  Server Component:
+    ./src/features/brhium-platform/server/service.ts
+    ./src/app/(main)/dashboard/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:3272
+[ 2586377ms] [ERROR] ./src/features/brhium-platform/server/service.ts:16:1
+Module not found: Can't resolve 'axios'
+  14 |   SessionUser,
+  15 | } from '@/features/brhium-platform/types'
+> 16 | import axios from 'axios';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  17 |
+  18 | const RETELL_API_BASE = 'https://api.retell.ai';
+  19 |
+
+Import trace:
+  Server Component:
+    ./src/features/brhium-platform/server/service.ts
+    ./src/app/(main)/dashboard/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:3272
+[ 2586502ms] [ERROR] ./src/features/brhium-platform/server/service.ts:16:1
+Module not found: Can't resolve 'axios'
+  14 |   SessionUser,
+  15 | } from '@/features/brhium-platform/types'
+> 16 | import axios from 'axios';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  17 |
+  18 | const RETELL_API_BASE = 'https://api.retell.ai';
+  19 |
+
+Import trace:
+  Server Component:
+    ./src/features/brhium-platform/server/service.ts
+    ./src/app/(main)/dashboard/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:3272
+[ 2586512ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 2586518ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/dashboard?_rsc=1g955:0
+[ 2586657ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/dashboard?_rsc=1g955:0
+[ 2586701ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 2586708ms] [ERROR] ./src/features/brhium-platform/server/service.ts:16:1
+Module not found: Can't resolve 'axios'
+  14 |   SessionUser,
+  15 | } from '@/features/brhium-platform/types'
+> 16 | import axios from 'axios';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  17 |
+  18 | const RETELL_API_BASE = 'https://api.retell.ai';
+  19 |
+
+Import trace:
+  Server Component:
+    ./src/features/brhium-platform/server/service.ts
+    ./src/app/(main)/dashboard/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:3272
+[ 2586771ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/dashboard?_rsc=1g955:0
+[ 2586797ms] [ERROR] ./src/features/brhium-platform/server/service.ts:16:1
+Module not found: Can't resolve 'axios'
+  14 |   SessionUser,
+  15 | } from '@/features/brhium-platform/types'
+> 16 | import axios from 'axios';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  17 |
+  18 | const RETELL_API_BASE = 'https://api.retell.ai';
+  19 |
+
+Import trace:
+  Server Component:
+    ./src/features/brhium-platform/server/service.ts
+    ./src/app/(main)/dashboard/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:3272
+[ 2586881ms] [ERROR] ./src/features/brhium-platform/server/service.ts:16:1
+Module not found: Can't resolve 'axios'
+  14 |   SessionUser,
+  15 | } from '@/features/brhium-platform/types'
+> 16 | import axios from 'axios';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  17 |
+  18 | const RETELL_API_BASE = 'https://api.retell.ai';
+  19 |
+
+Import trace:
+  Server Component:
+    ./src/features/brhium-platform/server/service.ts
+    ./src/app/(main)/dashboard/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:3272
+[ 2586893ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/dashboard?_rsc=1g955:0
+[ 2586997ms] [ERROR] ./src/features/brhium-platform/server/service.ts:16:1
+Module not found: Can't resolve 'axios'
+  14 |   SessionUser,
+  15 | } from '@/features/brhium-platform/types'
+> 16 | import axios from 'axios';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  17 |
+  18 | const RETELL_API_BASE = 'https://api.retell.ai';
+  19 |
+
+Import trace:
+  Server Component:
+    ./src/features/brhium-platform/server/service.ts
+    ./src/app/(main)/dashboard/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:3272
+[ 2587009ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 2587082ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/dashboard?_rsc=1g955:0
+[ 2587225ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/dashboard:0
+[ 2588281ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/node_modules_react-dom_0bruynb._.js:15305
+[ 2588986ms] Error: ./src/features/brhium-platform/server/service.ts:16:1
+Module not found: Can't resolve 'axios'
+  14 |   SessionUser,
+  15 | } from '@/features/brhium-platform/types'
+> 16 | import axios from 'axios';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  17 |
+  18 | const RETELL_API_BASE = 'https://api.retell.ai';
+  19 |
+
+
+
+Import trace:
+  Server Component:
+    ./src/features/brhium-platform/server/service.ts
+    ./src/app/(main)/dashboard/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+    at <unknown> (Error: ./src/features/brhium-platform/server/service.ts:16:1)
+    at <unknown> (https://nextjs.org/docs/messages/module-not-found)
+    at Object.getCompilationErrors (file:///home/plore/proyectos/software/Agente_voz_Brhium/node_modules/next/dist/server/dev/hot-reloader-turbopack.js:1186:59)
+    at DevBundlerService.getCompilationError (file:///home/plore/proyectos/software/Agente_voz_Brhium/node_modules/next/dist/server/lib/dev-bundler-service.js:44:55)
+    at DevServer.getCompilationError (file:///home/plore/proyectos/software/Agente_voz_Brhium/node_modules/next/dist/server/dev/next-dev-server.js:719:42)
+    at DevServer.findPageComponents (file:///home/plore/proyectos/software/Agente_voz_Brhium/node_modules/next/dist/server/dev/next-dev-server.js:689:43)
+    at async DevServer.renderErrorToResponseImpl (file:///home/plore/proyectos/software/Agente_voz_Brhium/node_modules/next/dist/server/base-server.js:1745:26)
+[ 2588949ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1226
+[ 2589007ms] [ERROR] ./src/features/brhium-platform/server/service.ts:16:1
+Module not found: Can't resolve 'axios'
+  14 |   SessionUser,
+  15 | } from '@/features/brhium-platform/types'
+> 16 | import axios from 'axios';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  17 |
+  18 | const RETELL_API_BASE = 'https://api.retell.ai';
+  19 |
+
+Import trace:
+  Server Component:
+    ./src/features/brhium-platform/server/service.ts
+    ./src/app/(main)/dashboard/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[ 2589238ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1226
+[ 2589289ms] [ERROR] ./src/features/brhium-platform/server/service.ts:16:1
+Module not found: Can't resolve 'axios'
+  14 |   SessionUser,
+  15 | } from '@/features/brhium-platform/types'
+> 16 | import axios from 'axios';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  17 |
+  18 | const RETELL_API_BASE = 'https://api.retell.ai';
+  19 |
+
+Import trace:
+  Server Component:
+    ./src/features/brhium-platform/server/service.ts
+    ./src/app/(main)/dashboard/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[ 2589298ms] [ERROR] ./src/features/brhium-platform/server/service.ts:16:1
+Module not found: Can't resolve 'axios'
+  14 |   SessionUser,
+  15 | } from '@/features/brhium-platform/types'
+> 16 | import axios from 'axios';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  17 |
+  18 | const RETELL_API_BASE = 'https://api.retell.ai';
+  19 |
+
+Import trace:
+  Server Component:
+    ./src/features/brhium-platform/server/service.ts
+    ./src/app/(main)/dashboard/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[ 2589570ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1226
+[ 2589581ms] [ERROR] ./src/features/brhium-platform/server/service.ts:16:1
+Module not found: Can't resolve 'axios'
+  14 |   SessionUser,
+  15 | } from '@/features/brhium-platform/types'
+> 16 | import axios from 'axios';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  17 |
+  18 | const RETELL_API_BASE = 'https://api.retell.ai';
+  19 |
+
+Import trace:
+  Server Component:
+    ./src/features/brhium-platform/server/service.ts
+    ./src/app/(main)/dashboard/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[ 2589698ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1226
+[ 2589715ms] [ERROR] ./src/features/brhium-platform/server/service.ts:16:1
+Module not found: Can't resolve 'axios'
+  14 |   SessionUser,
+  15 | } from '@/features/brhium-platform/types'
+> 16 | import axios from 'axios';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  17 |
+  18 | const RETELL_API_BASE = 'https://api.retell.ai';
+  19 |
+
+Import trace:
+  Server Component:
+    ./src/features/brhium-platform/server/service.ts
+    ./src/app/(main)/dashboard/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[ 2589839ms] [ERROR] ./src/features/brhium-platform/server/service.ts:16:1
+Module not found: Can't resolve 'axios'
+  14 |   SessionUser,
+  15 | } from '@/features/brhium-platform/types'
+> 16 | import axios from 'axios';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  17 |
+  18 | const RETELL_API_BASE = 'https://api.retell.ai';
+  19 |
+
+Import trace:
+  Server Component:
+    ./src/features/brhium-platform/server/service.ts
+    ./src/app/(main)/dashboard/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[ 2589971ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1226
+[ 2589982ms] [ERROR] ./src/features/brhium-platform/server/service.ts:16:1
+Module not found: Can't resolve 'axios'
+  14 |   SessionUser,
+  15 | } from '@/features/brhium-platform/types'
+> 16 | import axios from 'axios';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  17 |
+  18 | const RETELL_API_BASE = 'https://api.retell.ai';
+  19 |
+
+Import trace:
+  Server Component:
+    ./src/features/brhium-platform/server/service.ts
+    ./src/app/(main)/dashboard/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[ 2590048ms] [ERROR] ./src/features/brhium-platform/server/service.ts:16:1
+Module not found: Can't resolve 'axios'
+  14 |   SessionUser,
+  15 | } from '@/features/brhium-platform/types'
+> 16 | import axios from 'axios';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  17 |
+  18 | const RETELL_API_BASE = 'https://api.retell.ai';
+  19 |
+
+Import trace:
+  Server Component:
+    ./src/features/brhium-platform/server/service.ts
+    ./src/app/(main)/dashboard/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[ 2590098ms] [ERROR] ./src/features/brhium-platform/server/service.ts:16:1
+Module not found: Can't resolve 'axios'
+  14 |   SessionUser,
+  15 | } from '@/features/brhium-platform/types'
+> 16 | import axios from 'axios';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  17 |
+  18 | const RETELL_API_BASE = 'https://api.retell.ai';
+  19 |
+
+Import trace:
+  Server Component:
+    ./src/features/brhium-platform/server/service.ts
+    ./src/app/(main)/dashboard/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[ 2590198ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1226
+[ 2590216ms] [ERROR] ./src/features/brhium-platform/server/service.ts:16:1
+Module not found: Can't resolve 'axios'
+  14 |   SessionUser,
+  15 | } from '@/features/brhium-platform/types'
+> 16 | import axios from 'axios';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  17 |
+  18 | const RETELL_API_BASE = 'https://api.retell.ai';
+  19 |
+
+Import trace:
+  Server Component:
+    ./src/features/brhium-platform/server/service.ts
+    ./src/app/(main)/dashboard/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[ 2590272ms] [ERROR] ./src/features/brhium-platform/server/service.ts:16:1
+Module not found: Can't resolve 'axios'
+  14 |   SessionUser,
+  15 | } from '@/features/brhium-platform/types'
+> 16 | import axios from 'axios';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  17 |
+  18 | const RETELL_API_BASE = 'https://api.retell.ai';
+  19 |
+
+Import trace:
+  Server Component:
+    ./src/features/brhium-platform/server/service.ts
+    ./src/app/(main)/dashboard/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[ 2590353ms] [ERROR] ./src/features/brhium-platform/server/service.ts:16:1
+Module not found: Can't resolve 'axios'
+  14 |   SessionUser,
+  15 | } from '@/features/brhium-platform/types'
+> 16 | import axios from 'axios';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  17 |
+  18 | const RETELL_API_BASE = 'https://api.retell.ai';
+  19 |
+
+Import trace:
+  Server Component:
+    ./src/features/brhium-platform/server/service.ts
+    ./src/app/(main)/dashboard/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[ 2590446ms] [ERROR] ./src/features/brhium-platform/server/service.ts:16:1
+Module not found: Can't resolve 'axios'
+  14 |   SessionUser,
+  15 | } from '@/features/brhium-platform/types'
+> 16 | import axios from 'axios';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  17 |
+  18 | const RETELL_API_BASE = 'https://api.retell.ai';
+  19 |
+
+Import trace:
+  Server Component:
+    ./src/features/brhium-platform/server/service.ts
+    ./src/app/(main)/dashboard/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[ 2590490ms] [ERROR] ./src/features/brhium-platform/server/service.ts:16:1
+Module not found: Can't resolve 'axios'
+  14 |   SessionUser,
+  15 | } from '@/features/brhium-platform/types'
+> 16 | import axios from 'axios';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  17 |
+  18 | const RETELL_API_BASE = 'https://api.retell.ai';
+  19 |
+
+Import trace:
+  Server Component:
+    ./src/features/brhium-platform/server/service.ts
+    ./src/app/(main)/dashboard/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[ 2590558ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1226
+[ 2609678ms] [ERROR] ./src/features/brhium-platform/server/service.ts:16:1
+Module not found: Can't resolve 'axios'
+  14 |   SessionUser,
+  15 | } from '@/features/brhium-platform/types'
+> 16 | import axios from 'axios';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  17 |
+  18 | const RETELL_API_BASE = 'https://api.retell.ai';
+  19 |
+
+Import trace:
+  Server Component:
+    ./src/features/brhium-platform/server/service.ts
+    ./src/app/(main)/dashboard/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[ 2609702ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1226
+[ 2621929ms] [ERROR] ./src/features/brhium-platform/server/service.ts:16:1
+Module not found: Can't resolve 'axios'
+  14 |   SessionUser,
+  15 | } from '@/features/brhium-platform/types'
+> 16 | import axios from 'axios';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  17 |
+  18 | const RETELL_API_BASE = 'https://api.retell.ai';
+  19 |
+
+Import trace:
+  Server Component:
+    ./src/features/brhium-platform/server/service.ts
+    ./src/app/(main)/dashboard/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[ 2621982ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1226
+[ 2642465ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1226
+[ 2643994ms] [ERROR] ./src/features/brhium-platform/server/service.ts:16:1
+Module not found: Can't resolve 'axios'
+  14 |   SessionUser,
+  15 | } from '@/features/brhium-platform/types'
+> 16 | import axios from 'axios';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  17 |
+  18 | const RETELL_API_BASE = 'https://api.retell.ai';
+  19 |
+
+Import trace:
+  Server Component:
+    ./src/features/brhium-platform/server/service.ts
+    ./src/app/(main)/dashboard/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[ 2644044ms] [ERROR] ./src/features/brhium-platform/server/service.ts:16:1
+Module not found: Can't resolve 'axios'
+  14 |   SessionUser,
+  15 | } from '@/features/brhium-platform/types'
+> 16 | import axios from 'axios';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  17 |
+  18 | const RETELL_API_BASE = 'https://api.retell.ai';
+  19 |
+
+Import trace:
+  Server Component:
+    ./src/features/brhium-platform/server/service.ts
+    ./src/app/(main)/dashboard/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[ 2644110ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/dashboard:0
+[ 2644305ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/node_modules_react-dom_0bruynb._.js:15305
+[ 2644387ms] Error: ./src/features/brhium-platform/server/service.ts:16:1
+Module not found: Can't resolve 'axios'
+  14 |   SessionUser,
+  15 | } from '@/features/brhium-platform/types'
+> 16 | import axios from 'axios';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  17 |
+  18 | const RETELL_API_BASE = 'https://api.retell.ai';
+  19 |
+
+
+
+Import trace:
+  Server Component:
+    ./src/features/brhium-platform/server/service.ts
+    ./src/app/(main)/dashboard/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+    at <unknown> (Error: ./src/features/brhium-platform/server/service.ts:16:1)
+    at <unknown> (https://nextjs.org/docs/messages/module-not-found)
+    at Object.getCompilationErrors (file:///home/plore/proyectos/software/Agente_voz_Brhium/node_modules/next/dist/server/dev/hot-reloader-turbopack.js:1186:59)
+    at DevBundlerService.getCompilationError (file:///home/plore/proyectos/software/Agente_voz_Brhium/node_modules/next/dist/server/lib/dev-bundler-service.js:44:55)
+    at DevServer.getCompilationError (file:///home/plore/proyectos/software/Agente_voz_Brhium/node_modules/next/dist/server/dev/next-dev-server.js:719:42)
+    at DevServer.findPageComponents (file:///home/plore/proyectos/software/Agente_voz_Brhium/node_modules/next/dist/server/dev/next-dev-server.js:689:43)
+    at async DevServer.renderErrorToResponseImpl (file:///home/plore/proyectos/software/Agente_voz_Brhium/node_modules/next/dist/server/base-server.js:1745:26)
+[ 2644356ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1226
+[ 2644368ms] [ERROR] ./src/features/brhium-platform/server/service.ts:16:1
+Module not found: Can't resolve 'axios'
+  14 |   SessionUser,
+  15 | } from '@/features/brhium-platform/types'
+> 16 | import axios from 'axios';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  17 |
+  18 | const RETELL_API_BASE = 'https://api.retell.ai';
+  19 |
+
+Import trace:
+  Server Component:
+    ./src/features/brhium-platform/server/service.ts
+    ./src/app/(main)/dashboard/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[ 2644443ms] [ERROR] ./src/features/brhium-platform/server/service.ts:16:1
+Module not found: Can't resolve 'axios'
+  14 |   SessionUser,
+  15 | } from '@/features/brhium-platform/types'
+> 16 | import axios from 'axios';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  17 |
+  18 | const RETELL_API_BASE = 'https://api.retell.ai';
+  19 |
+
+Import trace:
+  Server Component:
+    ./src/features/brhium-platform/server/service.ts
+    ./src/app/(main)/dashboard/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[ 2644472ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1226
+[ 2660311ms] [ERROR] ./src/features/brhium-platform/server/service.ts:16:1
+Module not found: Can't resolve 'axios'
+  14 |   SessionUser,
+  15 | } from '@/features/brhium-platform/types'
+> 16 | import axios from 'axios';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  17 |
+  18 | const RETELL_API_BASE = 'https://api.retell.ai';
+  19 |
+
+Import trace:
+  Server Component:
+    ./src/features/brhium-platform/server/service.ts
+    ./src/app/(main)/dashboard/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[ 2660333ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1226
+[ 2662284ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1226
+[ 2662424ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/dashboard:0
+[ 2662612ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/node_modules_react-dom_0bruynb._.js:15305
+[ 2662670ms] Error: ./src/features/brhium-platform/server/service.ts:16:1
+Module not found: Can't resolve 'axios'
+  14 |   SessionUser,
+  15 | } from '@/features/brhium-platform/types'
+> 16 | import axios from 'axios';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  17 |
+  18 | const RETELL_API_BASE = 'https://api.retell.ai';
+  19 |
+
+
+
+Import trace:
+  Server Component:
+    ./src/features/brhium-platform/server/service.ts
+    ./src/app/(main)/dashboard/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+    at <unknown> (Error: ./src/features/brhium-platform/server/service.ts:16:1)
+    at <unknown> (https://nextjs.org/docs/messages/module-not-found)
+    at Object.getCompilationErrors (file:///home/plore/proyectos/software/Agente_voz_Brhium/node_modules/next/dist/server/dev/hot-reloader-turbopack.js:1186:59)
+    at DevBundlerService.getCompilationError (file:///home/plore/proyectos/software/Agente_voz_Brhium/node_modules/next/dist/server/lib/dev-bundler-service.js:44:55)
+    at DevServer.getCompilationError (file:///home/plore/proyectos/software/Agente_voz_Brhium/node_modules/next/dist/server/dev/next-dev-server.js:719:42)
+    at DevServer.findPageComponents (file:///home/plore/proyectos/software/Agente_voz_Brhium/node_modules/next/dist/server/dev/next-dev-server.js:689:43)
+    at async DevServer.renderErrorToResponseImpl (file:///home/plore/proyectos/software/Agente_voz_Brhium/node_modules/next/dist/server/base-server.js:1745:26)
+[ 2662649ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1226
+[ 2662664ms] [ERROR] ./src/features/brhium-platform/server/service.ts:16:1
+Module not found: Can't resolve 'axios'
+  14 |   SessionUser,
+  15 | } from '@/features/brhium-platform/types'
+> 16 | import axios from 'axios';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  17 |
+  18 | const RETELL_API_BASE = 'https://api.retell.ai';
+  19 |
+
+Import trace:
+  Server Component:
+    ./src/features/brhium-platform/server/service.ts
+    ./src/app/(main)/dashboard/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[ 2662736ms] [ERROR] ./src/features/brhium-platform/server/service.ts:16:1
+Module not found: Can't resolve 'axios'
+  14 |   SessionUser,
+  15 | } from '@/features/brhium-platform/types'
+> 16 | import axios from 'axios';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  17 |
+  18 | const RETELL_API_BASE = 'https://api.retell.ai';
+  19 |
+
+Import trace:
+  Server Component:
+    ./src/features/brhium-platform/server/service.ts
+    ./src/app/(main)/dashboard/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[ 2665729ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1226
+[ 2680693ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1226
+[ 2681079ms] [LOG] [Fast Refresh] done in 76ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1226
+[ 2681804ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1226
+[ 2681865ms] [LOG] [Fast Refresh] done in 162ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1226
+[ 2682648ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1226
+[ 2683089ms] [LOG] [Fast Refresh] done in 442ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1226
+[ 2685590ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 2685810ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 2717998ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 2718309ms] [LOG] [Fast Refresh] done in 20ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 2726529ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 2726856ms] [LOG] [Fast Refresh] done in 193ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 2765582ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 2765658ms] [LOG] [Fast Refresh] done in 140ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 2765773ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 2765939ms] [LOG] [Fast Refresh] done in 267ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 2766341ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 2766393ms] [LOG] [Fast Refresh] done in 152ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 2766616ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 2766617ms] [LOG] [Fast Refresh] done in 108ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 2766858ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 2766935ms] [LOG] [Fast Refresh] done in 176ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 2778409ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 2778901ms] [LOG] [Fast Refresh] done in 309ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 2779073ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 2779096ms] [LOG] [Fast Refresh] done in 124ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 2782461ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 2782476ms] [LOG] [Fast Refresh] done in 116ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 2789699ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 2790144ms] [LOG] [Fast Refresh] done in 211ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 2901555ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 2901879ms] [LOG] [Fast Refresh] done in 66ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 2902254ms] TypeError: Failed to execute 'measure' on 'Performance': '​InnerMainLayout' cannot have a negative time stamp.
+    at flushComponentPerformance (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-server-dom-turbopack_0p3wegg._.js:2184:45)
+    at flushComponentPerformance (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-server-dom-turbopack_0p3wegg._.js:2156:31)
+    at flushInitialRenderPerformance (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-server-dom-turbopack_0p3wegg._.js:2346:74)
+[ 2902457ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 2902478ms] [LOG] [Fast Refresh] done in 124ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 2907614ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 2907805ms] [LOG] [Fast Refresh] done in 35ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 2907964ms] TypeError: Failed to execute 'measure' on 'Performance': '​LoginPage' cannot have a negative time stamp.
+    at flushComponentPerformance (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-server-dom-turbopack_0p3wegg._.js:2184:45)
+    at flushComponentPerformance (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-server-dom-turbopack_0p3wegg._.js:2156:31)
+    at flushInitialRenderPerformance (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-server-dom-turbopack_0p3wegg._.js:2346:74)
+[ 3908226ms] [ERROR] WebSocket connection to 'ws://localhost:3000/_next/webpack-hmr?id=-wkk2vuXc1LmU2Pk2sFlF' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13299
+[ 3909229ms] [ERROR] WebSocket connection to 'ws://localhost:3000/_next/webpack-hmr?id=-wkk2vuXc1LmU2Pk2sFlF' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13299
+[ 3910233ms] [ERROR] WebSocket connection to 'ws://localhost:3000/_next/webpack-hmr?id=-wkk2vuXc1LmU2Pk2sFlF' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13299
+[ 3911236ms] [ERROR] WebSocket connection to 'ws://localhost:3000/_next/webpack-hmr?id=-wkk2vuXc1LmU2Pk2sFlF' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13299
+[ 3912241ms] [ERROR] WebSocket connection to 'ws://localhost:3000/_next/webpack-hmr?id=-wkk2vuXc1LmU2Pk2sFlF' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13299
+[ 3917245ms] [ERROR] WebSocket connection to 'ws://localhost:3000/_next/webpack-hmr?id=-wkk2vuXc1LmU2Pk2sFlF' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13299
+[ 3924105ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431

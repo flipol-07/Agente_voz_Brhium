@@ -1,0 +1,364 @@
+- generic [ref=e1]:
+  - main [ref=e4]:
+    - generic [ref=e5]:
+      - complementary [ref=e6]:
+        - generic [ref=e7]:
+          - img [ref=e9]
+          - generic [ref=e12]:
+            - generic [ref=e13]: Brhium AI
+            - generic [ref=e14]: Plataforma Voz
+        - navigation [ref=e15]:
+          - button "Dashboard Actividad y metricas" [active] [ref=e16] [cursor=pointer]:
+            - img [ref=e18]
+            - generic [ref=e23]:
+              - paragraph [ref=e24]: Dashboard
+              - paragraph [ref=e25]: Actividad y metricas
+          - button "Asistente Prompt y configuracion" [ref=e26] [cursor=pointer]:
+            - img [ref=e28]
+            - generic [ref=e31]:
+              - paragraph [ref=e32]: Asistente
+              - paragraph [ref=e33]: Prompt y configuracion
+          - button "Operaciones Leads y resolucion" [ref=e34] [cursor=pointer]:
+            - img [ref=e36]
+            - generic [ref=e40]:
+              - paragraph [ref=e41]: Operaciones
+              - paragraph [ref=e42]: Leads y resolucion
+          - button "Ajustes Privacidad y control" [ref=e43] [cursor=pointer]:
+            - img [ref=e45]
+            - generic [ref=e48]:
+              - paragraph [ref=e49]: Ajustes
+              - paragraph [ref=e50]: Privacidad y control
+        - generic [ref=e51]:
+          - generic [ref=e52]:
+            - img [ref=e54]
+            - generic [ref=e66]:
+              - paragraph [ref=e67]: Lucia Ramos
+              - paragraph [ref=e68]: Agency Admin
+          - button "Cerrar sesion" [ref=e70] [cursor=pointer]:
+            - img [ref=e71]
+            - text: Cerrar sesion
+      - main [ref=e74]:
+        - generic [ref=e715]:
+          - generic [ref=e716]:
+            - generic [ref=e717]:
+              - generic [ref=e718]:
+                - heading "Overview" [level=1] [ref=e719]
+                - paragraph [ref=e720]: Supervision en tiempo real de llamadas y rendimiento del agente.
+              - generic [ref=e721]:
+                - generic [ref=e724]:
+                  - generic [ref=e725]: Vapi
+                  - generic [ref=e726]: "| Simulation"
+                - generic [ref=e729]:
+                  - generic [ref=e730]: Twilio
+                  - generic [ref=e731]: "| Pending"
+            - generic [ref=e732]:
+              - article [ref=e733]:
+                - generic [ref=e734]:
+                  - generic [ref=e735]: Llamadas
+                  - img [ref=e736]
+                - paragraph [ref=e740]: "24"
+                - paragraph [ref=e741]: 24 atendidas
+              - article [ref=e742]:
+                - generic [ref=e743]:
+                  - generic [ref=e744]: Duracion media
+                  - img [ref=e745]
+                - paragraph [ref=e747]: 32s
+                - paragraph [ref=e748]: web y telefono
+              - article [ref=e749]:
+                - generic [ref=e750]:
+                  - generic [ref=e751]: Transferencias
+                  - img [ref=e752]
+                - paragraph [ref=e754]: "0"
+                - paragraph [ref=e755]: casos sensibles
+              - article [ref=e756]:
+                - generic [ref=e757]:
+                  - generic [ref=e758]: Callbacks
+                  - img [ref=e759]
+                - paragraph [ref=e763]: "0"
+                - paragraph [ref=e764]: pendientes
+          - generic [ref=e765]:
+            - generic [ref=e767]:
+              - img [ref=e769]
+              - generic [ref=e771]:
+                - heading "Consumo reciente" [level=3] [ref=e772]
+                - paragraph [ref=e773]: Serie corta para revisar actividad de la ultima semana.
+            - generic [ref=e774]:
+              - generic [ref=e775]:
+                - generic [ref=e776]:
+                  - heading "Historial de llamadas" [level=2] [ref=e777]
+                  - paragraph [ref=e778]: Explora conversaciones y analisis de sentimientos.
+                - generic [ref=e779]:
+                  - generic [ref=e780]:
+                    - img [ref=e781]
+                    - searchbox [ref=e784]
+                  - button "Sync" [ref=e785] [cursor=pointer]:
+                    - img [ref=e786]
+                    - text: Sync
+              - generic [ref=e788]:
+                - group [ref=e789]:
+                  - generic "Retell Web Call web_demo • 26 abr 2026, 12:47 0m 2s" [ref=e790] [cursor=pointer]:
+                    - generic [ref=e793]:
+                      - paragraph [ref=e794]: Retell Web Call
+                      - generic [ref=e795]:
+                        - generic [ref=e796]: web_demo
+                        - generic [ref=e797]: •
+                        - generic [ref=e798]: 26 abr 2026, 12:47
+                    - generic [ref=e799]:
+                      - paragraph [ref=e801]: 0m 2s
+                      - img [ref=e802]
+                - group [ref=e804]:
+                  - generic "Retell Web Call web_demo • 26 abr 2026, 12:27 0m 5s" [ref=e805] [cursor=pointer]:
+                    - generic [ref=e808]:
+                      - paragraph [ref=e809]: Retell Web Call
+                      - generic [ref=e810]:
+                        - generic [ref=e811]: web_demo
+                        - generic [ref=e812]: •
+                        - generic [ref=e813]: 26 abr 2026, 12:27
+                    - generic [ref=e814]:
+                      - paragraph [ref=e816]: 0m 5s
+                      - img [ref=e817]
+                - group [ref=e819]:
+                  - generic "Retell Web Call web_demo • 26 abr 2026, 12:03 0m 3s" [ref=e820] [cursor=pointer]:
+                    - generic [ref=e823]:
+                      - paragraph [ref=e824]: Retell Web Call
+                      - generic [ref=e825]:
+                        - generic [ref=e826]: web_demo
+                        - generic [ref=e827]: •
+                        - generic [ref=e828]: 26 abr 2026, 12:03
+                    - generic [ref=e829]:
+                      - paragraph [ref=e831]: 0m 3s
+                      - img [ref=e832]
+                - group [ref=e834]:
+                  - generic "Retell Web Call web_demo • 26 abr 2026, 12:02 0m 16s" [ref=e835] [cursor=pointer]:
+                    - generic [ref=e838]:
+                      - paragraph [ref=e839]: Retell Web Call
+                      - generic [ref=e840]:
+                        - generic [ref=e841]: web_demo
+                        - generic [ref=e842]: •
+                        - generic [ref=e843]: 26 abr 2026, 12:02
+                    - generic [ref=e844]:
+                      - paragraph [ref=e846]: 0m 16s
+                      - img [ref=e847]
+                - group [ref=e849]:
+                  - generic "Retell Web Call web_demo • 26 abr 2026, 10:35 0m 24s" [ref=e850] [cursor=pointer]:
+                    - generic [ref=e853]:
+                      - paragraph [ref=e854]: Retell Web Call
+                      - generic [ref=e855]:
+                        - generic [ref=e856]: web_demo
+                        - generic [ref=e857]: •
+                        - generic [ref=e858]: 26 abr 2026, 10:35
+                    - generic [ref=e859]:
+                      - paragraph [ref=e861]: 0m 24s
+                      - img [ref=e862]
+                - group [ref=e864]:
+                  - generic "Retell Web Call web_demo • 26 abr 2026, 9:28 0m 20s" [ref=e865] [cursor=pointer]:
+                    - generic [ref=e868]:
+                      - paragraph [ref=e869]: Retell Web Call
+                      - generic [ref=e870]:
+                        - generic [ref=e871]: web_demo
+                        - generic [ref=e872]: •
+                        - generic [ref=e873]: 26 abr 2026, 9:28
+                    - generic [ref=e874]:
+                      - paragraph [ref=e876]: 0m 20s
+                      - img [ref=e877]
+                - group [ref=e879]:
+                  - generic "Retell Web Call web_demo • 23 abr 2026, 17:50 0m 30s" [ref=e880] [cursor=pointer]:
+                    - generic [ref=e883]:
+                      - paragraph [ref=e884]: Retell Web Call
+                      - generic [ref=e885]:
+                        - generic [ref=e886]: web_demo
+                        - generic [ref=e887]: •
+                        - generic [ref=e888]: 23 abr 2026, 17:50
+                    - generic [ref=e889]:
+                      - paragraph [ref=e891]: 0m 30s
+                      - img [ref=e892]
+                - group [ref=e894]:
+                  - generic "Retell Web Call web_demo • 23 abr 2026, 17:46 0m 26s" [ref=e895] [cursor=pointer]:
+                    - generic [ref=e898]:
+                      - paragraph [ref=e899]: Retell Web Call
+                      - generic [ref=e900]:
+                        - generic [ref=e901]: web_demo
+                        - generic [ref=e902]: •
+                        - generic [ref=e903]: 23 abr 2026, 17:46
+                    - generic [ref=e904]:
+                      - paragraph [ref=e906]: 0m 26s
+                      - img [ref=e907]
+                - group [ref=e909]:
+                  - generic "Retell Web Call web_demo • 23 abr 2026, 17:45 0m 15s" [ref=e910] [cursor=pointer]:
+                    - generic [ref=e913]:
+                      - paragraph [ref=e914]: Retell Web Call
+                      - generic [ref=e915]:
+                        - generic [ref=e916]: web_demo
+                        - generic [ref=e917]: •
+                        - generic [ref=e918]: 23 abr 2026, 17:45
+                    - generic [ref=e919]:
+                      - paragraph [ref=e921]: 0m 15s
+                      - img [ref=e922]
+                - group [ref=e924]:
+                  - generic "Retell Web Call web_demo • 23 abr 2026, 17:44 0m 45s" [ref=e925] [cursor=pointer]:
+                    - generic [ref=e928]:
+                      - paragraph [ref=e929]: Retell Web Call
+                      - generic [ref=e930]:
+                        - generic [ref=e931]: web_demo
+                        - generic [ref=e932]: •
+                        - generic [ref=e933]: 23 abr 2026, 17:44
+                    - generic [ref=e934]:
+                      - paragraph [ref=e936]: 0m 45s
+                      - img [ref=e937]
+                - group [ref=e939]:
+                  - generic "Retell Web Call web_demo • 23 abr 2026, 17:43 0m 10s" [ref=e940] [cursor=pointer]:
+                    - generic [ref=e943]:
+                      - paragraph [ref=e944]: Retell Web Call
+                      - generic [ref=e945]:
+                        - generic [ref=e946]: web_demo
+                        - generic [ref=e947]: •
+                        - generic [ref=e948]: 23 abr 2026, 17:43
+                    - generic [ref=e949]:
+                      - paragraph [ref=e951]: 0m 10s
+                      - img [ref=e952]
+                - group [ref=e954]:
+                  - generic "Retell Web Call web_demo • 23 abr 2026, 17:41 0m 16s" [ref=e955] [cursor=pointer]:
+                    - generic [ref=e958]:
+                      - paragraph [ref=e959]: Retell Web Call
+                      - generic [ref=e960]:
+                        - generic [ref=e961]: web_demo
+                        - generic [ref=e962]: •
+                        - generic [ref=e963]: 23 abr 2026, 17:41
+                    - generic [ref=e964]:
+                      - paragraph [ref=e966]: 0m 16s
+                      - img [ref=e967]
+                - group [ref=e969]:
+                  - generic "Retell Web Call web_demo • 23 abr 2026, 17:39 0m 23s" [ref=e970] [cursor=pointer]:
+                    - generic [ref=e973]:
+                      - paragraph [ref=e974]: Retell Web Call
+                      - generic [ref=e975]:
+                        - generic [ref=e976]: web_demo
+                        - generic [ref=e977]: •
+                        - generic [ref=e978]: 23 abr 2026, 17:39
+                    - generic [ref=e979]:
+                      - paragraph [ref=e981]: 0m 23s
+                      - img [ref=e982]
+                - group [ref=e984]:
+                  - generic "Retell Web Call web_demo • 23 abr 2026, 17:39 0m 5s" [ref=e985] [cursor=pointer]:
+                    - generic [ref=e988]:
+                      - paragraph [ref=e989]: Retell Web Call
+                      - generic [ref=e990]:
+                        - generic [ref=e991]: web_demo
+                        - generic [ref=e992]: •
+                        - generic [ref=e993]: 23 abr 2026, 17:39
+                    - generic [ref=e994]:
+                      - paragraph [ref=e996]: 0m 5s
+                      - img [ref=e997]
+                - group [ref=e999]:
+                  - generic "Retell Web Call web_demo • 23 abr 2026, 17:32 0m 10s" [ref=e1000] [cursor=pointer]:
+                    - generic [ref=e1003]:
+                      - paragraph [ref=e1004]: Retell Web Call
+                      - generic [ref=e1005]:
+                        - generic [ref=e1006]: web_demo
+                        - generic [ref=e1007]: •
+                        - generic [ref=e1008]: 23 abr 2026, 17:32
+                    - generic [ref=e1009]:
+                      - paragraph [ref=e1011]: 0m 10s
+                      - img [ref=e1012]
+                - group [ref=e1014]:
+                  - generic "Retell Web Call web_demo • 23 abr 2026, 17:31 0m 42s" [ref=e1015] [cursor=pointer]:
+                    - generic [ref=e1018]:
+                      - paragraph [ref=e1019]: Retell Web Call
+                      - generic [ref=e1020]:
+                        - generic [ref=e1021]: web_demo
+                        - generic [ref=e1022]: •
+                        - generic [ref=e1023]: 23 abr 2026, 17:31
+                    - generic [ref=e1024]:
+                      - paragraph [ref=e1026]: 0m 42s
+                      - img [ref=e1027]
+                - group [ref=e1029]:
+                  - generic "Retell Web Call web_demo • 23 abr 2026, 17:28 1m 1s" [ref=e1030] [cursor=pointer]:
+                    - generic [ref=e1033]:
+                      - paragraph [ref=e1034]: Retell Web Call
+                      - generic [ref=e1035]:
+                        - generic [ref=e1036]: web_demo
+                        - generic [ref=e1037]: •
+                        - generic [ref=e1038]: 23 abr 2026, 17:28
+                    - generic [ref=e1039]:
+                      - paragraph [ref=e1041]: 1m 1s
+                      - img [ref=e1042]
+                - group [ref=e1044]:
+                  - generic "Retell Web Call web_demo • 23 abr 2026, 17:24 1m 43s" [ref=e1045] [cursor=pointer]:
+                    - generic [ref=e1048]:
+                      - paragraph [ref=e1049]: Retell Web Call
+                      - generic [ref=e1050]:
+                        - generic [ref=e1051]: web_demo
+                        - generic [ref=e1052]: •
+                        - generic [ref=e1053]: 23 abr 2026, 17:24
+                    - generic [ref=e1054]:
+                      - paragraph [ref=e1056]: 1m 43s
+                      - img [ref=e1057]
+                - group [ref=e1059]:
+                  - generic "Retell Web Call web_demo • 23 abr 2026, 17:22 0m 7s" [ref=e1060] [cursor=pointer]:
+                    - generic [ref=e1063]:
+                      - paragraph [ref=e1064]: Retell Web Call
+                      - generic [ref=e1065]:
+                        - generic [ref=e1066]: web_demo
+                        - generic [ref=e1067]: •
+                        - generic [ref=e1068]: 23 abr 2026, 17:22
+                    - generic [ref=e1069]:
+                      - paragraph [ref=e1071]: 0m 7s
+                      - img [ref=e1072]
+                - group [ref=e1074]:
+                  - generic "Retell Web Call web_demo • 23 abr 2026, 17:22 0m 6s" [ref=e1075] [cursor=pointer]:
+                    - generic [ref=e1078]:
+                      - paragraph [ref=e1079]: Retell Web Call
+                      - generic [ref=e1080]:
+                        - generic [ref=e1081]: web_demo
+                        - generic [ref=e1082]: •
+                        - generic [ref=e1083]: 23 abr 2026, 17:22
+                    - generic [ref=e1084]:
+                      - paragraph [ref=e1086]: 0m 6s
+                      - img [ref=e1087]
+                - group [ref=e1089]:
+                  - generic "Retell Web Call web_demo • 23 abr 2026, 17:21 0m 10s" [ref=e1090] [cursor=pointer]:
+                    - generic [ref=e1093]:
+                      - paragraph [ref=e1094]: Retell Web Call
+                      - generic [ref=e1095]:
+                        - generic [ref=e1096]: web_demo
+                        - generic [ref=e1097]: •
+                        - generic [ref=e1098]: 23 abr 2026, 17:21
+                    - generic [ref=e1099]:
+                      - paragraph [ref=e1101]: 0m 10s
+                      - img [ref=e1102]
+                - group [ref=e1104]:
+                  - generic "Retell Web Call web_demo • 23 abr 2026, 17:19 0m 45s" [ref=e1105] [cursor=pointer]:
+                    - generic [ref=e1108]:
+                      - paragraph [ref=e1109]: Retell Web Call
+                      - generic [ref=e1110]:
+                        - generic [ref=e1111]: web_demo
+                        - generic [ref=e1112]: •
+                        - generic [ref=e1113]: 23 abr 2026, 17:19
+                    - generic [ref=e1114]:
+                      - paragraph [ref=e1116]: 0m 45s
+                      - img [ref=e1117]
+                - group [ref=e1119]:
+                  - generic "Retell Web Call web_demo • 22 abr 2026, 22:01 3m 41s" [ref=e1120] [cursor=pointer]:
+                    - generic [ref=e1123]:
+                      - paragraph [ref=e1124]: Retell Web Call
+                      - generic [ref=e1125]:
+                        - generic [ref=e1126]: web_demo
+                        - generic [ref=e1127]: •
+                        - generic [ref=e1128]: 22 abr 2026, 22:01
+                    - generic [ref=e1129]:
+                      - paragraph [ref=e1131]: 3m 41s
+                      - img [ref=e1132]
+                - group [ref=e1134]:
+                  - generic "Retell Web Call web_demo • 22 abr 2026, 22:01 0m 17s" [ref=e1135] [cursor=pointer]:
+                    - generic [ref=e1138]:
+                      - paragraph [ref=e1139]: Retell Web Call
+                      - generic [ref=e1140]:
+                        - generic [ref=e1141]: web_demo
+                        - generic [ref=e1142]: •
+                        - generic [ref=e1143]: 22 abr 2026, 22:01
+                    - generic [ref=e1144]:
+                      - paragraph [ref=e1146]: 0m 17s
+                      - img [ref=e1147]
+  - button "Open Next.js Dev Tools" [ref=e514] [cursor=pointer]:
+    - img [ref=e515]
+  - alert [ref=e518]

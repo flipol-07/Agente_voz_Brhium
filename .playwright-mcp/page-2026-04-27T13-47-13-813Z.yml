@@ -1,0 +1,188 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - generic [ref=e5]:
+      - generic [ref=e6]:
+        - generic [ref=e7]:
+          - img "Sauteri" [ref=e8]
+          - text: Sauteri
+        - generic [ref=e9]:
+          - text: Propuesta para
+          - strong [ref=e10]: BRHIUM & Munacare
+        - heading "Agentes de voz con IA." [level=1] [ref=e11]:
+          - text: Agentes de
+          - emphasis [ref=e12]: voz con IA.
+        - paragraph [ref=e13]: Qué son, qué pueden hacer por vuestro negocio, y cómo los construimos juntos.
+      - generic [ref=e14]:
+        - generic [ref=e15]:
+          - img "Sauteri" [ref=e16]
+          - text: Sauteri
+        - generic [ref=e17]:
+          - heading "No es un menú de opciones. Es una conversación real." [level=2] [ref=e18]:
+            - text: No es un menú de
+            - text: opciones. Es una
+            - emphasis [ref=e19]: conversación real.
+          - paragraph [ref=e20]: El cliente llama, habla con normalidad y el agente entiende, responde y actúa. Sin esperas, sin opciones de teclado, sin frustración.
+          - generic [ref=e21]:
+            - generic [ref=e22]:
+              - generic [ref=e23]: IVR tradicional
+              - generic [ref=e24]:
+                - text: "\"Pulse 1 para facturación,"
+                - text: pulse 2 para soporte…"
+            - generic [ref=e25]:
+              - generic [ref=e26]: Agente de voz IA
+              - generic [ref=e27]:
+                - text: "\"Hola, llamo porque mi pedido llegó incompleto…\""
+                - text: "\"Entendido, lo soluciono ahora mismo.\""
+        - img [ref=e31]
+      - generic [ref=e34]:
+        - generic [ref=e35]:
+          - img "Sauteri" [ref=e36]
+          - text: Sauteri
+        - heading "Anatomía de una llamada inteligente." [level=2] [ref=e37]:
+          - text: Anatomía de una
+          - emphasis [ref=e38]: llamada inteligente.
+        - generic [ref=e39]:
+          - generic [ref=e40]:
+            - generic [ref=e41]: "01"
+            - generic [ref=e42]: El cliente llama
+            - generic [ref=e43]: Respuesta inmediata, sin tiempo de espera.
+            - generic [ref=e44]: 0 ms
+            - generic [ref=e45]: ›
+          - generic [ref=e46]:
+            - generic [ref=e47]: "02"
+            - generic [ref=e48]: Reconocimiento de voz
+            - generic [ref=e49]: Transcripción en tiempo real con +97% de precisión.
+            - generic [ref=e50]: < 200ms
+            - generic [ref=e51]: ›
+          - generic [ref=e52]:
+            - generic [ref=e53]: "03"
+            - generic [ref=e54]: IA entiende la intención
+            - generic [ref=e55]: El modelo procesa contexto, tono y objetivo de la llamada.
+            - generic [ref=e56]: < 350ms
+            - generic [ref=e57]: ›
+          - generic [ref=e58]:
+            - generic [ref=e59]: "04"
+            - generic [ref=e60]: Genera respuesta
+            - generic [ref=e61]: Natural, coherente, con el tono exacto de tu marca.
+            - generic [ref=e62]: < 500ms
+            - generic [ref=e63]: ›
+          - generic [ref=e64]:
+            - generic [ref=e65]: "05"
+            - generic [ref=e66]: Actúa o deriva
+            - generic [ref=e67]: Agenda, actualiza CRM, o transfiere a humano si es necesario.
+            - generic [ref=e68]: Instantáneo
+      - generic [ref=e69]:
+        - generic [ref=e70]:
+          - img "Sauteri" [ref=e71]
+          - text: Sauteri
+        - heading "Lo que vemos para vuestro negocio." [level=2] [ref=e72]:
+          - text: Lo que vemos para
+          - emphasis [ref=e73]: vuestro negocio.
+        - generic [ref=e74]:
+          - generic [ref=e75]:
+            - generic [ref=e76]: BRHIUM
+            - generic [ref=e77]: Atención y seguimiento de pacientes
+            - generic [ref=e78]:
+              - generic [ref=e79]: Información sobre productos y dosis fuera de horario
+              - generic [ref=e80]: Recordatorios de tratamiento y seguimiento de adherencia
+              - generic [ref=e81]: Derivación a farmacéutico o médico cuando sea necesario
+          - generic [ref=e82]:
+            - generic [ref=e83]: Munacare
+            - generic [ref=e84]: Acompañamiento cercano y reservas
+            - generic [ref=e85]:
+              - generic [ref=e86]: Consultas íntimas con tono cálido y confidencial
+              - generic [ref=e87]: Gestión de citas con especialistas y farmacias colaboradoras
+              - generic [ref=e88]: Seguimiento post-compra y soporte emocional de producto
+          - generic [ref=e89]:
+            - generic [ref=e90]: Ambas marcas
+            - generic [ref=e91]: Operativa compartida
+            - generic [ref=e92]:
+              - generic [ref=e93]: Captación y cualificación de leads 24/7
+              - generic [ref=e94]: Encuestas de satisfacción automatizadas
+              - generic [ref=e95]: Integración con CRM y sistemas de farmacia
+      - generic [ref=e96]:
+        - generic [ref=e97]:
+          - img "Sauteri" [ref=e98]
+          - text: Sauteri
+        - generic [ref=e99]:
+          - generic [ref=e100]:
+            - heading "Hablad con el agente ahora." [level=2] [ref=e101]:
+              - text: Hablad con
+              - text: el agente
+              - emphasis [ref=e102]: ahora.
+            - paragraph [ref=e103]: El agente conoce los productos de BRHIUM y Munacare. Preguntadle sobre Micraflora, Relbix, Oyun, citas, o lo que queráis.
+            - generic [ref=e105]: Hola, soy el asistente de BRHIUM y Munacare. Puedo ayudarte con información sobre nuestros productos, citas o cualquier duda. ¿En qué te ayudo?
+          - generic [ref=e106]:
+            - button [ref=e108] [cursor=pointer]:
+              - img [ref=e109]
+            - generic [ref=e112]: Pulsa para hablar
+            - button "Reiniciar demo" [ref=e113] [cursor=pointer]
+      - generic [ref=e114]:
+        - generic [ref=e115]:
+          - img "Sauteri" [ref=e116]
+          - text: Sauteri
+        - heading "Para crear vuestro agente necesitamos entenderos." [level=2] [ref=e117]:
+          - text: Para crear
+          - emphasis [ref=e118]: vuestro agente
+          - text: necesitamos entenderos.
+        - generic [ref=e119]:
+          - generic [ref=e120]:
+            - generic [ref=e121]: "1"
+            - generic [ref=e122]: ¿Cuáles son los motivos de contacto más frecuentes de vuestros clientes hoy?
+          - generic [ref=e123]:
+            - generic [ref=e124]: "2"
+            - generic [ref=e125]: ¿Qué pasa cuando un cliente llama fuera de horario o no hay agente disponible?
+          - generic [ref=e126]:
+            - generic [ref=e127]: "3"
+            - generic [ref=e128]: ¿Tenéis CRM, sistema de citas o historial de cliente con el que integrar el agente?
+          - generic [ref=e129]:
+            - generic [ref=e130]: "4"
+            - generic [ref=e131]: ¿Qué tono y nombre de voz encajaría con cada marca — BRHIUM y Munacare?
+          - generic [ref=e132]:
+            - generic [ref=e133]: "5"
+            - generic [ref=e134]: ¿Cuál es el caso de uso que si funcionara bien lo cambiaría todo para vosotros?
+          - generic [ref=e135]:
+            - generic [ref=e136]: "6"
+            - generic [ref=e137]: ¿Tenéis ya guiones de atención al cliente o bases de conocimiento documentadas?
+      - generic [ref=e138]:
+        - generic [ref=e139]: Siguiente paso
+        - heading "En una semana tenéis un prototipo real para probar." [level=2] [ref=e140]:
+          - text: En una semana tenéis
+          - text: un prototipo
+          - emphasis [ref=e141]: real
+          - text: para probar.
+        - paragraph [ref=e142]: Sin compromiso. Con vuestros casos de uso reales, vuestra voz de marca, conectado a vuestros datos.
+        - generic [ref=e143]:
+          - generic [ref=e144]:
+            - generic [ref=e145]: Hoy
+            - generic [ref=e146]: Discovery
+            - generic [ref=e147]: Respondemos las preguntas juntos
+          - generic [ref=e148]:
+            - generic [ref=e149]: S·1
+            - generic [ref=e150]: Prototipo
+            - generic [ref=e151]: Agente configurado para vuestro caso
+          - generic [ref=e152]:
+            - generic [ref=e153]: S·2
+            - generic [ref=e154]: Validación
+            - generic [ref=e155]: Probáis con casos reales y dais feedback
+          - generic [ref=e156]:
+            - generic [ref=e157]: S·4
+            - generic [ref=e158]: Go-live
+            - generic [ref=e159]: Lanzamiento supervisado en producción
+        - button "Agendemos el siguiente paso" [ref=e160] [cursor=pointer]
+        - generic [ref=e161]:
+          - img "Sauteri" [ref=e162]
+          - text: Sauteri
+    - navigation "Navegación" [ref=e163]:
+      - button "Anterior" [disabled] [ref=e164]: ‹
+      - generic [ref=e165]:
+        - button "01 Cover"
+        - button "02 Qué es un agente de voz con IA"
+        - button "03 Cómo funciona"
+        - button "04 Casos de uso para BRHIUM y Munacare"
+        - button "05 Demo en vivo"
+        - button "06 Preguntas para definir vuestro agente"
+        - button "07 Próximos pasos"
+      - button "Siguiente" [ref=e166] [cursor=pointer]: ›
+  - button "Open Next.js Dev Tools" [ref=e172] [cursor=pointer]:
+    - img [ref=e173]

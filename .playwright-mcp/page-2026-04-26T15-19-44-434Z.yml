@@ -1,0 +1,94 @@
+- generic [ref=e1]:
+  - generic [active]:
+    - generic [ref=e568]:
+      - generic [ref=e569]:
+        - generic [ref=e570]:
+          - navigation [ref=e571]:
+            - button "previous" [disabled] [ref=e572]:
+              - img "previous" [ref=e573]
+            - generic [ref=e575]:
+              - generic [ref=e576]: 1/
+              - text: "1"
+            - button "next" [disabled] [ref=e577]:
+              - img "next" [ref=e578]
+          - img
+        - generic [ref=e580]:
+          - generic [ref=e581]:
+            - img [ref=e582]
+            - generic "Latest available version is detected (16.2.4)." [ref=e584]: Next.js 16.2.4
+            - generic [ref=e585]: Turbopack
+          - img
+      - dialog "Runtime ReferenceError" [ref=e587]:
+        - generic [ref=e590]:
+          - generic [ref=e591]:
+            - generic [ref=e592]:
+              - generic [ref=e594]: Runtime ReferenceError
+              - generic [ref=e595]:
+                - button "Copy Error Info" [ref=e596] [cursor=pointer]:
+                  - img [ref=e597]
+                - button "No related documentation found" [disabled] [ref=e599]:
+                  - img [ref=e600]
+                - button "Attach Node.js inspector" [ref=e602] [cursor=pointer]:
+                  - img [ref=e603]
+            - generic [ref=e612]: Settings2 is not defined
+          - generic [ref=e613]:
+            - generic [ref=e614]:
+              - paragraph [ref=e616]:
+                - img [ref=e618]
+                - generic [ref=e621]: src/features/brhium-platform/components/dashboard-client.tsx (1112:18) @ AgentConfigPanel
+                - button "Open in editor" [ref=e622] [cursor=pointer]:
+                  - img [ref=e624]
+              - generic [ref=e627]:
+                - generic [ref=e628]: "1110 | ) : ("
+                - generic [ref=e629]: 1111 | <>
+                - generic [ref=e630]: "> 1112 | <Settings2 className=\"h-4 w-4\" />"
+                - generic [ref=e631]: "| ^"
+                - generic [ref=e632]: 1113 | Mostrar Ajustes Avanzados
+                - generic [ref=e633]: 1114 | </>
+                - generic [ref=e634]: "1115 | )}"
+            - generic [ref=e635]:
+              - generic [ref=e636]:
+                - paragraph [ref=e637]:
+                  - text: Call Stack
+                  - generic [ref=e638]: "16"
+                - button "Show 13 ignore-listed frame(s)" [ref=e639] [cursor=pointer]:
+                  - text: Show 13 ignore-listed frame(s)
+                  - img [ref=e640]
+              - generic [ref=e642]:
+                - generic [ref=e643]:
+                  - text: AgentConfigPanel
+                  - button "Open AgentConfigPanel in editor" [ref=e644] [cursor=pointer]:
+                    - img [ref=e645]
+                - text: src/features/brhium-platform/components/dashboard-client.tsx (1112:18)
+              - generic [ref=e647]:
+                - generic [ref=e648]:
+                  - text: DashboardClient
+                  - button "Open DashboardClient in editor" [ref=e649] [cursor=pointer]:
+                    - img [ref=e650]
+                - text: src/features/brhium-platform/components/dashboard-client.tsx (632:15)
+              - generic [ref=e652]:
+                - generic [ref=e653]:
+                  - text: DashboardPage
+                  - button "Open DashboardPage in editor" [ref=e654] [cursor=pointer]:
+                    - img [ref=e655]
+                - text: src/app/(main)/dashboard/page.tsx (13:10)
+        - generic [ref=e657]: "1"
+        - generic [ref=e658]: "2"
+    - generic [ref=e560] [cursor=pointer]:
+      - button "Open Next.js Dev Tools" [ref=e561]:
+        - img [ref=e562]
+      - generic [ref=e659]:
+        - button "Open issues overlay" [ref=e660]:
+          - generic [ref=e661]:
+            - generic [ref=e662]: "0"
+            - generic [ref=e663]: "1"
+          - generic [ref=e664]: Issue
+        - button "Collapse issues badge" [ref=e665]:
+          - img [ref=e666]
+  - generic [ref=e669]:
+    - img [ref=e670]
+    - heading "This page couldn’t load" [level=1] [ref=e672]
+    - paragraph [ref=e673]: Reload to try again, or go back.
+    - generic [ref=e674]:
+      - button "Reload" [ref=e676] [cursor=pointer]
+      - button "Back" [ref=e677] [cursor=pointer]

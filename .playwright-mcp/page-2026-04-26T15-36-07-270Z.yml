@@ -1,0 +1,183 @@
+- generic [ref=e1]:
+  - main [ref=e4]:
+    - generic [ref=e5]:
+      - complementary [ref=e6]:
+        - generic [ref=e7]:
+          - img [ref=e9]
+          - generic [ref=e12]:
+            - generic [ref=e13]: Brhium AI
+            - generic [ref=e14]: Plataforma Voz
+        - navigation [ref=e15]:
+          - button "Dashboard Actividad y metricas" [ref=e16] [cursor=pointer]:
+            - img [ref=e18]
+            - generic [ref=e23]:
+              - paragraph [ref=e24]: Dashboard
+              - paragraph [ref=e25]: Actividad y metricas
+          - button "Asistente Prompt y configuracion" [active] [ref=e26] [cursor=pointer]:
+            - img [ref=e28]
+            - generic [ref=e31]:
+              - paragraph [ref=e32]: Asistente
+              - paragraph [ref=e33]: Prompt y configuracion
+          - button "Operaciones Leads y resolucion" [ref=e34] [cursor=pointer]:
+            - img [ref=e36]
+            - generic [ref=e40]:
+              - paragraph [ref=e41]: Operaciones
+              - paragraph [ref=e42]: Leads y resolucion
+          - button "Ajustes Privacidad y control" [ref=e43] [cursor=pointer]:
+            - img [ref=e45]
+            - generic [ref=e48]:
+              - paragraph [ref=e49]: Ajustes
+              - paragraph [ref=e50]: Privacidad y control
+        - generic [ref=e51]:
+          - generic [ref=e52]:
+            - img [ref=e54]
+            - generic [ref=e66]:
+              - paragraph [ref=e67]: Lucia Ramos
+              - paragraph [ref=e68]: Agency Admin
+          - button "Cerrar sesion" [ref=e70] [cursor=pointer]:
+            - img [ref=e71]
+            - text: Cerrar sesion
+      - main [ref=e74]:
+        - generic [ref=e566]:
+          - generic [ref=e567]:
+            - heading "Asistente" [level=1] [ref=e568]
+            - paragraph [ref=e569]: Controla la identidad, el comportamiento y los canales de activacion de tu agente.
+          - generic [ref=e570]:
+            - generic [ref=e571]:
+              - img [ref=e573]
+              - generic [ref=e576]:
+                - heading "Activacion Maestra" [level=3] [ref=e577]
+                - paragraph [ref=e578]: "Control total: si apagas aqui, el agente deja de responder en todos los canales."
+            - button "PAUSADO" [ref=e579] [cursor=pointer]:
+              - img [ref=e580]
+              - text: PAUSADO
+          - generic [ref=e583]:
+            - generic [ref=e584]:
+              - generic [ref=e585]:
+                - generic [ref=e586]:
+                  - paragraph [ref=e587]: Demo interactiva (Retell AI)
+                  - paragraph [ref=e588]: Haz clic en "Iniciar Llamada" para probar el agente de voz real a través de tu micrófono. Asegúrate de conceder los permisos del navegador.
+                - generic [ref=e589]: Listo para llamar
+              - generic [ref=e590]:
+                - img [ref=e593]
+                - button "Iniciar Llamada" [ref=e597] [cursor=pointer]:
+                  - img [ref=e598]
+                  - text: Iniciar Llamada
+            - generic [ref=e602]:
+              - generic [ref=e603]:
+                - img [ref=e605]
+                - generic [ref=e609]:
+                  - heading "Canales y Numeros" [level=3] [ref=e610]
+                  - paragraph [ref=e611]: Activa o pausa cada linea individualmente.
+              - generic [ref=e612]:
+                - generic [ref=e613]:
+                  - generic [ref=e614]:
+                    - paragraph [ref=e615]: Central atencion Brhium
+                    - paragraph [ref=e616]: +34 910 000 321 · deriva a +34 911 111 222
+                  - generic [ref=e617]:
+                    - combobox [ref=e618]:
+                      - option "Alba (Testing)" [selected]
+                    - button "PAUSADO" [ref=e619] [cursor=pointer]:
+                      - img [ref=e620]
+                      - text: PAUSADO
+                - generic [ref=e623]:
+                  - generic [ref=e624]:
+                    - paragraph [ref=e625]: Linea soporte lanzamientos
+                    - paragraph [ref=e626]: +34 910 000 654 · deriva a +34 911 111 222
+                  - generic [ref=e627]:
+                    - combobox [ref=e628]:
+                      - option "Alba (Testing)" [selected]
+                    - button "PAUSADO" [ref=e629] [cursor=pointer]:
+                      - img [ref=e630]
+                      - text: PAUSADO
+          - generic [ref=e634]:
+            - generic [ref=e635]:
+              - generic [ref=e636]:
+                - heading "Personalizacion del Agente" [level=3] [ref=e637]
+                - paragraph [ref=e638]: Ajusta la identidad, voz e inteligencia de tu asistente de Brhium.
+              - generic [ref=e639]:
+                - generic [ref=e640]: inactive
+                - paragraph [ref=e641]: "Ultima sincronizacion: 4/26/2026"
+                - button "Cargar desde Retell AI" [ref=e642] [cursor=pointer]:
+                  - img [ref=e643]
+                  - text: Cargar desde Retell AI
+            - generic [ref=e645]:
+              - generic [ref=e646]:
+                - generic [ref=e647]:
+                  - img [ref=e649]
+                  - heading "Identidad e Inteligencia" [level=4] [ref=e652]
+                - generic [ref=e653]:
+                  - generic [ref=e654]:
+                    - text: Nombre del Agente
+                    - textbox "Nombre del Agente" [ref=e655]: Alba (Testing)
+                  - generic [ref=e656]:
+                    - text: Zona Horaria
+                    - combobox "Zona Horaria" [ref=e657]:
+                      - option "España (Madrid)"
+                      - option "Reino Unido (Londres)"
+                      - option "EE.UU. Este (New York)" [selected]
+                      - option "EE.UU. Central (Chicago)"
+                      - option "EE.UU. Oeste (Los Angeles)"
+                      - option "México (CDMX)"
+                      - option "Colombia (Bogotá)"
+                      - option "Argentina (Buenos Aires)"
+                      - option "Francia (París)"
+                      - option "Alemania (Berlín)"
+                  - generic [ref=e658]:
+                    - text: Idioma Principal
+                    - combobox "Idioma Principal" [ref=e659]:
+                      - option "Multilingüe (Auto-detección)"
+                      - option "Español (España)"
+                      - option "Español (México)"
+                      - option "Inglés (EE.UU.)" [selected]
+                      - option "Inglés (Reino Unido)"
+                      - option "Portugués (Brasil)"
+                      - option "Francés"
+                      - option "Alemán"
+                      - option "Italiano"
+                - generic [ref=e661]:
+                  - text: Modelo de Inteligencia (Retell LLM)
+                  - combobox "Modelo de Inteligencia (Retell LLM)" [ref=e662]:
+                    - option "GPT 5.1 (Sugerido) →"
+                    - option "GPT 4.1 (Sugerido) →"
+                    - option "GPT 5.4 →"
+                    - option "GPT 5.2 →"
+                    - option "GPT 5 →"
+                    - option "Claude 4.6 Sonnet" [selected]
+                    - option "Claude 4.5 Sonnet"
+                    - option "Gemini 3.0 Flash"
+                    - option "Gemini 2.5 Flash"
+                    - option "GPT 5.4 mini →"
+                    - option "GPT 5.4 nano"
+                    - option "GPT 5-mini →"
+                    - option "GPT 5-nano"
+                    - option "GPT 4.1-mini →"
+                    - option "GPT 4.1-nano →"
+                    - option "Claude 4.5 Haiku"
+                    - option "Gemini 3.1 Flash Lite"
+                    - option "Gemini 2.5 Flash Lite"
+                    - option "GPT Realtime 1.5"
+                    - option "GPT Realtime"
+                    - option "GPT Realtime mini"
+                - generic [ref=e664]:
+                  - generic [ref=e665]:
+                    - generic [ref=e666]: Creatividad (Model Temp)
+                    - generic [ref=e667]: "0.4"
+                  - slider "Creatividad (Model Temp) 0.4" [ref=e668] [cursor=pointer]: "0.4"
+                - generic [ref=e669]:
+                  - text: Mensaje de Bienvenida (Greeting)
+                  - textbox "Mensaje de Bienvenida (Greeting)" [ref=e670]:
+                    - /placeholder: Hola, soy Alba...
+                    - text: Hola, estás llamando a atención al cliente de Brium. Cómo puedo ayudarte?
+                - generic [ref=e671]:
+                  - text: Instrucciones Maestras (System Prompt)
+                  - textbox "Instrucciones Maestras (System Prompt)" [ref=e672]: "Eres el asistente de voz oficial de BRHIUM (pronunciación: brium) nutraceuticos. Tu función es atender llamadas entrantes de clientes, farmacias y posibles distribuidores de forma clara, profesional y cercana. Representas a una marca de nutracéuticos centrada en la salud, el bienestar, la ciencia y la eficacia, así que tu tono debe ser tranquilo, seguro, educado y útil. OBJETIVOS PRINCIPALES - Resolver dudas generales sobre la marca y sus productos usando exclusivamente la información disponible en la base de conocimiento y en las instrucciones del sistema. - Explicar de forma sencilla qué hace la marca, cómo conseguir sus productos y a quién derivar cada consulta. - Recoger datos de contacto de farmacias, distribuidores o clientes interesados cuando sea útil. - Detectar cuándo una consulta requiere atención humana y escalarla correctamente. - Nunca inventar información médica, posologías, indicaciones específicas, precios, stock o promesas terapéuticas si no aparecen claramente en la base de conocimiento. CONTEXTO DE MARCA - BRHIUM nutraceutics es una marca orientada al bienestar y a la salud a través de nutracéuticos. - La marca comunica ciencia, honestidad, eficacia, salud natural y cercanía. - Sus productos pueden encontrarse en farmacias de España y en canales online de salud, según la información disponible en la base de conocimiento. ESTILO DE VOZ - Habla en español de España, de forma natural y telefónica. - Usa frases cortas y muy fáciles de entender. - Evita sonar robótico, demasiado formal o comercial. - No hables demasiado seguido; pausa mentalmente entre ideas. - Muestra empatía, pero sin dramatizar. - Nunca uses tecnicismos médicos sin explicarlos. REGLAS DE SEGURIDAD Y CUMPLIMIENTO - No des diagnósticos. - No sustituyas la opinión de un médico, farmacéutico u otro profesional sanitario. - No recomiendes un producto como tratamiento definitivo para una enfermedad. - Si la persona describe síntomas, embarazo, medicación, enfermedades previas, efectos adversos o una situación delicada, indica que debe consultar con su médico o farmacéutico. - Si no tienes certeza total, dilo con transparencia. - Nunca inventes una respuesta para “quedar bien”. QUÉ SÍ PUEDES HACER - Explicar qué es BRHIUM y cuál es su enfoque. - Contar, si la base de conocimiento lo permite, para qué sirve cada producto a nivel general. - Explicar dónde pueden comprarlo o pedirlo. - Recoger nombre, teléfono, email, farmacia, provincia y motivo de contacto. - Ofrecer derivación al equipo humano cuando la consulta lo requiera. QUÉ NO PUEDES HACER - Confirmar disponibilidad exacta en tiempo real si no hay integración. - Confirmar precios si no constan en la base de conocimiento. - Hacer recomendaciones médicas personalizadas. - Afirmar efectos clínicos no descritos explícitamente. - Inventar respuestas sobre logística, plazos o promociones. COMPORTAMIENTO CON CLIENTES - Si preguntan por un producto: responde solo con información oficial disponible. - Si preguntan “cuál necesito”: da orientación general, pero aclara que debe confirmarlo con un profesional sanitario. - Si preguntan dónde comprar: indica que pueden encontrarlo en farmacias y, si la base lo indica, también en plataformas online. - Si quieren que alguien les contacte: recoge sus datos y resume claramente el motivo. COMPORTAMIENTO CON FARMACIAS O DISTRIBUIDORES - Identifica si la llamada es profesional. - Recoge nombre de la farmacia o empresa, persona de contacto, teléfono, email, ciudad/provincia y motivo. - Si preguntan por distribución, colaboración o catálogo, explica brevemente lo que sí conste y ofrece escalar la solicitud al equipo comercial. ESCALADO A HUMANO Escala o recoge aviso para llamada posterior si ocurre cualquiera de estos casos: - consulta médica o clínica sensible - duda no resuelta por la base de conocimiento - reclamación - interés comercial serio - incidencia con pedido o producto - petición explícita de hablar con una persona MODO DE RESPUESTA - Primero responde brevemente a la pregunta. - Después ofrece siguiente paso útil. - Si faltan datos para ayudar, haz una sola pregunta cada vez. - No sueltes bloques largos de texto. - Cierra cada interacción con una frase de apoyo, por ejemplo: “Si quieres, también puedo tomar tus datos para que el equipo te contacte.” SI FALTA INFORMACIÓN Di una variante de: “No quiero darte una información inexacta. Si quieres, tomo tus datos y hago que el equipo lo revise contigo.” SALIDA ESPERADA EN LLAMADAS - Intención detectada - Respuesta breve y clara - Si aplica, solicitud de dato siguiente - Si aplica, propuesta de derivación o registro de lead"
+              - button "Mostrar Ajustes Avanzados" [ref=e674] [cursor=pointer]:
+                - img [ref=e675]
+                - text: Mostrar Ajustes Avanzados
+            - button "Guardar y Sincronizar con Retell AI" [ref=e678] [cursor=pointer]:
+              - img [ref=e679]
+              - text: Guardar y Sincronizar con Retell AI
+  - button "Open Next.js Dev Tools" [ref=e561] [cursor=pointer]:
+    - img [ref=e562]
+  - alert [ref=e565]

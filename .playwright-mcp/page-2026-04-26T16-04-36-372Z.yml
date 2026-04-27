@@ -1,0 +1,83 @@
+- generic [ref=e1]:
+  - main [ref=e4]:
+    - generic [ref=e5]:
+      - complementary [ref=e6]:
+        - generic [ref=e7]:
+          - img [ref=e9]
+          - generic [ref=e12]:
+            - generic [ref=e13]: Brhium AI
+            - generic [ref=e14]: Plataforma Voz
+        - navigation [ref=e15]:
+          - button "Dashboard Actividad y metricas" [ref=e16] [cursor=pointer]:
+            - img [ref=e18]
+            - generic [ref=e23]:
+              - paragraph [ref=e24]: Dashboard
+              - paragraph [ref=e25]: Actividad y metricas
+          - button "Asistente Prompt y configuracion" [ref=e26] [cursor=pointer]:
+            - img [ref=e28]
+            - generic [ref=e31]:
+              - paragraph [ref=e32]: Asistente
+              - paragraph [ref=e33]: Prompt y configuracion
+          - button "Operaciones Leads y resolucion" [active] [ref=e34] [cursor=pointer]:
+            - img [ref=e36]
+            - generic [ref=e40]:
+              - paragraph [ref=e41]: Operaciones
+              - paragraph [ref=e42]: Leads y resolucion
+          - button "Base de Datos Productos y documentos" [ref=e43] [cursor=pointer]:
+            - img [ref=e45]
+            - generic [ref=e47]:
+              - paragraph [ref=e48]: Base de Datos
+              - paragraph [ref=e49]: Productos y documentos
+          - button "Ajustes Privacidad y control" [ref=e50] [cursor=pointer]:
+            - img [ref=e52]
+            - generic [ref=e55]:
+              - paragraph [ref=e56]: Ajustes
+              - paragraph [ref=e57]: Privacidad y control
+        - generic [ref=e58]:
+          - generic [ref=e59]:
+            - img [ref=e61]
+            - generic [ref=e73]:
+              - paragraph [ref=e74]: Lucia Ramos
+              - paragraph [ref=e75]: Agency Admin
+          - button "Cerrar sesion" [ref=e77] [cursor=pointer]:
+            - img [ref=e78]
+            - text: Cerrar sesion
+      - main [ref=e81]:
+        - generic [ref=e306]:
+          - generic [ref=e307]:
+            - heading "Operaciones" [level=1] [ref=e308]
+            - paragraph [ref=e309]: Gestion de leads, incidencias y base de conocimiento activa.
+          - generic [ref=e310]:
+            - generic [ref=e312]:
+              - generic [ref=e313]:
+                - img [ref=e315]
+                - heading "Nuevos Contactos" [level=3] [ref=e318]
+              - button "CSV" [ref=e319] [cursor=pointer]:
+                - img [ref=e320]
+                - text: CSV
+            - generic [ref=e324]:
+              - generic [ref=e325]:
+                - img [ref=e327]
+                - heading "Incidencias" [level=3] [ref=e329]
+              - button "CSV" [ref=e330] [cursor=pointer]:
+                - img [ref=e331]
+                - text: CSV
+            - generic [ref=e336]:
+              - generic [ref=e337]:
+                - img [ref=e339]
+                - heading "Callbacks" [level=3] [ref=e343]
+              - button "CSV" [ref=e344] [cursor=pointer]:
+                - img [ref=e345]
+                - text: CSV
+  - generic [ref=e217] [cursor=pointer]:
+    - button "Open Next.js Dev Tools" [ref=e218]:
+      - img [ref=e219]
+    - generic [ref=e285]:
+      - button "Open issues overlay" [ref=e286]:
+        - generic [ref=e287]:
+          - generic [ref=e288]: "0"
+          - generic [ref=e289]: "1"
+        - generic [ref=e290]: Issue
+      - button "Collapse issues badge" [ref=e291]:
+        - img [ref=e292]
+  - alert [ref=e222]

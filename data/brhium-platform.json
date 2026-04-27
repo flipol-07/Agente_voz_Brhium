@@ -1,0 +1,1831 @@
+{
+  "version": 1,
+  "updatedAt": "2026-04-27T15:48:33.926Z",
+  "workspaces": [
+    {
+      "id": "workspace_brhium",
+      "name": "Brhium",
+      "slug": "brhium",
+      "brandColor": "#2f7f7b",
+      "timezone": "Europe/Madrid",
+      "createdAt": "2026-03-27T08:11:21.518Z"
+    }
+  ],
+  "users": [
+    {
+      "id": "user_admin",
+      "workspaceId": "workspace_brhium",
+      "role": "admin_agencia",
+      "email": "admin@brhium.demo",
+      "name": "Lucia Ramos",
+      "title": "Admin agencia",
+      "passwordHash": "05edcc342c2b44883a9d0f110ce0d2038be9b7eb2ad25553fc1c85dc194a8f9e",
+      "createdAt": "2026-03-27T08:11:21.518Z"
+    },
+    {
+      "id": "user_client",
+      "workspaceId": "workspace_brhium",
+      "role": "cliente_brhium",
+      "email": "cliente@brhium.demo",
+      "name": "Brhium Equipo",
+      "title": "Cliente Brhium",
+      "passwordHash": "05edcc342c2b44883a9d0f110ce0d2038be9b7eb2ad25553fc1c85dc194a8f9e",
+      "createdAt": "2026-04-01T08:11:21.518Z"
+    }
+  ],
+  "assistants": [
+    {
+      "id": "assistant_alba",
+      "workspaceId": "workspace_brhium",
+      "name": "Asistente Brhium DEMO",
+      "slug": "alba-brhium",
+      "language": "es-ES",
+      "voiceStyle": "calma, clara y humana",
+      "status": "inactive",
+      "providerMode": "browser_demo",
+      "channels": [
+        "web",
+        "phone"
+      ],
+      "configId": "assistant_config_alba",
+      "createdAt": "2026-04-05T08:11:21.518Z"
+    }
+  ],
+  "assistantConfigs": [
+    {
+      "id": "assistant_config_alba",
+      "assistantId": "assistant_alba",
+      "agentName": "Asistente Brhium DEMO",
+      "language": "es-ES",
+      "interruptionSensitivity": 0.8,
+      "voiceSpeed": 1,
+      "responsiveness": 1,
+      "systemPrompt": "Eres el asistente de voz oficial de BRHIUM (pronunciación: brium) nutraceuticos. Tu función es atender llamadas entrantes de clientes, farmacias y posibles distribuidores de forma clara, profesional y cercana. Representas a una marca de nutracéuticos centrada en la salud, el bienestar, la ciencia y la eficacia, así que tu tono debe ser tranquilo, seguro, educado y útil. OBJETIVOS PRINCIPALES - Resolver dudas generales sobre la marca y sus productos usando exclusivamente la información disponible en la base de conocimiento y en las instrucciones del sistema. - Explicar de forma sencilla qué hace la marca, cómo conseguir sus productos y a quién derivar cada consulta. - Recoger datos de contacto de farmacias, distribuidores o clientes interesados cuando sea útil. - Detectar cuándo una consulta requiere atención humana y escalarla correctamente. - Nunca inventar información médica, posologías, indicaciones específicas, precios, stock o promesas terapéuticas si no aparecen claramente en la base de conocimiento. CONTEXTO DE MARCA - BRHIUM nutraceutics es una marca orientada al bienestar y a la salud a través de nutracéuticos. - La marca comunica ciencia, honestidad, eficacia, salud natural y cercanía. - Sus productos pueden encontrarse en farmacias de España y en canales online de salud, según la información disponible en la base de conocimiento. ESTILO DE VOZ - Habla en español de España, de forma natural y telefónica. - Usa frases cortas y muy fáciles de entender. - Evita sonar robótico, demasiado formal o comercial. - No hables demasiado seguido; pausa mentalmente entre ideas. - Muestra empatía, pero sin dramatizar. - Nunca uses tecnicismos médicos sin explicarlos. REGLAS DE SEGURIDAD Y CUMPLIMIENTO - No des diagnósticos. - No sustituyas la opinión de un médico, farmacéutico u otro profesional sanitario. - No recomiendes un producto como tratamiento definitivo para una enfermedad. - Si la persona describe síntomas, embarazo, medicación, enfermedades previas, efectos adversos o una situación delicada, indica que debe consultar con su médico o farmacéutico. - Si no tienes certeza total, dilo con transparencia. - Nunca inventes una respuesta para “quedar bien”. QUÉ SÍ PUEDES HACER - Explicar qué es BRHIUM y cuál es su enfoque. - Contar, si la base de conocimiento lo permite, para qué sirve cada producto a nivel general. - Explicar dónde pueden comprarlo o pedirlo. - Recoger nombre, teléfono, email, farmacia, provincia y motivo de contacto. - Ofrecer derivación al equipo humano cuando la consulta lo requiera. QUÉ NO PUEDES HACER - Confirmar disponibilidad exacta en tiempo real si no hay integración. - Confirmar precios si no constan en la base de conocimiento. - Hacer recomendaciones médicas personalizadas. - Afirmar efectos clínicos no descritos explícitamente. - Inventar respuestas sobre logística, plazos o promociones. COMPORTAMIENTO CON CLIENTES - Si preguntan por un producto: responde solo con información oficial disponible. - Si preguntan “cuál necesito”: da orientación general, pero aclara que debe confirmarlo con un profesional sanitario. - Si preguntan dónde comprar: indica que pueden encontrarlo en farmacias y, si la base lo indica, también en plataformas online. - Si quieren que alguien les contacte: recoge sus datos y resume claramente el motivo. COMPORTAMIENTO CON FARMACIAS O DISTRIBUIDORES - Identifica si la llamada es profesional. - Recoge nombre de la farmacia o empresa, persona de contacto, teléfono, email, ciudad/provincia y motivo. - Si preguntan por distribución, colaboración o catálogo, explica brevemente lo que sí conste y ofrece escalar la solicitud al equipo comercial. ESCALADO A HUMANO Escala o recoge aviso para llamada posterior si ocurre cualquiera de estos casos: - consulta médica o clínica sensible - duda no resuelta por la base de conocimiento - reclamación - interés comercial serio - incidencia con pedido o producto - petición explícita de hablar con una persona MODO DE RESPUESTA - Primero responde brevemente a la pregunta. - Después ofrece siguiente paso útil. - Si faltan datos para ayudar, haz una sola pregunta cada vez. - No sueltes bloques largos de texto. - Cierra cada interacción con una frase de apoyo, por ejemplo: “Si quieres, también puedo tomar tus datos para que el equipo te contacte.” SI FALTA INFORMACIÓN Di una variante de: “No quiero darte una información inexacta. Si quieres, tomo tus datos y hago que el equipo lo revise contigo.” SALIDA ESPERADA EN LLAMADAS - Intención detectada - Respuesta breve y clara - Si aplica, solicitud de dato siguiente - Si aplica, propuesta de derivación o registro de lead",
+      "updatedAt": "2026-04-27T15:48:33.926Z",
+      "hidePrices": true,
+      "voiceId": "custom_voice_cde2f8310017efa5e59da6f8af",
+      "voiceTemperature": 0.7,
+      "ambientSound": "call-center",
+      "startSpeaker": "agent",
+      "model": "gpt-5-nano",
+      "modelTemperature": 0.4,
+      "beginMessage": "Hola, estás llamando a atención al cliente de Brium. Cómo puedo ayudarte?",
+      "ambientSoundVolume": 0.6,
+      "modelTier": "default",
+      "volume": 1,
+      "enableDynamicResponsiveness": false,
+      "beginMessageDelayMs": 1000,
+      "pronunciationDictionary": [
+        {
+          "word": "BRHIUM",
+          "alphabet": "ipa",
+          "phoneme": "ˈbɾju.um"
+        },
+        {
+          "word": "brhium",
+          "alphabet": "ipa",
+          "phoneme": "ˈbɾju.um"
+        }
+      ],
+      "endCallAfterSilenceMs": 62000,
+      "maxCallDurationMs": 599000,
+      "ivrHangup": true,
+      "allowUserDtmf": true,
+      "knowledgeBaseIds": [
+        "knowledge_base_4bd0809749908cfc"
+      ],
+      "generalTools": [
+        {
+          "name": "end_call",
+          "type": "end_call",
+          "description": "End the call when user has to leave (like says bye) or you are instructed to do so."
+        }
+      ],
+      "kbTopK": 3,
+      "kbFilterScore": 0.6,
+      "timezone": "Europe/Madrid",
+      "handbookDefaultPersonality": true,
+      "handbookSpeechNormalization": false,
+      "handbookAiDisclosure": true,
+      "voiceEmotion": "friendly",
+      "enableBackchannel": false,
+      "minEndpointingDelayMs": 800,
+      "optOutSensitiveDataStorage": true,
+      "handbookScopeBoundaries": true,
+      "handbookFillerWords": false,
+      "handbookHighEmpathy": true,
+      "handbookEchoVerification": true,
+      "handbookNatoAlphabet": false,
+      "handbookSmartMatching": false,
+      "voicemailDetection": "hangup",
+      "denoisingMode": "noise-and-background-speech-cancellation",
+      "transcriptionMode": "accuracy",
+      "boostSepModel": false,
+      "boostedKeywords": [
+        "Brhium",
+        "Fluocol",
+        "Estavit",
+        "Micraflora",
+        "Irbosyn"
+      ],
+      "enableRecording": false,
+      "postCallAnalysisEnabled": false
+    }
+  ],
+  "phoneNumbers": [
+    {
+      "id": "phone_main",
+      "workspaceId": "workspace_brhium",
+      "label": "Central atencion Brhium",
+      "e164": "+34 910 000 321",
+      "assistantId": "assistant_alba",
+      "isActive": false,
+      "forwardTo": "+34 911 111 222",
+      "createdAt": "2026-04-05T08:11:21.518Z"
+    },
+    {
+      "id": "phone_support",
+      "workspaceId": "workspace_brhium",
+      "label": "Linea soporte lanzamientos",
+      "e164": "+34 910 000 654",
+      "assistantId": "assistant_alba",
+      "isActive": false,
+      "forwardTo": "+34 911 111 222",
+      "createdAt": "2026-04-07T08:11:21.518Z"
+    }
+  ],
+  "contacts": [
+    {
+      "id": "contact_8a850ce9",
+      "workspaceId": "workspace_brhium",
+      "fullName": "Carlos Rodriguez",
+      "phone": "+34 600 123 456",
+      "email": "carlos.r@gmail.com",
+      "source": "manual",
+      "interest": "Fluocol",
+      "notes": "Interesado en suscripción trimestral para colesterol.",
+      "createdAt": "2026-04-26T10:07:03.409Z"
+    },
+    {
+      "id": "contact_2d99892d",
+      "workspaceId": "workspace_brhium",
+      "fullName": "Marta Gomez",
+      "phone": "+34 655 999 888",
+      "email": "marta.g@farmaciacentro.es",
+      "source": "manual",
+      "interest": "Distribución",
+      "notes": "Farmacia interesada en catálogo completo.",
+      "createdAt": "2026-04-25T11:07:03.409Z"
+    }
+  ],
+  "supportCases": [
+    {
+      "id": "case_de20f768",
+      "workspaceId": "workspace_brhium",
+      "topic": "Duda con posología Estavit",
+      "status": "pendiente",
+      "priority": "normal",
+      "owner": "Dra. Lucia",
+      "notes": "El cliente no tiene claro si tomarlo antes o después de la cena.",
+      "createdAt": "2026-04-26T09:07:03.409Z"
+    }
+  ],
+  "callbacks": [
+    {
+      "id": "callback_459d6ede",
+      "workspaceId": "workspace_brhium",
+      "reason": "Consulta técnica producto",
+      "preferredWindow": "Mañana 10:00 - 12:00",
+      "status": "pending",
+      "createdAt": "2026-04-26T07:07:03.409Z"
+    }
+  ],
+  "consents": [],
+  "calls": [
+    {
+      "id": "call_03002a26e1adf9ddd582b6d52dd",
+      "workspaceId": "workspace_brhium",
+      "assistantId": "assistant_alba",
+      "source": "web_demo",
+      "direction": "demo",
+      "callerDisplay": "Llamada Web Brhium",
+      "status": "completed",
+      "startedAt": "2026-04-26T10:03:51.201Z",
+      "endedAt": "2026-04-26T10:03:53.871Z",
+      "durationSeconds": 3,
+      "costEstimateCents": 1
+    },
+    {
+      "id": "call_c9dde4d2760a673fd7702686de7",
+      "workspaceId": "workspace_brhium",
+      "assistantId": "assistant_alba",
+      "source": "web_demo",
+      "direction": "demo",
+      "callerDisplay": "Llamada Web Brhium",
+      "status": "completed",
+      "startedAt": "2026-04-26T10:02:47.986Z",
+      "endedAt": "2026-04-26T10:03:04.325Z",
+      "durationSeconds": 16,
+      "costEstimateCents": 5
+    },
+    {
+      "id": "call_7925c4a7ded3e7e1954db01065a",
+      "workspaceId": "workspace_brhium",
+      "assistantId": "assistant_alba",
+      "source": "web_demo",
+      "direction": "demo",
+      "callerDisplay": "Llamada Web Brhium",
+      "status": "completed",
+      "startedAt": "2026-04-26T08:35:31.618Z",
+      "endedAt": "2026-04-26T08:35:55.265Z",
+      "durationSeconds": 24,
+      "costEstimateCents": 7
+    },
+    {
+      "id": "call_21eec183b44bbdb21def59f83cd",
+      "workspaceId": "workspace_brhium",
+      "assistantId": "assistant_alba",
+      "source": "web_demo",
+      "direction": "demo",
+      "callerDisplay": "Llamada Web Brhium",
+      "status": "completed",
+      "startedAt": "2026-04-26T07:28:39.104Z",
+      "endedAt": "2026-04-26T07:28:59.299Z",
+      "durationSeconds": 20,
+      "costEstimateCents": 6
+    },
+    {
+      "id": "call_50e8b777e7616752c846804994f",
+      "workspaceId": "workspace_brhium",
+      "assistantId": "assistant_alba",
+      "source": "web_demo",
+      "direction": "demo",
+      "callerDisplay": "Llamada Web Brhium",
+      "status": "completed",
+      "startedAt": "2026-04-23T15:50:11.874Z",
+      "endedAt": "2026-04-23T15:50:41.835Z",
+      "durationSeconds": 30,
+      "costEstimateCents": 9
+    },
+    {
+      "id": "call_f1accac43eace75c9536f4c707a",
+      "workspaceId": "workspace_brhium",
+      "assistantId": "assistant_alba",
+      "source": "web_demo",
+      "direction": "demo",
+      "callerDisplay": "Llamada Web Brhium",
+      "status": "completed",
+      "startedAt": "2026-04-23T15:46:29.180Z",
+      "endedAt": "2026-04-23T15:46:54.866Z",
+      "durationSeconds": 26,
+      "costEstimateCents": 8
+    },
+    {
+      "id": "call_6c856fe981501b96c60bff78ba9",
+      "workspaceId": "workspace_brhium",
+      "assistantId": "assistant_alba",
+      "source": "web_demo",
+      "direction": "demo",
+      "callerDisplay": "Llamada Web Brhium",
+      "status": "completed",
+      "startedAt": "2026-04-23T15:45:52.952Z",
+      "endedAt": "2026-04-23T15:46:08.371Z",
+      "durationSeconds": 15,
+      "costEstimateCents": 5
+    },
+    {
+      "id": "call_8c894fee43f5c3e3364149b7f57",
+      "workspaceId": "workspace_brhium",
+      "assistantId": "assistant_alba",
+      "source": "web_demo",
+      "direction": "demo",
+      "callerDisplay": "Llamada Web Brhium",
+      "status": "completed",
+      "startedAt": "2026-04-23T15:44:28.898Z",
+      "endedAt": "2026-04-23T15:45:13.974Z",
+      "durationSeconds": 45,
+      "costEstimateCents": 14
+    },
+    {
+      "id": "call_f1dddb170ba3c18ba487e9e3ade",
+      "workspaceId": "workspace_brhium",
+      "assistantId": "assistant_alba",
+      "source": "web_demo",
+      "direction": "demo",
+      "callerDisplay": "Llamada Web Brhium",
+      "status": "completed",
+      "startedAt": "2026-04-23T15:43:55.786Z",
+      "endedAt": "2026-04-23T15:44:05.411Z",
+      "durationSeconds": 10,
+      "costEstimateCents": 3
+    },
+    {
+      "id": "call_c0c05ebd3e96edb94ff7698815d",
+      "workspaceId": "workspace_brhium",
+      "assistantId": "assistant_alba",
+      "source": "web_demo",
+      "direction": "demo",
+      "callerDisplay": "Llamada Web Brhium",
+      "status": "completed",
+      "startedAt": "2026-04-23T15:41:09.891Z",
+      "endedAt": "2026-04-23T15:41:25.693Z",
+      "durationSeconds": 16,
+      "costEstimateCents": 5
+    },
+    {
+      "id": "call_70ebc3aca6f3f4394aaf4ba3803",
+      "workspaceId": "workspace_brhium",
+      "assistantId": "assistant_alba",
+      "source": "web_demo",
+      "direction": "demo",
+      "callerDisplay": "Llamada Web Brhium",
+      "status": "completed",
+      "startedAt": "2026-04-23T15:39:33.796Z",
+      "endedAt": "2026-04-23T15:39:57.240Z",
+      "durationSeconds": 23,
+      "costEstimateCents": 7
+    },
+    {
+      "id": "call_719d24ba5d1811728e65fbd86ad",
+      "workspaceId": "workspace_brhium",
+      "assistantId": "assistant_alba",
+      "source": "web_demo",
+      "direction": "demo",
+      "callerDisplay": "Llamada Web Brhium",
+      "status": "completed",
+      "startedAt": "2026-04-23T15:39:17.751Z",
+      "endedAt": "2026-04-23T15:39:22.582Z",
+      "durationSeconds": 5,
+      "costEstimateCents": 2
+    },
+    {
+      "id": "call_f3fa425937acc37f5faf24b3c4f",
+      "workspaceId": "workspace_brhium",
+      "assistantId": "assistant_alba",
+      "source": "web_demo",
+      "direction": "demo",
+      "callerDisplay": "Llamada Web Brhium",
+      "status": "completed",
+      "startedAt": "2026-04-23T15:32:41.205Z",
+      "endedAt": "2026-04-23T15:32:51.185Z",
+      "durationSeconds": 10,
+      "costEstimateCents": 3
+    },
+    {
+      "id": "call_f6fb618630ad54a32c155f17ac0",
+      "workspaceId": "workspace_brhium",
+      "assistantId": "assistant_alba",
+      "source": "web_demo",
+      "direction": "demo",
+      "callerDisplay": "Llamada Web Brhium",
+      "status": "completed",
+      "startedAt": "2026-04-23T15:31:52.253Z",
+      "endedAt": "2026-04-23T15:32:34.022Z",
+      "durationSeconds": 42,
+      "costEstimateCents": 13
+    },
+    {
+      "id": "call_aae92b4a41e77ba6284417895d8",
+      "workspaceId": "workspace_brhium",
+      "assistantId": "assistant_alba",
+      "source": "web_demo",
+      "direction": "demo",
+      "callerDisplay": "Llamada Web Brhium",
+      "status": "completed",
+      "startedAt": "2026-04-23T15:28:47.378Z",
+      "endedAt": "2026-04-23T15:29:48.394Z",
+      "durationSeconds": 61,
+      "costEstimateCents": 18
+    },
+    {
+      "id": "call_23d25163cff848e078bff5c2f61",
+      "workspaceId": "workspace_brhium",
+      "assistantId": "assistant_alba",
+      "source": "web_demo",
+      "direction": "demo",
+      "callerDisplay": "Llamada Web Brhium",
+      "status": "completed",
+      "startedAt": "2026-04-23T15:24:36.712Z",
+      "endedAt": "2026-04-23T15:26:19.921Z",
+      "durationSeconds": 103,
+      "costEstimateCents": 31
+    },
+    {
+      "id": "call_fd5a739204863b75f552e491a22",
+      "workspaceId": "workspace_brhium",
+      "assistantId": "assistant_alba",
+      "source": "web_demo",
+      "direction": "demo",
+      "callerDisplay": "Llamada Web Brhium",
+      "status": "completed",
+      "startedAt": "2026-04-23T15:22:55.597Z",
+      "endedAt": "2026-04-23T15:23:02.456Z",
+      "durationSeconds": 7,
+      "costEstimateCents": 2
+    },
+    {
+      "id": "call_e8942e4d5644e324afb670fb42b",
+      "workspaceId": "workspace_brhium",
+      "assistantId": "assistant_alba",
+      "source": "web_demo",
+      "direction": "demo",
+      "callerDisplay": "Llamada Web Brhium",
+      "status": "completed",
+      "startedAt": "2026-04-23T15:22:24.764Z",
+      "endedAt": "2026-04-23T15:22:31.208Z",
+      "durationSeconds": 6,
+      "costEstimateCents": 2
+    },
+    {
+      "id": "call_57a49581bff3d445ec0779fcee3",
+      "workspaceId": "workspace_brhium",
+      "assistantId": "assistant_alba",
+      "source": "web_demo",
+      "direction": "demo",
+      "callerDisplay": "Llamada Web Brhium",
+      "status": "completed",
+      "startedAt": "2026-04-23T15:21:39.948Z",
+      "endedAt": "2026-04-23T15:21:49.778Z",
+      "durationSeconds": 10,
+      "costEstimateCents": 3
+    },
+    {
+      "id": "call_ec2c41217260cb0d00fb8792f1e",
+      "workspaceId": "workspace_brhium",
+      "assistantId": "assistant_alba",
+      "source": "web_demo",
+      "direction": "demo",
+      "callerDisplay": "Llamada Web Brhium",
+      "status": "completed",
+      "startedAt": "2026-04-23T15:19:46.859Z",
+      "endedAt": "2026-04-23T15:20:31.495Z",
+      "durationSeconds": 45,
+      "costEstimateCents": 14
+    },
+    {
+      "id": "call_e0e24b73770ba7a781efdc94e8f",
+      "workspaceId": "workspace_brhium",
+      "assistantId": "assistant_alba",
+      "source": "web_demo",
+      "direction": "demo",
+      "callerDisplay": "Llamada Web Brhium",
+      "status": "completed",
+      "startedAt": "2026-04-22T20:01:31.776Z",
+      "endedAt": "2026-04-22T20:05:13.140Z",
+      "durationSeconds": 221,
+      "costEstimateCents": 66
+    },
+    {
+      "id": "call_7ceaba01422afa741b212181ac8",
+      "workspaceId": "workspace_brhium",
+      "assistantId": "assistant_alba",
+      "source": "web_demo",
+      "direction": "demo",
+      "callerDisplay": "Llamada Web Brhium",
+      "status": "completed",
+      "startedAt": "2026-04-22T20:01:12.564Z",
+      "endedAt": "2026-04-22T20:01:29.784Z",
+      "durationSeconds": 17,
+      "costEstimateCents": 5
+    },
+    {
+      "id": "call_cc497e562524948a0126f0b4043",
+      "workspaceId": "workspace_brhium",
+      "assistantId": "assistant_alba",
+      "source": "web_demo",
+      "direction": "demo",
+      "callerDisplay": "Llamada Web Brhium",
+      "status": "completed",
+      "startedAt": "2026-04-26T10:27:59.673Z",
+      "endedAt": "2026-04-26T10:28:04.575Z",
+      "durationSeconds": 5,
+      "costEstimateCents": 2
+    },
+    {
+      "id": "call_56abb7bd88e88d68c96b2b96aa9",
+      "workspaceId": "workspace_brhium",
+      "assistantId": "assistant_alba",
+      "source": "web_demo",
+      "direction": "demo",
+      "callerDisplay": "Llamada Web Brhium",
+      "status": "completed",
+      "startedAt": "2026-04-26T10:47:40.647Z",
+      "endedAt": "2026-04-26T10:47:43.137Z",
+      "durationSeconds": 2,
+      "costEstimateCents": 1
+    },
+    {
+      "id": "call_d48585be8298fb2eb30891e22d8",
+      "workspaceId": "workspace_brhium",
+      "assistantId": "assistant_alba",
+      "source": "web_demo",
+      "direction": "demo",
+      "callerDisplay": "Llamada web",
+      "status": "completed",
+      "startedAt": "2026-04-27T14:07:55.764Z",
+      "endedAt": "2026-04-27T14:08:00.810Z",
+      "durationSeconds": 5,
+      "costEstimateCents": 2
+    },
+    {
+      "id": "call_70e312539c54d497674e13cb665",
+      "workspaceId": "workspace_brhium",
+      "assistantId": "assistant_alba",
+      "source": "web_demo",
+      "direction": "demo",
+      "callerDisplay": "Llamada web",
+      "status": "completed",
+      "startedAt": "2026-04-27T13:54:50.457Z",
+      "endedAt": "2026-04-27T13:54:53.191Z",
+      "durationSeconds": 3,
+      "costEstimateCents": 1
+    },
+    {
+      "id": "call_a2ed1ab63abc553f3deeed509ab",
+      "workspaceId": "workspace_brhium",
+      "assistantId": "assistant_alba",
+      "source": "web_demo",
+      "direction": "demo",
+      "callerDisplay": "Llamada web",
+      "status": "completed",
+      "startedAt": "2026-04-27T13:54:36.059Z",
+      "endedAt": "2026-04-27T13:54:43.086Z",
+      "durationSeconds": 7,
+      "costEstimateCents": 2
+    },
+    {
+      "id": "call_6aa551367367452f195474f4a4f",
+      "workspaceId": "workspace_brhium",
+      "assistantId": "assistant_alba",
+      "source": "web_demo",
+      "direction": "demo",
+      "callerDisplay": "Llamada web",
+      "status": "completed",
+      "startedAt": "2026-04-26T16:36:18.017Z",
+      "endedAt": "2026-04-26T16:37:58.387Z",
+      "durationSeconds": 100,
+      "costEstimateCents": 30
+    },
+    {
+      "id": "call_6c029c5c4d6a9747205ce52e2d8",
+      "workspaceId": "workspace_brhium",
+      "assistantId": "assistant_alba",
+      "source": "web_demo",
+      "direction": "demo",
+      "callerDisplay": "Llamada web",
+      "status": "completed",
+      "startedAt": "2026-04-27T15:19:28.086Z",
+      "endedAt": "2026-04-27T15:19:41.705Z",
+      "durationSeconds": 14,
+      "costEstimateCents": 4
+    }
+  ],
+  "callTranscripts": [
+    {
+      "id": "line_8b6e4e4f",
+      "callId": "call_03002a26e1adf9ddd582b6d52dd",
+      "speaker": "agent",
+      "text": "Hola, estás llamando a atención al cliente de ",
+      "at": "2026-04-26T10:03:51.201Z"
+    },
+    {
+      "id": "line_e8eacfb4",
+      "callId": "call_c9dde4d2760a673fd7702686de7",
+      "speaker": "agent",
+      "text": "Hola, estás llamando a atención al cliente de Brium. Cómo puedo ayudarte?",
+      "at": "2026-04-26T10:02:47.986Z"
+    },
+    {
+      "id": "line_162017e0",
+      "callId": "call_c9dde4d2760a673fd7702686de7",
+      "speaker": "caller",
+      "text": "¿Cómo te llamas? ",
+      "at": "2026-04-26T10:02:47.986Z"
+    },
+    {
+      "id": "line_7eaf32a5",
+      "callId": "call_c9dde4d2760a673fd7702686de7",
+      "speaker": "agent",
+      "text": "Soy Pol, el asistente de BRHIUM. ¿En qué puedo ayudarte hoy? Si quieres, también puedo tomar tus datos ",
+      "at": "2026-04-26T10:02:47.986Z"
+    },
+    {
+      "id": "line_2b5112ee",
+      "callId": "call_7925c4a7ded3e7e1954db01065a",
+      "speaker": "agent",
+      "text": "Hola, estás llamando a atención al cliente de Brium. Cómo puedo ayudarte?",
+      "at": "2026-04-26T08:35:31.618Z"
+    },
+    {
+      "id": "line_4430595b",
+      "callId": "call_7925c4a7ded3e7e1954db01065a",
+      "speaker": "caller",
+      "text": "Hola, buenos días, ¿qué tal? ",
+      "at": "2026-04-26T08:35:31.618Z"
+    },
+    {
+      "id": "line_4063705b",
+      "callId": "call_7925c4a7ded3e7e1954db01065a",
+      "speaker": "agent",
+      "text": "Hola, buenos días. Estoy aquí para ayudarte. ¿Qué puedo hacer por ti hoy? ¿Buscas información sobre algún producto o necesitas dejar algún dato para que te contacten?",
+      "at": "2026-04-26T08:35:31.618Z"
+    },
+    {
+      "id": "line_8064d87e",
+      "callId": "call_21eec183b44bbdb21def59f83cd",
+      "speaker": "agent",
+      "text": "Hola, estás llamando a atención al cliente de Brium. Cómo puedo ayudarte?",
+      "at": "2026-04-26T07:28:39.104Z"
+    },
+    {
+      "id": "line_26f818f1",
+      "callId": "call_21eec183b44bbdb21def59f83cd",
+      "speaker": "caller",
+      "text": "Hola, buenos días. ",
+      "at": "2026-04-26T07:28:39.104Z"
+    },
+    {
+      "id": "line_59eb93b5",
+      "callId": "call_21eec183b44bbdb21def59f83cd",
+      "speaker": "agent",
+      "text": "Buenos días. ¿En qué puedo ayudarte hoy? Si quieres, puedo tomar tus datos para que el equipo te contacte.",
+      "at": "2026-04-26T07:28:39.104Z"
+    },
+    {
+      "id": "line_9747ffc0",
+      "callId": "call_50e8b777e7616752c846804994f",
+      "speaker": "agent",
+      "text": "Hola, estás llamando a atención al cliente de Brium. Cómo puedo ayudarte?",
+      "at": "2026-04-23T15:50:11.874Z"
+    },
+    {
+      "id": "line_48b13600",
+      "callId": "call_50e8b777e7616752c846804994f",
+      "speaker": "caller",
+      "text": "¿Me podrías explicar qué es lo que hacéis? ",
+      "at": "2026-04-23T15:50:11.874Z"
+    },
+    {
+      "id": "line_69eca21a",
+      "callId": "call_50e8b777e7616752c846804994f",
+      "speaker": "agent",
+      "text": "Claro. BRHIUM nutraceutics es una marca enfocada en la salud y el bienestar a través de nutracéuticos. Desarrollamos productos con base científica para apoyar el equilibrio del cuerpo de forma natural, sencilla y eficaz. Trabajamos con profesionales y médicos en España para asegurar calidad, seguridad y eficacia.\n\n¿Quieres que te cuente para qué sirve cada producto de forma general, o prefieres saber dónde puedes adquirirlos? Si te interesa, puedo also recoger tus datos para que te contacte el equipo.",
+      "at": "2026-04-23T15:50:11.874Z"
+    },
+    {
+      "id": "line_19a67925",
+      "callId": "call_50e8b777e7616752c846804994f",
+      "speaker": "caller",
+      "text": "Pulso ¿Cómo que bolso? Bolso no. ",
+      "at": "2026-04-23T15:50:11.874Z"
+    },
+    {
+      "id": "line_b6d72951",
+      "callId": "call_f1accac43eace75c9536f4c707a",
+      "speaker": "agent",
+      "text": "Hola, estás llamando a atención al cliente de Brium. Cómo puedo ayudarte?",
+      "at": "2026-04-23T15:46:29.180Z"
+    },
+    {
+      "id": "line_c5ec5552",
+      "callId": "call_f1accac43eace75c9536f4c707a",
+      "speaker": "caller",
+      "text": "Perdona, ¿cómo os llamáis? ",
+      "at": "2026-04-23T15:46:29.180Z"
+    },
+    {
+      "id": "line_19d22cec",
+      "callId": "call_f1accac43eace75c9536f4c707a",
+      "speaker": "agent",
+      "text": "Somos BRHIUM nutraceutics, la marca de salud y bienestar enfocada en la ciencia y la eficacia. ¿En qué más puedo ayudarte hoy? Si quieres, también puedo tomar tus datos para que el equipo te contacte.",
+      "at": "2026-04-23T15:46:29.180Z"
+    },
+    {
+      "id": "line_419d65dc",
+      "callId": "call_6c856fe981501b96c60bff78ba9",
+      "speaker": "agent",
+      "text": "Hola, estás llamando a atención al cliente de Brium. Cómo puedo ayudarte?",
+      "at": "2026-04-23T15:45:52.952Z"
+    },
+    {
+      "id": "line_7855f4cf",
+      "callId": "call_6c856fe981501b96c60bff78ba9",
+      "speaker": "caller",
+      "text": "¿Cómo os llamáis, perdona? ",
+      "at": "2026-04-23T15:45:52.952Z"
+    },
+    {
+      "id": "line_9532d4dd",
+      "callId": "call_6c856fe981501b96c60bff78ba9",
+      "speaker": "agent",
+      "text": "Somos BRHIUM, pronunciado “brium”. ¿En qué producto o tema te puedo ayudar hoy?",
+      "at": "2026-04-23T15:45:52.952Z"
+    },
+    {
+      "id": "line_1241149f",
+      "callId": "call_8c894fee43f5c3e3364149b7f57",
+      "speaker": "agent",
+      "text": "Hola, estás llamando a atención al cliente de Brium. Cómo puedo ayudarte?",
+      "at": "2026-04-23T15:44:28.898Z"
+    },
+    {
+      "id": "line_22d06d82",
+      "callId": "call_8c894fee43f5c3e3364149b7f57",
+      "speaker": "caller",
+      "text": "Quiero que me des la puta devolución. ",
+      "at": "2026-04-23T15:44:28.898Z"
+    },
+    {
+      "id": "line_ccb478a8",
+      "callId": "call_8c894fee43f5c3e3364149b7f57",
+      "speaker": "agent",
+      "text": "Siento que estés molesto. ¿Podrías decirme cuál es el problema concreto para ayudarte mejor con la devolución? Si prefieres, puedo tomar tus datos para que el equipo lo gestione directamente.",
+      "at": "2026-04-23T15:44:28.898Z"
+    },
+    {
+      "id": "line_4cc7fb4f",
+      "callId": "call_8c894fee43f5c3e3364149b7f57",
+      "speaker": "caller",
+      "text": "Hablar con un agente. ",
+      "at": "2026-04-23T15:44:28.898Z"
+    },
+    {
+      "id": "line_ccd26ca1",
+      "callId": "call_8c894fee43f5c3e3364149b7f57",
+      "speaker": "agent",
+      "text": "Claro, te pongo en contacto con un agente. ¿Podrías decirme tu nombre, ",
+      "at": "2026-04-23T15:44:28.898Z"
+    },
+    {
+      "id": "line_6d3d10d7",
+      "callId": "call_8c894fee43f5c3e3364149b7f57",
+      "speaker": "caller",
+      "text": "No, ",
+      "at": "2026-04-23T15:44:28.898Z"
+    },
+    {
+      "id": "line_c8ccd59d",
+      "callId": "call_8c894fee43f5c3e3364149b7f57",
+      "speaker": "agent",
+      "text": "teléfono y el motivo de la consulta para que el equipo comercial pueda prepararte la llamada? Si quieres, también puedo tomar tus datos para que el equipo te contacte.",
+      "at": "2026-04-23T15:44:28.898Z"
+    },
+    {
+      "id": "line_f732666b",
+      "callId": "call_f1dddb170ba3c18ba487e9e3ade",
+      "speaker": "agent",
+      "text": "Hola, estás llamando a atención al cliente de Brium. Como puedo ayudarte?",
+      "at": "2026-04-23T15:43:55.786Z"
+    },
+    {
+      "id": "line_ed7a2a3e",
+      "callId": "call_c0c05ebd3e96edb94ff7698815d",
+      "speaker": "agent",
+      "text": "Gracias por llamar a BRHIUM nutraceutics. ¿En qué ",
+      "at": "2026-04-23T15:41:09.891Z"
+    },
+    {
+      "id": "line_62db1fa1",
+      "callId": "call_c0c05ebd3e96edb94ff7698815d",
+      "speaker": "caller",
+      "text": "No lo entiendo. ",
+      "at": "2026-04-23T15:41:09.891Z"
+    },
+    {
+      "id": "line_cea90ae2",
+      "callId": "call_c0c05ebd3e96edb94ff7698815d",
+      "speaker": "agent",
+      "text": "BRHIUM, pronunciado brium. ¿Qué parte no entiendes exactamente? Puedo explicarlo de forma rápida y clara. ¿Quieres saber sobre ",
+      "at": "2026-04-23T15:41:09.891Z"
+    },
+    {
+      "id": "line_3d66fa89",
+      "callId": "call_70ebc3aca6f3f4394aaf4ba3803",
+      "speaker": "agent",
+      "text": "Gracias por llamar a BRHIUM nutraceutics. ¿En qué puedo ayudarte hoy? \n\nSi necesitas, puedo tomar tus datos para que el equipo te ",
+      "at": "2026-04-23T15:39:33.796Z"
+    },
+    {
+      "id": "line_6927c449",
+      "callId": "call_70ebc3aca6f3f4394aaf4ba3803",
+      "speaker": "caller",
+      "text": "¿Cómo has ",
+      "at": "2026-04-23T15:39:33.796Z"
+    },
+    {
+      "id": "line_706d70fa",
+      "callId": "call_70ebc3aca6f3f4394aaf4ba3803",
+      "speaker": "agent",
+      "text": "contacte. ",
+      "at": "2026-04-23T15:39:33.796Z"
+    },
+    {
+      "id": "line_186da67e",
+      "callId": "call_70ebc3aca6f3f4394aaf4ba3803",
+      "speaker": "caller",
+      "text": "dicho que os llamáis? ¿Brium o bridhume? ",
+      "at": "2026-04-23T15:39:33.796Z"
+    },
+    {
+      "id": "line_d26e3458",
+      "callId": "call_70ebc3aca6f3f4394aaf4ba3803",
+      "speaker": "agent",
+      "text": " BRHIUM se pronuncia exactamente: “brium” (consonante continuo, sin dividir sílabas). La H es muda. No se dice “bri-hium” ",
+      "at": "2026-04-23T15:39:33.796Z"
+    },
+    {
+      "id": "line_f9b2cc8e",
+      "callId": "call_719d24ba5d1811728e65fbd86ad",
+      "speaker": "agent",
+      "text": "Gracias por llamar a BRHIUM nutraceutics.",
+      "at": "2026-04-23T15:39:17.751Z"
+    },
+    {
+      "id": "line_c143b428",
+      "callId": "call_f3fa425937acc37f5faf24b3c4f",
+      "speaker": "agent",
+      "text": "Hola, estás hablando con el asistente de BRHIUM nutraceutics. ¿En qué puedo ayudarte?",
+      "at": "2026-04-23T15:32:41.205Z"
+    },
+    {
+      "id": "line_41e12549",
+      "callId": "call_f6fb618630ad54a32c155f17ac0",
+      "speaker": "agent",
+      "text": "Hola, estás hablando con el asistente de BRHIUM nutraceutics. ¿En qué puedo ayudarte?",
+      "at": "2026-04-23T15:31:52.253Z"
+    },
+    {
+      "id": "line_38e25873",
+      "callId": "call_f6fb618630ad54a32c155f17ac0",
+      "speaker": "caller",
+      "text": "¿Por qué dices bridgeum? ",
+      "at": "2026-04-23T15:31:52.253Z"
+    },
+    {
+      "id": "line_56e6e8cc",
+      "callId": "call_f6fb618630ad54a32c155f17ac0",
+      "speaker": "agent",
+      "text": "Tienes razón, el nombre puede sonar raro al principio.  \nLa marca se escribe BRHIUM y se pronuncia “brium”, como si fuera “bri-um”. Si quieres, cuéntame dónde lo has visto o leído y te ayudo con cualquier duda sobre la marca o los productos.",
+      "at": "2026-04-23T15:31:52.253Z"
+    },
+    {
+      "id": "line_65aeff23",
+      "callId": "call_f6fb618630ad54a32c155f17ac0",
+      "speaker": "caller",
+      "text": "Y porque ahora lo dices bien. ",
+      "at": "2026-04-23T15:31:52.253Z"
+    },
+    {
+      "id": "line_c1511069",
+      "callId": "call_f6fb618630ad54a32c155f17ac0",
+      "speaker": "agent",
+      "text": "Porque me lo has señalado y te he entendido.  \nEl nombre correcto es BRHIUM, pronunciado “brium”, así que a partir de ahí lo uso bien. ¿Te puedo ayudar con alguna duda sobre ",
+      "at": "2026-04-23T15:31:52.253Z"
+    },
+    {
+      "id": "line_2beb7d93",
+      "callId": "call_aae92b4a41e77ba6284417895d8",
+      "speaker": "agent",
+      "text": "Hola, estás hablando con el asistente virtual de BRHIUM nutraceutics. ¿Cómo puedo ayudarte?",
+      "at": "2026-04-23T15:28:47.378Z"
+    },
+    {
+      "id": "line_4921e4e2",
+      "callId": "call_aae92b4a41e77ba6284417895d8",
+      "speaker": "caller",
+      "text": "Quiero que me digas información que hacéis quiénes sois. ",
+      "at": "2026-04-23T15:28:47.378Z"
+    },
+    {
+      "id": "line_809fb545",
+      "callId": "call_aae92b4a41e77ba6284417895d8",
+      "speaker": "agent",
+      "text": "BRHIUM es una marca de nutracéuticos orientada al bienestar y la salud. Trabajamos con fórmulas naturales apoyadas en la ciencia, para ayudar en la prevención y el cuidado diario, siempre como complemento a una buena alimentación y al ejercicio.  Nuestro equipo está formado por profesionales cualificados y colaboramos con médicos de toda España. Desarrollamos productos con altos estándares de calidad y seguridad, siguiendo normas GMP, y contamos con estudios clínicos que respaldan nuestras fórmulas.  Nuestro objetivo es ofrecer soluciones honestas, eficaces y seguras, para apoyar al organismo en momentos en los que necesita un extra.  Si quieres, puedo contarte también dónde se pueden encontrar los productos BRHIUM, ¿te interesa?",
+      "at": "2026-04-23T15:28:47.378Z"
+    },
+    {
+      "id": "line_283dc02a",
+      "callId": "call_23d25163cff848e078bff5c2f61",
+      "speaker": "agent",
+      "text": "Hola, estás hablando con el asistente de BRHIUM nutraceutics. ¿Cómo puedo ayudarte hoy?",
+      "at": "2026-04-23T15:24:36.712Z"
+    },
+    {
+      "id": "line_60ba8d7e",
+      "callId": "call_23d25163cff848e078bff5c2f61",
+      "speaker": "caller",
+      "text": "¿Perdona? ",
+      "at": "2026-04-23T15:24:36.712Z"
+    },
+    {
+      "id": "line_b0d66300",
+      "callId": "call_23d25163cff848e078bff5c2f61",
+      "speaker": "agent",
+      "text": "Sí, te escucho. Soy el asistente virtual de BRHIUM nutraceutics. ¿En qué te puedo ayudar?",
+      "at": "2026-04-23T15:24:36.712Z"
+    },
+    {
+      "id": "line_c018f0ae",
+      "callId": "call_23d25163cff848e078bff5c2f61",
+      "speaker": "caller",
+      "text": "¿Dónde puedo comprar vuestro productos? ¿Lo sabes o no tienes información sobre ello? ",
+      "at": "2026-04-23T15:24:36.712Z"
+    },
+    {
+      "id": "line_de1cb03c",
+      "callId": "call_23d25163cff848e078bff5c2f61",
+      "speaker": "agent",
+      "text": "Sí, tengo información.  \nLos productos de BRHIUM puedes comprarlos en farmacias de España. En muchos casos, si tu farmacia no lo tiene en ese momento, puede pedirlo al distribuidor.  \n\nAdemás, algunos productos también pueden encontrarse en plataformas online de salud, según la farmacia o el canal con el que trabajen.  \n\nSi me dices tu localidad o provincia, te puedo orientar un poco mejor o tomar tus datos para que el equipo lo revise contigo, ¿te parece?",
+      "at": "2026-04-23T15:24:36.712Z"
+    },
+    {
+      "id": "line_127ed888",
+      "callId": "call_23d25163cff848e078bff5c2f61",
+      "speaker": "caller",
+      "text": "Mira, estoy buscando algo para el tracto urinario. ¿Tenéis algún producto? ",
+      "at": "2026-04-23T15:24:36.712Z"
+    },
+    {
+      "id": "line_e96edacb",
+      "callId": "call_23d25163cff848e078bff5c2f61",
+      "speaker": "agent",
+      "text": "Sí, tenemos un producto de BRHIUM llamado IRBOSYN.  \nEs un nutracéutico pensado para apoyar la salud y el bienestar general, y dentro de la gama es el que suele relacionarse con el área urinaria, pero no puedo darte indicaciones médicas concretas ni sustituyo al médico o al farmacéutico.\nLo más seguro es que comentes en tu farmacia que buscas IRBOSYN de BRHIUM para el tracto urinario y que el profesional sanitario te oriente según tu caso.  \n\nSi quieres, puedo tomar tu nombre y un teléfono o email por si el equipo de BRHIUM necesita comentarte algo más de forma personalizada.",
+      "at": "2026-04-23T15:24:36.712Z"
+    },
+    {
+      "id": "line_8cce42b3",
+      "callId": "call_fd5a739204863b75f552e491a22",
+      "speaker": "agent",
+      "text": "Hola, soy el asistente virtual de BRHIUM nutraceutics. ¿En qué ",
+      "at": "2026-04-23T15:22:55.597Z"
+    },
+    {
+      "id": "line_9e9ca8af",
+      "callId": "call_e8942e4d5644e324afb670fb42b",
+      "speaker": "agent",
+      "text": "Hola, estás llamando a BRHIUM nutraceutics, el asistente virtual de la ",
+      "at": "2026-04-23T15:22:24.764Z"
+    },
+    {
+      "id": "line_905c422e",
+      "callId": "call_57a49581bff3d445ec0779fcee3",
+      "speaker": "agent",
+      "text": "Hola, estás hablando con el asistente virtual de BRHIUM nutraceutics. ¿Cómo puedo ",
+      "at": "2026-04-23T15:21:39.948Z"
+    },
+    {
+      "id": "line_a7470929",
+      "callId": "call_ec2c41217260cb0d00fb8792f1e",
+      "speaker": "agent",
+      "text": "Hola, estás hablando con el asistente virtual de BRHIUM nutraceutics. ¿Cómo puedo ayudarte?",
+      "at": "2026-04-23T15:19:46.859Z"
+    },
+    {
+      "id": "line_65390077",
+      "callId": "call_ec2c41217260cb0d00fb8792f1e",
+      "speaker": "caller",
+      "text": "¿Cómo has dicho que se llama? ",
+      "at": "2026-04-23T15:19:46.859Z"
+    },
+    {
+      "id": "line_f8f6240d",
+      "callId": "call_ec2c41217260cb0d00fb8792f1e",
+      "speaker": "agent",
+      "text": "Se llama BRHIUM nutraceutics, escrito B‑R‑H‑I‑U‑M.  \n¿Te gustaría que te cuente brevemente qué hacemos en BRHIUM?",
+      "at": "2026-04-23T15:19:46.859Z"
+    },
+    {
+      "id": "line_9986f514",
+      "callId": "call_ec2c41217260cb0d00fb8792f1e",
+      "speaker": "caller",
+      "text": "Me me gustaría que me digas para qué sirve Fluocall. ",
+      "at": "2026-04-23T15:19:46.859Z"
+    },
+    {
+      "id": "line_c0f9a5e0",
+      "callId": "call_ec2c41217260cb0d00fb8792f1e",
+      "speaker": "agent",
+      "text": "Te explico.  \nFLUOCOL es un producto de BRHIUM nutraceutics, pero ahora mismo solo tengo el nombre y no dispongo de la descripción oficial sobre para qué se usa exactamente. No quiero darte una información inexacta.\nLo más seguro es que lo consultes ",
+      "at": "2026-04-23T15:19:46.859Z"
+    },
+    {
+      "id": "line_7c1317ce",
+      "callId": "call_e0e24b73770ba7a781efdc94e8f",
+      "speaker": "agent",
+      "text": "Hola, soy el asistente virtual de BRHIUM nutraceutics. ¿Cómo puedo ayudarte hoy?",
+      "at": "2026-04-22T20:01:31.776Z"
+    },
+    {
+      "id": "line_e0ec1e30",
+      "callId": "call_e0e24b73770ba7a781efdc94e8f",
+      "speaker": "caller",
+      "text": "Quería saber qué es Brium, la verdad que no lo sé. ",
+      "at": "2026-04-22T20:01:31.776Z"
+    },
+    {
+      "id": "line_1f120409",
+      "callId": "call_e0e24b73770ba7a781efdc94e8f",
+      "speaker": "agent",
+      "text": "BRHIUM es una marca de nutracéuticos, es decir, complementos de origen natural pensados para apoyar la salud y el bienestar.  \nSe desarrollan con rigor científico, en colaboración con profesionales sanitarios, y buscan ser un apoyo extra cuando la ",
+      "at": "2026-04-22T20:01:31.776Z"
+    },
+    {
+      "id": "line_2d1cd83a",
+      "callId": "call_e0e24b73770ba7a781efdc94e8f",
+      "speaker": "caller",
+      "text": "Vale, y una cosa, ¿y qué productos tenéis? O sea, ¿qué productos me podrían servir a mí, por ejemplo, que soy un chico que hace deporte para el gimnasio y todo, ¿hay algo que me pueda servir a mí, por ejemplo? ",
+      "at": "2026-04-22T20:01:31.776Z"
+    },
+    {
+      "id": "line_e70f9b72",
+      "callId": "call_e0e24b73770ba7a781efdc94e8f",
+      "speaker": "agent",
+      "text": "Tenemos varios productos en la gama BRHIUM. Los nombres son: IRBOSYN, FLUOCOL, SIBOVAL, ESTAVIT, RELBIX y MICRAFLORA. Cada uno está pensado para necesidades distintas, pero en la información que tengo no aparece detallado cuál es para deporte o rendimiento físico. No quiero darte una recomendación incorrecta. Lo más seguro es que lo comentes con tu farmacéutico: le dices que te interesa BRHIUM y que haces gimnasio, y que te oriente según tu caso. Si quieres, puedo tomar tu nombre y un teléfono o ",
+      "at": "2026-04-22T20:01:31.776Z"
+    },
+    {
+      "id": "line_3d1675e7",
+      "callId": "call_e0e24b73770ba7a781efdc94e8f",
+      "speaker": "caller",
+      "text": "Para para, perdona, ¿para qué sirve el fluo call? ",
+      "at": "2026-04-22T20:01:31.776Z"
+    },
+    {
+      "id": "line_75c90126",
+      "callId": "call_e0e24b73770ba7a781efdc94e8f",
+      "speaker": "agent",
+      "text": "FLUOCOL es un complemento pensado para apoyar el control del colesterol y el cuidado de la salud cardiovascular, como apoyo a un estilo de vida saludable. No sustituye a la medicación ni a los consejos del médico.  \nSi estás tomando algo para el colesterol o tienes alguna enfermedad, es importante que lo consultes con tu médico o tu farmacéutico antes de usarlo, ¿vale?",
+      "at": "2026-04-22T20:01:31.776Z"
+    },
+    {
+      "id": "line_d284d74d",
+      "callId": "call_e0e24b73770ba7a781efdc94e8f",
+      "speaker": "caller",
+      "text": "Perfecto, vale. Mira, yo estoy buscando algo para el tracto urinario. ¿Tenéis algún producto? ",
+      "at": "2026-04-22T20:01:31.776Z"
+    },
+    {
+      "id": "line_6fb3f880",
+      "callId": "call_e0e24b73770ba7a781efdc94e8f",
+      "speaker": "agent",
+      "text": "Sí, para el tracto urinario tenéis ESTAVIT. Es un nutracéutico orientado a apoyar las defensas naturales de las vías urinarias, ayudando a que ciertas bacterias no se adhieran y cuidando la mucosa, siempre como apoyo general, no como tratamiento médico.  \nLo habitual es que lo valores con tu farmacéutico, para que vea si encaja con tu situación concreta. Si quieres, dime en qué provincia estás y te orientó sobre cómo pedirlo en farmacia.",
+      "at": "2026-04-22T20:01:31.776Z"
+    },
+    {
+      "id": "line_dcf088bc",
+      "callId": "call_e0e24b73770ba7a781efdc94e8f",
+      "speaker": "caller",
+      "text": "Vale, dime dónde puedo comprar vuestro productos. Yo soy de Mérida. ",
+      "at": "2026-04-22T20:01:31.776Z"
+    },
+    {
+      "id": "line_8e572cd8",
+      "callId": "call_e0e24b73770ba7a781efdc94e8f",
+      "speaker": "agent",
+      "text": "BRHIUM se puede conseguir en farmacias en España y también en algunos canales online de salud. No tengo un listado por ciudades, así que no puedo decirte una farmacia concreta en Mérida sin riesgo de equivocarme. Lo más práctico es que: en tu farmacia de confianza pidas el producto de BRHIUM que te interese ",
+      "at": "2026-04-22T20:01:31.776Z"
+    },
+    {
+      "id": "line_4eb629f4",
+      "callId": "call_e0e24b73770ba7a781efdc94e8f",
+      "speaker": "caller",
+      "text": "Vale, ",
+      "at": "2026-04-22T20:01:31.776Z"
+    },
+    {
+      "id": "line_a074f9e3",
+      "callId": "call_e0e24b73770ba7a781efdc94e8f",
+      "speaker": "agent",
+      "text": "(por ejemplo, ESTAVIT) y, si ",
+      "at": "2026-04-22T20:01:31.776Z"
+    },
+    {
+      "id": "line_2413a627",
+      "callId": "call_e0e24b73770ba7a781efdc94e8f",
+      "speaker": "caller",
+      "text": "Vale, vale, espera, espera, espera, espera. Yo soy de de una tengo una farmacia en Valencia, y la verdad que me interesaría trabajar con vosotros, ¿me podríais llamar? ",
+      "at": "2026-04-22T20:01:31.776Z"
+    },
+    {
+      "id": "line_b9a0af3f",
+      "callId": "call_e0e24b73770ba7a781efdc94e8f",
+      "speaker": "agent",
+      "text": "Genial, en ese caso lo mejor es que te llame el equipo comercial de BRHIUM.  \nPara pasarles tu interés, necesito unos datos muy cortos: nombre de la farmacia, tu nombre y apellidos, un teléfono de contacto y un correo electrónico. ¿Me dices primero el nombre de la farmacia, por favor?",
+      "at": "2026-04-22T20:01:31.776Z"
+    },
+    {
+      "id": "line_ca7c4ba2",
+      "callId": "call_7ceaba01422afa741b212181ac8",
+      "speaker": "agent",
+      "text": "Hola, gracias por llamar a BRHIUM nutraceutics.  \nSoy el asistente virtual de la marca.  \n\n¿Cómo puedo ayudarte hoy?",
+      "at": "2026-04-22T20:01:12.564Z"
+    },
+    {
+      "id": "line_ac77ab83",
+      "callId": "call_cc497e562524948a0126f0b4043",
+      "speaker": "agent",
+      "text": "Hola, estás llamando a atención al cliente de Brium. ",
+      "at": "2026-04-26T10:27:59.673Z"
+    },
+    {
+      "id": "line_6133f740",
+      "callId": "call_56abb7bd88e88d68c96b2b96aa9",
+      "speaker": "agent",
+      "text": "Hola, estás llamando ",
+      "at": "2026-04-26T10:47:40.647Z"
+    },
+    {
+      "id": "line_e23f8a6c",
+      "callId": "call_d48585be8298fb2eb30891e22d8",
+      "speaker": "agent",
+      "text": "Hola, estás llamando a atención al cliente de Brium. ",
+      "at": "2026-04-27T14:07:55.764Z"
+    },
+    {
+      "id": "line_10f6bd3a",
+      "callId": "call_70e312539c54d497674e13cb665",
+      "speaker": "agent",
+      "text": "Hola, estás llamando ",
+      "at": "2026-04-27T13:54:50.457Z"
+    },
+    {
+      "id": "line_cc76c00d",
+      "callId": "call_a2ed1ab63abc553f3deeed509ab",
+      "speaker": "agent",
+      "text": "Hola, estás llamando a atención al cliente de Brium. Cómo puedo ayudarte?",
+      "at": "2026-04-27T13:54:36.059Z"
+    },
+    {
+      "id": "line_d804c6f8",
+      "callId": "call_6aa551367367452f195474f4a4f",
+      "speaker": "agent",
+      "text": "Hola, estás llamando a atención al cliente de Brium. ",
+      "at": "2026-04-26T16:36:18.017Z"
+    },
+    {
+      "id": "line_07008580",
+      "callId": "call_6aa551367367452f195474f4a4f",
+      "speaker": "caller",
+      "text": "Que ",
+      "at": "2026-04-26T16:36:18.017Z"
+    },
+    {
+      "id": "line_3bfcec3a",
+      "callId": "call_6aa551367367452f195474f4a4f",
+      "speaker": "agent",
+      "text": "Cómo puedo ",
+      "at": "2026-04-26T16:36:18.017Z"
+    },
+    {
+      "id": "line_3d96996f",
+      "callId": "call_6aa551367367452f195474f4a4f",
+      "speaker": "caller",
+      "text": "me pongas en contacto, quiero que me pongas en contacto con una gente real. ",
+      "at": "2026-04-26T16:36:18.017Z"
+    },
+    {
+      "id": "line_984e8ff9",
+      "callId": "call_6aa551367367452f195474f4a4f",
+      "speaker": "agent",
+      "text": "Entiendo. Para ponerte en contacto con un humano, ¿me dices tu nombre y un teléfono o correo para que el equipo te llame o te escriba?\n\nSi prefieres, también puedo dejar ",
+      "at": "2026-04-26T16:36:18.017Z"
+    },
+    {
+      "id": "line_8687216a",
+      "callId": "call_6aa551367367452f195474f4a4f",
+      "speaker": "caller",
+      "text": "Le llamo ",
+      "at": "2026-04-26T16:36:18.017Z"
+    },
+    {
+      "id": "line_81b879da",
+      "callId": "call_6aa551367367452f195474f4a4f",
+      "speaker": "agent",
+      "text": "constancia de tu interés para ",
+      "at": "2026-04-26T16:36:18.017Z"
+    },
+    {
+      "id": "line_8ff969c1",
+      "callId": "call_6aa551367367452f195474f4a4f",
+      "speaker": "caller",
+      "text": "me llamo Paul, y mi número de teléfono es el seis nueve tres cuatro ocho nueve cinco veintitrés. ",
+      "at": "2026-04-26T16:36:18.017Z"
+    },
+    {
+      "id": "line_1cdc8dc2",
+      "callId": "call_6aa551367367452f195474f4a4f",
+      "speaker": "agent",
+      "text": "Perfecto, Paul. Ya registro tu interés en ser contactado.  \nTe paso los datos: nombre Paul, teléfono 6934839523.  \n¿Te gustaría que te contactemos desde el equipo comercial o desde atención al cliente?  \n¿Algún motivo específico de contacto ",
+      "at": "2026-04-26T16:36:18.017Z"
+    },
+    {
+      "id": "line_c343ba55",
+      "callId": "call_6aa551367367452f195474f4a4f",
+      "speaker": "caller",
+      "text": "Desde el ",
+      "at": "2026-04-26T16:36:18.017Z"
+    },
+    {
+      "id": "line_648a3aaf",
+      "callId": "call_6aa551367367452f195474f4a4f",
+      "speaker": "agent",
+      "text": "(distribución, farmacia, ",
+      "at": "2026-04-26T16:36:18.017Z"
+    },
+    {
+      "id": "line_ce906c67",
+      "callId": "call_6aa551367367452f195474f4a4f",
+      "speaker": "caller",
+      "text": "equipo de desde el equipo comercial, porque no me ha llegado el pedido. ",
+      "at": "2026-04-26T16:36:18.017Z"
+    },
+    {
+      "id": "line_5d0b8112",
+      "callId": "call_6aa551367367452f195474f4a4f",
+      "speaker": "caller",
+      "text": "Me tengo ",
+      "at": "2026-04-26T16:36:18.017Z"
+    },
+    {
+      "id": "line_d6b7e2be",
+      "callId": "call_6aa551367367452f195474f4a4f",
+      "speaker": "agent",
+      "text": "Gracias, ",
+      "at": "2026-04-26T16:36:18.017Z"
+    },
+    {
+      "id": "line_1029c57b",
+      "callId": "call_6aa551367367452f195474f4a4f",
+      "speaker": "caller",
+      "text": "que ",
+      "at": "2026-04-26T16:36:18.017Z"
+    },
+    {
+      "id": "line_183eb7b3",
+      "callId": "call_6aa551367367452f195474f4a4f",
+      "speaker": "agent",
+      "text": "Gracias, Paul. Entiendo que prefieres que te contacten desde el equipo comercial y que es por un pedido pendiente. \n\nPara avanzar, voy a dejar constancia de tu interés y lo derivamos al equipo comercial para que te contacten lo antes posible. \n\n¿Quieres que también añadamos una nota sobre el número de pedido o el email de contacto?",
+      "at": "2026-04-26T16:36:18.017Z"
+    },
+    {
+      "id": "line_a0ccef21",
+      "callId": "call_6aa551367367452f195474f4a4f",
+      "speaker": "caller",
+      "text": "No, ",
+      "at": "2026-04-26T16:36:18.017Z"
+    },
+    {
+      "id": "line_7993f34e",
+      "callId": "call_6aa551367367452f195474f4a4f",
+      "speaker": "agent",
+      "text": "Perfecto, Paul. Ya dejamos constancia para que el equipo comercial te contacte lo antes posible.\n\nSi quieras, puedo tomar nota adicional más adelante. ¿Quieres que te confirme cuando te contacten?",
+      "at": "2026-04-26T16:36:18.017Z"
+    },
+    {
+      "id": "line_198df149",
+      "callId": "call_6aa551367367452f195474f4a4f",
+      "speaker": "caller",
+      "text": "No. ",
+      "at": "2026-04-26T16:36:18.017Z"
+    },
+    {
+      "id": "line_5728ce77",
+      "callId": "call_6aa551367367452f195474f4a4f",
+      "speaker": "agent",
+      "text": "Entendido, Paul. Ya dejamos constancia para que el equipo ",
+      "at": "2026-04-26T16:36:18.017Z"
+    },
+    {
+      "id": "line_8086bf04",
+      "callId": "call_6c029c5c4d6a9747205ce52e2d8",
+      "speaker": "agent",
+      "text": "Hola, estás llamando a atención al cliente de Brium. Cómo puedo ayudarte?",
+      "at": "2026-04-27T15:19:28.086Z"
+    },
+    {
+      "id": "line_011929d1",
+      "callId": "call_6c029c5c4d6a9747205ce52e2d8",
+      "speaker": "caller",
+      "text": "Hola, buenos días. Sobre Micraflora. ",
+      "at": "2026-04-27T15:19:28.086Z"
+    },
+    {
+      "id": "line_3ee9086b",
+      "callId": "call_6c029c5c4d6a9747205ce52e2d8",
+      "speaker": "agent",
+      "text": "Buenos días. Claro, cuéntame qué quieres ",
+      "at": "2026-04-27T15:19:28.086Z"
+    }
+  ],
+  "callEvents": [],
+  "callSummaries": [
+    {
+      "id": "summary_c92b0d4c",
+      "callId": "call_03002a26e1adf9ddd582b6d52dd",
+      "summary": "The agent greeted the user and began the call, but the user hung up almost immediately without engaging in conversation.",
+      "disposition": "Neutral",
+      "nextStep": "Completado",
+      "updatedAt": "2026-04-26T10:19:35.728Z"
+    },
+    {
+      "id": "summary_bac7516f",
+      "callId": "call_c9dde4d2760a673fd7702686de7",
+      "summary": "The user called Brium customer service and asked the agent for its name. The agent introduced itself as Pol, the assistant of Brium, and offered to assist or take the user's information. The call ended shortly after.",
+      "disposition": "Neutral",
+      "nextStep": "Completado",
+      "updatedAt": "2026-04-26T10:19:36.006Z"
+    },
+    {
+      "id": "summary_d6e35787",
+      "callId": "call_7925c4a7ded3e7e1954db01065a",
+      "summary": "The user greeted the agent, and the agent responded by offering assistance and asking if the user needed information or wanted to leave contact details. The call ended before the user stated their request.",
+      "disposition": "Neutral",
+      "nextStep": "Completado",
+      "updatedAt": "2026-04-26T10:19:36.194Z"
+    },
+    {
+      "id": "summary_389d88c5",
+      "callId": "call_21eec183b44bbdb21def59f83cd",
+      "summary": "The agent greeted the user and offered to take their information for a follow-up from the team. The user greeted the agent but did not provide further information before the call ended.",
+      "disposition": "Neutral",
+      "nextStep": "Completado",
+      "updatedAt": "2026-04-26T10:19:36.480Z"
+    },
+    {
+      "id": "summary_b1640c8a",
+      "callId": "call_50e8b777e7616752c846804994f",
+      "summary": "The user called Brium customer service to ask about the company's services. The agent explained that Brium focuses on nutraceuticals for health and wellness, and offered further information or assistance. The user seemed confused by a word used by the agent and hung up shortly after.",
+      "disposition": "Neutral",
+      "nextStep": "Completado",
+      "updatedAt": "2026-04-26T10:19:37.105Z"
+    },
+    {
+      "id": "summary_4da52c17",
+      "callId": "call_f1accac43eace75c9536f4c707a",
+      "summary": "The user called Brium customer service and asked for the company's name. The agent clarified the brand as BRHIUM nutraceutics and offered to take the user's information for further contact. The call ended shortly after without further interaction.",
+      "disposition": "Neutral",
+      "nextStep": "Completado",
+      "updatedAt": "2026-04-26T10:19:37.330Z"
+    },
+    {
+      "id": "summary_d8a285ee",
+      "callId": "call_6c856fe981501b96c60bff78ba9",
+      "summary": "The user called Brium customer service and asked for clarification on the company's name. The agent clarified the pronunciation and asked how they could assist further, but the call ended shortly after.",
+      "disposition": "Neutral",
+      "nextStep": "Completado",
+      "updatedAt": "2026-04-26T10:19:37.537Z"
+    },
+    {
+      "id": "summary_d8a94996",
+      "callId": "call_8c894fee43f5c3e3364149b7f57",
+      "summary": "El usuario llamó al servicio de atención al cliente de Brium solicitando una devolución de manera molesta y pidió hablar con un agente humano. El agente intentó recopilar información para transferir la llamada, pero el usuario se negó a proporcionar datos y colgó.",
+      "disposition": "Negative",
+      "nextStep": "Completado",
+      "updatedAt": "2026-04-26T10:19:37.803Z"
+    },
+    {
+      "id": "summary_48de49ae",
+      "callId": "call_f1dddb170ba3c18ba487e9e3ade",
+      "summary": "The agent greeted the user and offered assistance, but the user hung up before responding or engaging in conversation.",
+      "disposition": "Neutral",
+      "nextStep": "Completado",
+      "updatedAt": "2026-04-26T10:19:38.016Z"
+    },
+    {
+      "id": "summary_f342e5a7",
+      "callId": "call_c0c05ebd3e96edb94ff7698815d",
+      "summary": "The user called BRHIUM nutraceutics but expressed confusion and stated they did not understand. The agent attempted to clarify the pronunciation and offered further explanation, but the call ended shortly after.",
+      "disposition": "Negative",
+      "nextStep": "Completado",
+      "updatedAt": "2026-04-26T10:19:38.358Z"
+    },
+    {
+      "id": "summary_81df321c",
+      "callId": "call_70ebc3aca6f3f4394aaf4ba3803",
+      "summary": "The user called BRHIUM nutraceutics and asked for clarification on the company's name pronunciation. The agent explained that 'BRHIUM' is pronounced 'brium' with a silent 'H'.",
+      "disposition": "Neutral",
+      "nextStep": "Completado",
+      "updatedAt": "2026-04-26T10:19:38.635Z"
+    },
+    {
+      "id": "summary_8bcbc166",
+      "callId": "call_719d24ba5d1811728e65fbd86ad",
+      "summary": "The agent greeted the caller, but the call was disconnected by the user almost immediately after the greeting.",
+      "disposition": "Neutral",
+      "nextStep": "Completado",
+      "updatedAt": "2026-04-26T10:19:38.918Z"
+    },
+    {
+      "id": "summary_53ce8cd5",
+      "callId": "call_f3fa425937acc37f5faf24b3c4f",
+      "summary": "The agent greeted the user and introduced themselves as the assistant for BRHIUM nutraceutics, asking how they could help. The user did not respond and hung up shortly after.",
+      "disposition": "Neutral",
+      "nextStep": "Completado",
+      "updatedAt": "2026-04-26T10:19:39.123Z"
+    },
+    {
+      "id": "summary_d1f46d49",
+      "callId": "call_f6fb618630ad54a32c155f17ac0",
+      "summary": "The user called to clarify the pronunciation of the brand name BRHIUM, initially questioning the agent's pronunciation. The agent explained the correct pronunciation and acknowledged the user's correction, offering further assistance regarding the brand or its products. The call ended without additional questions from the user.",
+      "disposition": "Neutral",
+      "nextStep": "Completado",
+      "updatedAt": "2026-04-26T10:19:39.402Z"
+    },
+    {
+      "id": "summary_3c6d9ae9",
+      "callId": "call_aae92b4a41e77ba6284417895d8",
+      "summary": "The user asked for information about BRHIUM and what the company does. The agent provided a detailed explanation about BRHIUM's focus on nutraceuticals, their scientific approach, team qualifications, and product standards, and offered to provide more information about where to find their products.",
+      "disposition": "Neutral",
+      "nextStep": "Completado",
+      "updatedAt": "2026-04-26T10:19:39.668Z"
+    },
+    {
+      "id": "summary_1d74a7bf",
+      "callId": "call_23d25163cff848e078bff5c2f61",
+      "summary": "The user inquired about where to purchase BRHIUM products and specifically asked for a product for urinary tract health. The agent provided information on where to buy the products and recommended IRBOSYN for urinary tract support, offering further assistance if the user provided contact details.",
+      "disposition": "Neutral",
+      "nextStep": "Completado",
+      "updatedAt": "2026-04-26T10:19:39.861Z"
+    },
+    {
+      "id": "summary_f8f5a967",
+      "callId": "call_fd5a739204863b75f552e491a22",
+      "summary": "The agent greeted the user as the virtual assistant of BRHIUM nutraceutics, but the call was disconnected by the user before any further conversation could occur.",
+      "disposition": "Neutral",
+      "nextStep": "Completado",
+      "updatedAt": "2026-04-26T10:19:40.064Z"
+    },
+    {
+      "id": "summary_c5edd2ef",
+      "callId": "call_e8942e4d5644e324afb670fb42b",
+      "summary": "The agent greeted the caller and began the introduction, but the call was disconnected by the user before any conversation could take place.",
+      "disposition": "Neutral",
+      "nextStep": "Completado",
+      "updatedAt": "2026-04-26T10:19:40.269Z"
+    },
+    {
+      "id": "summary_a350d138",
+      "callId": "call_57a49581bff3d445ec0779fcee3",
+      "summary": "The agent greeted the user and introduced themselves as the virtual assistant of BRHIUM nutraceutics, but the call was disconnected before the user responded.",
+      "disposition": "Neutral",
+      "nextStep": "Completado",
+      "updatedAt": "2026-04-26T10:19:40.513Z"
+    },
+    {
+      "id": "summary_020254cd",
+      "callId": "call_ec2c41217260cb0d00fb8792f1e",
+      "summary": "The user asked the agent about the purpose of the product 'Fluocall.' The agent clarified the company name and explained that they do not have the official description of the product, advising the user to consult elsewhere for accurate information. The call ended without the user's question being fully answered.",
+      "disposition": "Neutral",
+      "nextStep": "Completado",
+      "updatedAt": "2026-04-26T10:19:40.706Z"
+    },
+    {
+      "id": "summary_ee44e3a0",
+      "callId": "call_e0e24b73770ba7a781efdc94e8f",
+      "summary": "The user inquired about BRHIUM nutraceuticals, their products, and specific recommendations for sports and urinary tract health. The agent provided information about relevant products and purchasing options, and the user expressed interest in collaborating as a pharmacy in Valencia, prompting the agent to request contact details for follow-up by the commercial team.",
+      "disposition": "Positive",
+      "nextStep": "Completado",
+      "updatedAt": "2026-04-26T10:19:40.986Z"
+    },
+    {
+      "id": "summary_5169c759",
+      "callId": "call_7ceaba01422afa741b212181ac8",
+      "summary": "The agent greeted the caller and introduced itself as the virtual assistant for BRHIUM nutraceutics, then asked how it could assist. The user hung up before responding or engaging further.",
+      "disposition": "Neutral",
+      "nextStep": "Completado",
+      "updatedAt": "2026-04-26T10:19:41.173Z"
+    },
+    {
+      "id": "summary_c35d4662",
+      "callId": "call_cc497e562524948a0126f0b4043",
+      "summary": "Agent greeted the user in Spanish, stating they reached Brium customer service. The call lasted 4 seconds and disconnected immediately after the greeting.",
+      "disposition": "Neutral",
+      "nextStep": "Completado",
+      "updatedAt": "2026-04-26T10:46:31.466Z"
+    },
+    {
+      "id": "summary_703047e1",
+      "callId": "call_56abb7bd88e88d68c96b2b96aa9",
+      "summary": "Agent greeted the (unknown) recipient in Spanish but there was no response; call lasted 2 seconds and ended with user hangup.",
+      "disposition": "Neutral",
+      "nextStep": "Completado",
+      "updatedAt": "2026-04-26T10:47:48.030Z"
+    },
+    {
+      "id": "summary_92ee023a",
+      "callId": "call_d48585be8298fb2eb30891e22d8",
+      "summary": "Agent greeted the user in Spanish for Brium customer service, but there was no user response before the call ended.",
+      "disposition": "Neutral",
+      "nextStep": "Completado",
+      "updatedAt": "2026-04-27T14:15:24.886Z"
+    },
+    {
+      "id": "summary_93a1dbf6",
+      "callId": "call_70e312539c54d497674e13cb665",
+      "summary": "The agent greeted the caller in Spanish but the caller did not respond; the call lasted 2 seconds and ended with the user hanging up.",
+      "disposition": "Neutral",
+      "nextStep": "Completado",
+      "updatedAt": "2026-04-27T14:15:25.139Z"
+    },
+    {
+      "id": "summary_041dec6b",
+      "callId": "call_a2ed1ab63abc553f3deeed509ab",
+      "summary": "Agent greeted the caller in Spanish and offered customer support for Brium; there was no response from the user before the call ended.",
+      "disposition": "Neutral",
+      "nextStep": "Completado",
+      "updatedAt": "2026-04-27T14:15:25.443Z"
+    },
+    {
+      "id": "summary_7140f55f",
+      "callId": "call_6aa551367367452f195474f4a4f",
+      "summary": "User asked to be connected to a real person regarding a missing order. Agent collected the user’s name (Paul) and phone number (6934839523), noted the request for the commercial team about a pending order, and logged the contact request without adding order/email details or a follow-up confirmation.",
+      "disposition": "Neutral",
+      "nextStep": "Completado",
+      "updatedAt": "2026-04-27T14:15:25.688Z"
+    },
+    {
+      "id": "summary_40c089ea",
+      "callId": "call_6c029c5c4d6a9747205ce52e2d8",
+      "summary": "A brief incoming customer service call in Spanish where the user greeted and mentioned 'Micraflora' but did not provide further details before hanging up after a short exchange.",
+      "disposition": "Neutral",
+      "nextStep": "Completado",
+      "updatedAt": "2026-04-27T15:34:47.360Z"
+    }
+  ],
+  "whatsappEvents": [],
+  "knowledgeProducts": [
+    {
+      "slug": "siboval",
+      "name": "Siboval",
+      "category": "Salud intestinal",
+      "purpose": "Complemento alimenticio orientado al equilibrio intestinal y el bienestar digestivo.",
+      "composition": [
+        "Lactobacillus rhamnosus LR06",
+        "Fructooligosacaridos"
+      ],
+      "modeOfUse": "Una capsula al dia durante tres meses.",
+      "warnings": [
+        "No superar la dosis diaria recomendada.",
+        "Mantener fuera del alcance de los ninos.",
+        "No sustituye una dieta variada y equilibrada."
+      ],
+      "purchaseUrl": "https://www.brhium.com/productos/siboval/",
+      "sourceUrl": "https://www.brhium.com/productos/siboval/",
+      "escalateWhen": [
+        "Embarazo o lactancia",
+        "Menores",
+        "Sintomas digestivos agudos"
+      ]
+    },
+    {
+      "slug": "irbosyn",
+      "name": "Irbosyn",
+      "category": "Salud urinaria",
+      "purpose": "Complemento alimenticio pensado para apoyar el confort y equilibrio del tracto urinario.",
+      "composition": [
+        "D-manosa",
+        "Arandano rojo americano",
+        "Lactobacillus acidophilus SGL11"
+      ],
+      "modeOfUse": "Dos capsulas al dia durante quince dias. Despues, una capsula al dia hasta completar tres meses.",
+      "warnings": [
+        "No superar la dosis diaria recomendada.",
+        "Mantener fuera del alcance de los ninos.",
+        "No usar como sustituto de tratamiento medico."
+      ],
+      "purchaseUrl": "https://www.brhium.com/productos/irbosyn/",
+      "sourceUrl": "https://www.brhium.com/productos/irbosyn/",
+      "escalateWhen": [
+        "Infeccion activa con sintomas intensos",
+        "Embarazo",
+        "Uso junto a medicacion prescrita"
+      ]
+    },
+    {
+      "slug": "fluocol",
+      "name": "Fluocol",
+      "category": "Colesterol y riesgo cardiovascular",
+      "purpose": "Complemento alimenticio dirigido al mantenimiento de niveles normales de colesterol junto a un estilo de vida saludable.",
+      "composition": [
+        "Monacolina K de arroz rojo fermentado",
+        "Policosanoles",
+        "Coenzima Q10"
+      ],
+      "modeOfUse": "Una capsula al dia, preferiblemente por la noche.",
+      "warnings": [
+        "No usar en embarazo o lactancia sin criterio profesional.",
+        "Consultar con un profesional si se toman hipolipemiantes u otra medicacion.",
+        "No superar la dosis recomendada."
+      ],
+      "purchaseUrl": "https://www.brhium.com/productos/fluocol/",
+      "sourceUrl": "https://www.brhium.com/productos/fluocol/",
+      "escalateWhen": [
+        "Uso de estatinas u otra medicacion",
+        "Antecedentes cardiovasculares",
+        "Embarazo o lactancia"
+      ]
+    },
+    {
+      "slug": "estavit",
+      "name": "Estavit",
+      "category": "Estres y sueno",
+      "purpose": "Complemento alimenticio asociado al equilibrio emocional, manejo del estres y descanso.",
+      "composition": [
+        "Ashwagandha",
+        "Magnesio",
+        "Vitaminas del grupo B"
+      ],
+      "modeOfUse": "Una capsula al dia, preferiblemente de forma continuada durante tres meses.",
+      "warnings": [
+        "No sustituye una dieta variada y equilibrada.",
+        "Consultar con un profesional en embarazo, lactancia o si se esta bajo tratamiento.",
+        "Mantener fuera del alcance de los ninos."
+      ],
+      "purchaseUrl": "https://www.brhium.com/productos/estavit/",
+      "sourceUrl": "https://www.brhium.com/productos/estavit/",
+      "escalateWhen": [
+        "Ansiedad intensa",
+        "Insomnio grave",
+        "Uso junto a psicofarmacos"
+      ]
+    },
+    {
+      "slug": "relbix",
+      "name": "Relbix",
+      "category": "Bienestar digestivo",
+      "purpose": "Complemento alimenticio relacionado con el bienestar gastrointestinal y el equilibrio digestivo.",
+      "composition": [
+        "Glutamina",
+        "Zinc",
+        "Vitaminas del grupo B"
+      ],
+      "modeOfUse": "Dos capsulas al dia en una o dos tomas, segun la informacion publica.",
+      "warnings": [
+        "No recomendar en casos con medicacion concomitante sin revision humana.",
+        "No sustituye el consejo de un profesional sanitario.",
+        "No superar la dosis diaria recomendada."
+      ],
+      "purchaseUrl": "https://www.brhium.com/productos/relbix/",
+      "sourceUrl": "https://www.brhium.com/productos/relbix/",
+      "escalateWhen": [
+        "Medicacion concomitante",
+        "Sintomas persistentes",
+        "Embarazo o lactancia"
+      ]
+    },
+    {
+      "slug": "micraflora",
+      "name": "Micraflora",
+      "category": "Microbiota",
+      "purpose": "Complemento alimenticio con foco en el equilibrio de la microbiota y el bienestar digestivo.",
+      "composition": [
+        "Mezcla de probioticos",
+        "Prebioticos",
+        "Vitaminas de soporte"
+      ],
+      "modeOfUse": "Una capsula al dia o segun pauta indicada en el envase.",
+      "warnings": [
+        "Mantener fuera del alcance de los ninos.",
+        "No usar como sustituto de una dieta equilibrada.",
+        "Consultar con un profesional en situaciones clinicas sensibles."
+      ],
+      "purchaseUrl": "https://www.brhium.com/productos/micraflora/",
+      "sourceUrl": "https://www.brhium.com/productos/micraflora/",
+      "escalateWhen": [
+        "Inmunosupresion",
+        "Patologia digestiva activa",
+        "Embarazo o lactancia"
+      ]
+    }
+  ],
+  "companyKnowledge": {
+    "summary": "Brhium trabaja con soluciones nutraceuticas orientadas a salud intestinal, urinaria, metabolismo y equilibrio emocional.",
+    "philosophy": "La marca habla de bienestar desde un enfoque integral y de apoyo, sin sustituir la valoracion profesional individual.",
+    "contactChannel": "Formulario de contacto web y seguimiento operativo por telefono o WhatsApp.",
+    "contactUrl": "https://www.brhium.com/contacto/"
+  },
+  "usageMetrics": [
+    {
+      "date": "2026-04-21",
+      "calls": 0,
+      "minutes": 0,
+      "costEstimateCents": 0
+    },
+    {
+      "date": "2026-04-22",
+      "calls": 2,
+      "minutes": 4,
+      "costEstimateCents": 71
+    },
+    {
+      "date": "2026-04-23",
+      "calls": 16,
+      "minutes": 8,
+      "costEstimateCents": 139
+    },
+    {
+      "date": "2026-04-24",
+      "calls": 0,
+      "minutes": 0,
+      "costEstimateCents": 0
+    },
+    {
+      "date": "2026-04-25",
+      "calls": 0,
+      "minutes": 0,
+      "costEstimateCents": 0
+    },
+    {
+      "date": "2026-04-26",
+      "calls": 7,
+      "minutes": 3,
+      "costEstimateCents": 52
+    },
+    {
+      "date": "2026-04-27",
+      "calls": 4,
+      "minutes": 1,
+      "costEstimateCents": 9
+    }
+  ],
+  "retellKnowledgeBases": [
+    {
+      "knowledge_base_id": "knowledge_base_4bd0809749908cfc",
+      "knowledge_base_name": "Brihum",
+      "knowledge_base_sources": [
+        {
+          "source_id": "kb_source_a26882b096767279",
+          "type": "url",
+          "url": "https://www.brhium.com"
+        },
+        {
+          "source_id": "kb_source_3f3f3483cf087b0c",
+          "type": "url",
+          "url": "https://www.brhium.com/contacto"
+        },
+        {
+          "source_id": "kb_source_73ca9b46cfbc5e7f",
+          "type": "url",
+          "url": "https://www.brhium.com/productos"
+        },
+        {
+          "source_id": "kb_source_b577abb054957937",
+          "type": "url",
+          "url": "https://www.brhium.com/quienes-somos"
+        },
+        {
+          "source_id": "kb_source_72961356298f3f33",
+          "type": "url",
+          "url": "https://www.brhium.com/productos/irbosyn"
+        },
+        {
+          "source_id": "kb_source_8325b1a198edd324",
+          "type": "url",
+          "url": "https://www.brhium.com/productos/fluocol"
+        },
+        {
+          "source_id": "kb_source_7433ccb54a8c64bd",
+          "type": "url",
+          "url": "https://www.brhium.com/productos/estavit"
+        },
+        {
+          "source_id": "kb_source_6b49b87090281f38",
+          "type": "url",
+          "url": "https://www.brhium.com/productos/micraflora"
+        },
+        {
+          "source_id": "kb_source_f3b80ffff9afdc7a",
+          "type": "url",
+          "url": "https://www.brhium.com/productos/relbix"
+        },
+        {
+          "source_id": "kb_source_d67d5281ff4d4784",
+          "type": "url",
+          "url": "https://www.brhium.com/productos/siboval"
+        },
+        {
+          "source_id": "kb_source_32959d32f51904de",
+          "type": "url",
+          "url": "https://www.brhium.com/author/brhium"
+        },
+        {
+          "source_id": "kb_source_d467620d944535fa",
+          "content_url": "https://dxc03zgurdly9.cloudfront.net/knowledge_base_4bd0809749908cfc/c1f0a2e1.txt",
+          "type": "text",
+          "title": "Medicamentos"
+        }
+      ],
+      "auto_crawling_paths": [
+        {
+          "path": "brhium.com",
+          "exclusion_urls": []
+        }
+      ],
+      "enable_auto_refresh": false,
+      "status": "complete",
+      "error_messages": [],
+      "last_refreshed_timestamp": 1777300998725,
+      "user_modified_timestamp": 1777301741497
+    }
+  ]
+}

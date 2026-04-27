@@ -1,0 +1,36 @@
+- generic [ref=e2]:
+  - banner [ref=e3]:
+    - generic [ref=e4]:
+      - img [ref=e6]
+      - generic [ref=e9]: Sauteri · Brhium
+    - generic [ref=e10]:
+      - generic [ref=e11]: 01 / 09
+      - link "Entrar al panel" [ref=e12] [cursor=pointer]:
+        - /url: /login
+  - main [ref=e13]:
+    - article [ref=e14]:
+      - paragraph [ref=e15]: Sauteri × Brhium
+      - heading "Agentes de voz para salud y bienestar" [level=1] [ref=e16]
+      - paragraph [ref=e17]: Una conversación honesta sobre qué son, qué pueden hacer hoy, y cómo encajarían en Brhium y Munacare.
+      - img [ref=e23]
+      - link "Empezar" [ref=e27] [cursor=pointer]:
+        - /url: "#siguiente"
+        - text: Empezar
+        - img [ref=e28]
+  - contentinfo [ref=e30]:
+    - button "Anterior" [disabled] [ref=e31]:
+      - img [ref=e32]
+      - generic [ref=e34]: Anterior
+    - generic [ref=e35]:
+      - button "Ir a slide 1" [ref=e36] [cursor=pointer]
+      - button "Ir a slide 2" [ref=e37] [cursor=pointer]
+      - button "Ir a slide 3" [ref=e38] [cursor=pointer]
+      - button "Ir a slide 4" [ref=e39] [cursor=pointer]
+      - button "Ir a slide 5" [ref=e40] [cursor=pointer]
+      - button "Ir a slide 6" [ref=e41] [cursor=pointer]
+      - button "Ir a slide 7" [ref=e42] [cursor=pointer]
+      - button "Ir a slide 8" [ref=e43] [cursor=pointer]
+      - button "Ir a slide 9" [ref=e44] [cursor=pointer]
+    - button "Siguiente" [ref=e45] [cursor=pointer]:
+      - generic [ref=e46]: Siguiente
+      - img [ref=e47]

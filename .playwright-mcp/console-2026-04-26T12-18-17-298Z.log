@@ -1,0 +1,1239 @@
+[     491ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[     581ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[  562861ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[  562957ms] [LOG] [Fast Refresh] done in 141ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[  587458ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[  587609ms] [LOG] [Fast Refresh] done in 149ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[  610468ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[  610976ms] [LOG] [Fast Refresh] done in 440ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[  765839ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[  767284ms] [ERROR] ./src/features/brhium-platform/components/dashboard-client.tsx:1370:5
+Expression expected
+  1368 |   )
+  1369 | }
+> 1370 |     </section>
+       |     ^
+  1371 |   )
+  1372 | }
+  1373 |
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./src/features/brhium-platform/components/dashboard-client.tsx
+    ./src/app/(main)/dashboard/page.tsx @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:3272
+[  767287ms] [ERROR] ./src/features/brhium-platform/components/dashboard-client.tsx:1370:6
+Unterminated regexp literal
+  1368 |   )
+  1369 | }
+> 1370 |     </section>
+       |      ^^^^^^^^^
+  1371 |   )
+  1372 | }
+  1373 |
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./src/features/brhium-platform/components/dashboard-client.tsx
+    ./src/app/(main)/dashboard/page.tsx @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:3272
+[  767458ms] [ERROR] ./src/features/brhium-platform/components/dashboard-client.tsx:1370:5
+Expression expected
+  1368 |   )
+  1369 | }
+> 1370 |     </section>
+       |     ^
+  1371 |   )
+  1372 | }
+  1373 |
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./src/features/brhium-platform/components/dashboard-client.tsx
+    ./src/app/(main)/dashboard/page.tsx @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:3272
+[  767459ms] [ERROR] ./src/features/brhium-platform/components/dashboard-client.tsx:1370:6
+Unterminated regexp literal
+  1368 |   )
+  1369 | }
+> 1370 |     </section>
+       |      ^^^^^^^^^
+  1371 |   )
+  1372 | }
+  1373 |
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./src/features/brhium-platform/components/dashboard-client.tsx
+    ./src/app/(main)/dashboard/page.tsx @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:3272
+[  767561ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[  768594ms] [ERROR] ./src/features/brhium-platform/components/dashboard-client.tsx:1370:5
+Expression expected
+  1368 |   )
+  1369 | }
+> 1370 |     </section>
+       |     ^
+  1371 |   )
+  1372 | }
+  1373 |
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./src/features/brhium-platform/components/dashboard-client.tsx
+    ./src/app/(main)/dashboard/page.tsx @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:3272
+[  768595ms] [ERROR] ./src/features/brhium-platform/components/dashboard-client.tsx:1370:6
+Unterminated regexp literal
+  1368 |   )
+  1369 | }
+> 1370 |     </section>
+       |      ^^^^^^^^^
+  1371 |   )
+  1372 | }
+  1373 |
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./src/features/brhium-platform/components/dashboard-client.tsx
+    ./src/app/(main)/dashboard/page.tsx @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:3272
+[  768603ms] [ERROR] ./src/features/brhium-platform/components/dashboard-client.tsx:1370:5
+Expression expected
+  1368 |   )
+  1369 | }
+> 1370 |     </section>
+       |     ^
+  1371 |   )
+  1372 | }
+  1373 |
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./src/features/brhium-platform/components/dashboard-client.tsx
+    ./src/app/(main)/dashboard/page.tsx @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:3272
+[  768605ms] [ERROR] ./src/features/brhium-platform/components/dashboard-client.tsx:1370:6
+Unterminated regexp literal
+  1368 |   )
+  1369 | }
+> 1370 |     </section>
+       |      ^^^^^^^^^
+  1371 |   )
+  1372 | }
+  1373 |
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./src/features/brhium-platform/components/dashboard-client.tsx
+    ./src/app/(main)/dashboard/page.tsx @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:3272
+[  768635ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/dashboard?_rsc=1g955:0
+[  768727ms] [ERROR] ./src/features/brhium-platform/components/dashboard-client.tsx:1370:5
+Expression expected
+  1368 |   )
+  1369 | }
+> 1370 |     </section>
+       |     ^
+  1371 |   )
+  1372 | }
+  1373 |
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./src/features/brhium-platform/components/dashboard-client.tsx
+    ./src/app/(main)/dashboard/page.tsx @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:3272
+[  768728ms] [ERROR] ./src/features/brhium-platform/components/dashboard-client.tsx:1370:6
+Unterminated regexp literal
+  1368 |   )
+  1369 | }
+> 1370 |     </section>
+       |      ^^^^^^^^^
+  1371 |   )
+  1372 | }
+  1373 |
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./src/features/brhium-platform/components/dashboard-client.tsx
+    ./src/app/(main)/dashboard/page.tsx @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:3272
+[  768885ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[  769149ms] [ERROR] ./src/features/brhium-platform/components/dashboard-client.tsx:1370:5
+Expression expected
+  1368 |   )
+  1369 | }
+> 1370 |     </section>
+       |     ^
+  1371 |   )
+  1372 | }
+  1373 |
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./src/features/brhium-platform/components/dashboard-client.tsx
+    ./src/app/(main)/dashboard/page.tsx @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:3272
+[  769149ms] [ERROR] ./src/features/brhium-platform/components/dashboard-client.tsx:1370:6
+Unterminated regexp literal
+  1368 |   )
+  1369 | }
+> 1370 |     </section>
+       |      ^^^^^^^^^
+  1371 |   )
+  1372 | }
+  1373 |
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./src/features/brhium-platform/components/dashboard-client.tsx
+    ./src/app/(main)/dashboard/page.tsx @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:3272
+[  769158ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/dashboard?_rsc=1g955:0
+[  769208ms] [ERROR] ./src/features/brhium-platform/components/dashboard-client.tsx:1370:5
+Expression expected
+  1368 |   )
+  1369 | }
+> 1370 |     </section>
+       |     ^
+  1371 |   )
+  1372 | }
+  1373 |
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./src/features/brhium-platform/components/dashboard-client.tsx
+    ./src/app/(main)/dashboard/page.tsx @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:3272
+[  769219ms] [ERROR] ./src/features/brhium-platform/components/dashboard-client.tsx:1370:6
+Unterminated regexp literal
+  1368 |   )
+  1369 | }
+> 1370 |     </section>
+       |      ^^^^^^^^^
+  1371 |   )
+  1372 | }
+  1373 |
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./src/features/brhium-platform/components/dashboard-client.tsx
+    ./src/app/(main)/dashboard/page.tsx @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:3272
+[  769248ms] [ERROR] ./src/features/brhium-platform/components/dashboard-client.tsx:1370:5
+Expression expected
+  1368 |   )
+  1369 | }
+> 1370 |     </section>
+       |     ^
+  1371 |   )
+  1372 | }
+  1373 |
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./src/features/brhium-platform/components/dashboard-client.tsx
+    ./src/app/(main)/dashboard/page.tsx @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:3272
+[  769256ms] [ERROR] ./src/features/brhium-platform/components/dashboard-client.tsx:1370:6
+Unterminated regexp literal
+  1368 |   )
+  1369 | }
+> 1370 |     </section>
+       |      ^^^^^^^^^
+  1371 |   )
+  1372 | }
+  1373 |
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./src/features/brhium-platform/components/dashboard-client.tsx
+    ./src/app/(main)/dashboard/page.tsx @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:3272
+[  769346ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[  769386ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/dashboard:0
+[  769920ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/node_modules_react-dom_0bruynb._.js:15305
+[  770093ms] Error: ./src/features/brhium-platform/components/dashboard-client.tsx:1370:5
+Expression expected
+  1368 |   )
+  1369 | }
+> 1370 |     </section>
+       |     ^
+  1371 |   )
+  1372 | }
+  1373 |
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./src/features/brhium-platform/components/dashboard-client.tsx
+    ./src/app/(main)/dashboard/page.tsx
+
+
+    at <unknown> (Error: ./src/features/brhium-platform/components/dashboard-client.tsx:1370:5)
+    at Object.getCompilationErrors (file:///home/plore/proyectos/software/Agente_voz_Brhium/node_modules/next/dist/server/dev/hot-reloader-turbopack.js:1186:59)
+    at DevBundlerService.getCompilationError (file:///home/plore/proyectos/software/Agente_voz_Brhium/node_modules/next/dist/server/lib/dev-bundler-service.js:44:55)
+    at DevServer.getCompilationError (file:///home/plore/proyectos/software/Agente_voz_Brhium/node_modules/next/dist/server/dev/next-dev-server.js:719:42)
+    at DevServer.findPageComponents (file:///home/plore/proyectos/software/Agente_voz_Brhium/node_modules/next/dist/server/dev/next-dev-server.js:689:43)
+    at async DevServer.renderErrorToResponseImpl (file:///home/plore/proyectos/software/Agente_voz_Brhium/node_modules/next/dist/server/base-server.js:1745:26)
+[  770103ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1226
+[  770292ms] [ERROR] ./src/features/brhium-platform/components/dashboard-client.tsx:1370:5
+Expression expected
+  1368 |   )
+  1369 | }
+> 1370 |     </section>
+       |     ^
+  1371 |   )
+  1372 | }
+  1373 |
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./src/features/brhium-platform/components/dashboard-client.tsx
+    ./src/app/(main)/dashboard/page.tsx @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  770298ms] [ERROR] ./src/features/brhium-platform/components/dashboard-client.tsx:1370:6
+Unterminated regexp literal
+  1368 |   )
+  1369 | }
+> 1370 |     </section>
+       |      ^^^^^^^^^
+  1371 |   )
+  1372 | }
+  1373 |
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./src/features/brhium-platform/components/dashboard-client.tsx
+    ./src/app/(main)/dashboard/page.tsx @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  770403ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1226
+[  770762ms] [ERROR] ./src/features/brhium-platform/components/dashboard-client.tsx:1370:5
+Expression expected
+  1368 |   )
+  1369 | }
+> 1370 |     </section>
+       |     ^
+  1371 |   )
+  1372 | }
+  1373 |
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./src/features/brhium-platform/components/dashboard-client.tsx
+    ./src/app/(main)/dashboard/page.tsx @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  770763ms] [ERROR] ./src/features/brhium-platform/components/dashboard-client.tsx:1370:6
+Unterminated regexp literal
+  1368 |   )
+  1369 | }
+> 1370 |     </section>
+       |      ^^^^^^^^^
+  1371 |   )
+  1372 | }
+  1373 |
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./src/features/brhium-platform/components/dashboard-client.tsx
+    ./src/app/(main)/dashboard/page.tsx @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  770878ms] [ERROR] ./src/features/brhium-platform/components/dashboard-client.tsx:1370:5
+Expression expected
+  1368 |   )
+  1369 | }
+> 1370 |     </section>
+       |     ^
+  1371 |   )
+  1372 | }
+  1373 |
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./src/features/brhium-platform/components/dashboard-client.tsx
+    ./src/app/(main)/dashboard/page.tsx @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  770879ms] [ERROR] ./src/features/brhium-platform/components/dashboard-client.tsx:1370:6
+Unterminated regexp literal
+  1368 |   )
+  1369 | }
+> 1370 |     </section>
+       |      ^^^^^^^^^
+  1371 |   )
+  1372 | }
+  1373 |
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./src/features/brhium-platform/components/dashboard-client.tsx
+    ./src/app/(main)/dashboard/page.tsx @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  770944ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1226
+[  772727ms] [ERROR] ./src/features/brhium-platform/components/dashboard-client.tsx:1370:5
+Expression expected
+  1368 |   )
+  1369 | }
+> 1370 |     </section>
+       |     ^
+  1371 |   )
+  1372 | }
+  1373 |
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./src/features/brhium-platform/components/dashboard-client.tsx
+    ./src/app/(main)/dashboard/page.tsx @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  772728ms] [ERROR] ./src/features/brhium-platform/components/dashboard-client.tsx:1370:6
+Unterminated regexp literal
+  1368 |   )
+  1369 | }
+> 1370 |     </section>
+       |      ^^^^^^^^^
+  1371 |   )
+  1372 | }
+  1373 |
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./src/features/brhium-platform/components/dashboard-client.tsx
+    ./src/app/(main)/dashboard/page.tsx @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  772793ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1226
+[  802062ms] [ERROR] ./src/features/brhium-platform/components/dashboard-client.tsx:1370:5
+Expression expected
+  1368 |   )
+  1369 | }
+> 1370 |     </section>
+       |     ^
+  1371 |   )
+  1372 | }
+  1373 |
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./src/features/brhium-platform/components/dashboard-client.tsx
+    ./src/app/(main)/dashboard/page.tsx @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  802062ms] [ERROR] ./src/features/brhium-platform/components/dashboard-client.tsx:1370:6
+Unterminated regexp literal
+  1368 |   )
+  1369 | }
+> 1370 |     </section>
+       |      ^^^^^^^^^
+  1371 |   )
+  1372 | }
+  1373 |
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./src/features/brhium-platform/components/dashboard-client.tsx
+    ./src/app/(main)/dashboard/page.tsx @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  802125ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1226
+[  816862ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1226
+[  819044ms] [LOG] [Fast Refresh] done in 1848ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1226
+[  822585ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1226
+[  822611ms] [LOG] [Fast Refresh] done in 126ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1226
+[  824470ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[  824947ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 4169403ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 4169506ms] [LOG] [Fast Refresh] done in 201ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 4271262ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 4271295ms] [LOG] [Fast Refresh] done in 134ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 4373534ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 4373582ms] [LOG] [Fast Refresh] done in 148ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 4509345ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 4509364ms] [LOG] [Fast Refresh] done in 120ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 4516402ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 4516439ms] [LOG] [Fast Refresh] done in 137ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 9407094ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 9407116ms] [LOG] [Fast Refresh] done in 124ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[10150209ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[10150313ms] [LOG] [Fast Refresh] done in 205ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[10485063ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[10485069ms] [LOG] [Fast Refresh] done in 106ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[10623414ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[10624864ms] [LOG] [Fast Refresh] done in 1300ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[10624972ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[10625340ms] [LOG] [Fast Refresh] done in 471ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[10625595ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[10625778ms] [LOG] [Fast Refresh] done in 291ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[10625905ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[10626014ms] [LOG] [Fast Refresh] done in 211ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[10632650ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[10633057ms] [LOG] [Fast Refresh] done in 445ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[10674032ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[10678108ms] [LOG] [Fast Refresh] done in 3213ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[10682227ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[10683435ms] [ERROR] ./src/features/brhium-platform/components/dashboard-client.tsx:1390:7
+Expression expected
+  1388 |       </div>
+  1389 |
+> 1390 |       <button onClick={onSave} disabled={saving} className="mt-12 flex h-14 w-full items-center justify-center gap-3 rounded-xl bg-[var(--deep)] text-white font-bold transition hover:bg-[#10271f] ...
+       |       ^
+  1391 |         {saving ? <LoaderCircle className="h-5 w-5 animate-spin" /> : <BadgeCheck className="h-5 w-5" />}
+  1392 |         Guardar y Sincronizar con Retell AI
+  1393 |       </button>
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./src/features/brhium-platform/components/dashboard-client.tsx
+    ./src/app/(main)/dashboard/page.tsx @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:3272
+[10683707ms] [ERROR] ./src/features/brhium-platform/components/dashboard-client.tsx:1390:7
+Expression expected
+  1388 |       </div>
+  1389 |
+> 1390 |       <button onClick={onSave} disabled={saving} className="mt-12 flex h-14 w-full items-center justify-center gap-3 rounded-xl bg-[var(--deep)] text-white font-bold transition hover:bg-[#10271f] ...
+       |       ^
+  1391 |         {saving ? <LoaderCircle className="h-5 w-5 animate-spin" /> : <BadgeCheck className="h-5 w-5" />}
+  1392 |         Guardar y Sincronizar con Retell AI
+  1393 |       </button>
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./src/features/brhium-platform/components/dashboard-client.tsx
+    ./src/app/(main)/dashboard/page.tsx @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:3272
+[10683839ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[10683943ms] [ERROR] ./src/features/brhium-platform/components/dashboard-client.tsx:1390:7
+Expression expected
+  1388 |       </div>
+  1389 |
+> 1390 |       <button onClick={onSave} disabled={saving} className="mt-12 flex h-14 w-full items-center justify-center gap-3 rounded-xl bg-[var(--deep)] text-white font-bold transition hover:bg-[#10271f] ...
+       |       ^
+  1391 |         {saving ? <LoaderCircle className="h-5 w-5 animate-spin" /> : <BadgeCheck className="h-5 w-5" />}
+  1392 |         Guardar y Sincronizar con Retell AI
+  1393 |       </button>
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./src/features/brhium-platform/components/dashboard-client.tsx
+    ./src/app/(main)/dashboard/page.tsx @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:3272
+[10683999ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/dashboard?_rsc=1g955:0
+[10684223ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[10684430ms] [ERROR] ./src/features/brhium-platform/components/dashboard-client.tsx:1390:7
+Expression expected
+  1388 |       </div>
+  1389 |
+> 1390 |       <button onClick={onSave} disabled={saving} className="mt-12 flex h-14 w-full items-center justify-center gap-3 rounded-xl bg-[var(--deep)] text-white font-bold transition hover:bg-[#10271f] ...
+       |       ^
+  1391 |         {saving ? <LoaderCircle className="h-5 w-5 animate-spin" /> : <BadgeCheck className="h-5 w-5" />}
+  1392 |         Guardar y Sincronizar con Retell AI
+  1393 |       </button>
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./src/features/brhium-platform/components/dashboard-client.tsx
+    ./src/app/(main)/dashboard/page.tsx @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:3272
+[10684431ms] [ERROR] ./src/features/brhium-platform/components/dashboard-client.tsx:1390:7
+Expression expected
+  1388 |       </div>
+  1389 |
+> 1390 |       <button onClick={onSave} disabled={saving} className="mt-12 flex h-14 w-full items-center justify-center gap-3 rounded-xl bg-[var(--deep)] text-white font-bold transition hover:bg-[#10271f] ...
+       |       ^
+  1391 |         {saving ? <LoaderCircle className="h-5 w-5 animate-spin" /> : <BadgeCheck className="h-5 w-5" />}
+  1392 |         Guardar y Sincronizar con Retell AI
+  1393 |       </button>
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./src/features/brhium-platform/components/dashboard-client.tsx
+    ./src/app/(main)/dashboard/page.tsx @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:3272
+[10684531ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[10684691ms] [ERROR] ./src/features/brhium-platform/components/dashboard-client.tsx:1390:7
+Expression expected
+  1388 |       </div>
+  1389 |
+> 1390 |       <button onClick={onSave} disabled={saving} className="mt-12 flex h-14 w-full items-center justify-center gap-3 rounded-xl bg-[var(--deep)] text-white font-bold transition hover:bg-[#10271f] ...
+       |       ^
+  1391 |         {saving ? <LoaderCircle className="h-5 w-5 animate-spin" /> : <BadgeCheck className="h-5 w-5" />}
+  1392 |         Guardar y Sincronizar con Retell AI
+  1393 |       </button>
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./src/features/brhium-platform/components/dashboard-client.tsx
+    ./src/app/(main)/dashboard/page.tsx @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:3272
+[10684697ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/dashboard?_rsc=1g955:0
+[10684745ms] [ERROR] ./src/features/brhium-platform/components/dashboard-client.tsx:1390:7
+Expression expected
+  1388 |       </div>
+  1389 |
+> 1390 |       <button onClick={onSave} disabled={saving} className="mt-12 flex h-14 w-full items-center justify-center gap-3 rounded-xl bg-[var(--deep)] text-white font-bold transition hover:bg-[#10271f] ...
+       |       ^
+  1391 |         {saving ? <LoaderCircle className="h-5 w-5 animate-spin" /> : <BadgeCheck className="h-5 w-5" />}
+  1392 |         Guardar y Sincronizar con Retell AI
+  1393 |       </button>
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./src/features/brhium-platform/components/dashboard-client.tsx
+    ./src/app/(main)/dashboard/page.tsx @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:3272
+[10684873ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[10685054ms] [ERROR] ./src/features/brhium-platform/components/dashboard-client.tsx:1390:7
+Expression expected
+  1388 |       </div>
+  1389 |
+> 1390 |       <button onClick={onSave} disabled={saving} className="mt-12 flex h-14 w-full items-center justify-center gap-3 rounded-xl bg-[var(--deep)] text-white font-bold transition hover:bg-[#10271f] ...
+       |       ^
+  1391 |         {saving ? <LoaderCircle className="h-5 w-5 animate-spin" /> : <BadgeCheck className="h-5 w-5" />}
+  1392 |         Guardar y Sincronizar con Retell AI
+  1393 |       </button>
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./src/features/brhium-platform/components/dashboard-client.tsx
+    ./src/app/(main)/dashboard/page.tsx @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:3272
+[10685293ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/dashboard:0
+[10686293ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/node_modules_react-dom_0bruynb._.js:15305
+[10686478ms] Error: ./src/features/brhium-platform/components/dashboard-client.tsx:1390:7
+Expression expected
+  1388 |       </div>
+  1389 |
+> 1390 |       <button onClick={onSave} disabled={saving} className="mt-12 flex h-14 w-full items-center justify-center gap-3 rounded-xl bg-[var(--deep)] text-white font-bold transition hover:bg-[#10271f] ...
+       |       ^
+  1391 |         {saving ? <LoaderCircle className="h-5 w-5 animate-spin" /> : <BadgeCheck className="h-5 w-5" />}
+  1392 |         Guardar y Sincronizar con Retell AI
+  1393 |       </button>
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./src/features/brhium-platform/components/dashboard-client.tsx
+    ./src/app/(main)/dashboard/page.tsx
+
+
+    at <unknown> (Error: ./src/features/brhium-platform/components/dashboard-client.tsx:1390:7)
+    at Object.getCompilationErrors (file:///home/plore/proyectos/software/Agente_voz_Brhium/node_modules/next/dist/server/dev/hot-reloader-turbopack.js:1186:59)
+    at DevBundlerService.getCompilationError (file:///home/plore/proyectos/software/Agente_voz_Brhium/node_modules/next/dist/server/lib/dev-bundler-service.js:44:55)
+    at DevServer.getCompilationError (file:///home/plore/proyectos/software/Agente_voz_Brhium/node_modules/next/dist/server/dev/next-dev-server.js:719:42)
+    at DevServer.findPageComponents (file:///home/plore/proyectos/software/Agente_voz_Brhium/node_modules/next/dist/server/dev/next-dev-server.js:689:43)
+    at async DevServer.renderErrorToResponseImpl (file:///home/plore/proyectos/software/Agente_voz_Brhium/node_modules/next/dist/server/base-server.js:1745:26)
+[10686442ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1226
+[10686571ms] [ERROR] ./src/features/brhium-platform/components/dashboard-client.tsx:1390:7
+Expression expected
+  1388 |       </div>
+  1389 |
+> 1390 |       <button onClick={onSave} disabled={saving} className="mt-12 flex h-14 w-full items-center justify-center gap-3 rounded-xl bg-[var(--deep)] text-white font-bold transition hover:bg-[#10271f] ...
+       |       ^
+  1391 |         {saving ? <LoaderCircle className="h-5 w-5 animate-spin" /> : <BadgeCheck className="h-5 w-5" />}
+  1392 |         Guardar y Sincronizar con Retell AI
+  1393 |       </button>
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./src/features/brhium-platform/components/dashboard-client.tsx
+    ./src/app/(main)/dashboard/page.tsx @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[10686625ms] [ERROR] ./src/features/brhium-platform/components/dashboard-client.tsx:1390:7
+Expression expected
+  1388 |       </div>
+  1389 |
+> 1390 |       <button onClick={onSave} disabled={saving} className="mt-12 flex h-14 w-full items-center justify-center gap-3 rounded-xl bg-[var(--deep)] text-white font-bold transition hover:bg-[#10271f] ...
+       |       ^
+  1391 |         {saving ? <LoaderCircle className="h-5 w-5 animate-spin" /> : <BadgeCheck className="h-5 w-5" />}
+  1392 |         Guardar y Sincronizar con Retell AI
+  1393 |       </button>
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./src/features/brhium-platform/components/dashboard-client.tsx
+    ./src/app/(main)/dashboard/page.tsx @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[10686650ms] [ERROR] ./src/features/brhium-platform/components/dashboard-client.tsx:1390:7
+Expression expected
+  1388 |       </div>
+  1389 |
+> 1390 |       <button onClick={onSave} disabled={saving} className="mt-12 flex h-14 w-full items-center justify-center gap-3 rounded-xl bg-[var(--deep)] text-white font-bold transition hover:bg-[#10271f] ...
+       |       ^
+  1391 |         {saving ? <LoaderCircle className="h-5 w-5 animate-spin" /> : <BadgeCheck className="h-5 w-5" />}
+  1392 |         Guardar y Sincronizar con Retell AI
+  1393 |       </button>
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./src/features/brhium-platform/components/dashboard-client.tsx
+    ./src/app/(main)/dashboard/page.tsx @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[10686706ms] [ERROR] ./src/features/brhium-platform/components/dashboard-client.tsx:1390:7
+Expression expected
+  1388 |       </div>
+  1389 |
+> 1390 |       <button onClick={onSave} disabled={saving} className="mt-12 flex h-14 w-full items-center justify-center gap-3 rounded-xl bg-[var(--deep)] text-white font-bold transition hover:bg-[#10271f] ...
+       |       ^
+  1391 |         {saving ? <LoaderCircle className="h-5 w-5 animate-spin" /> : <BadgeCheck className="h-5 w-5" />}
+  1392 |         Guardar y Sincronizar con Retell AI
+  1393 |       </button>
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./src/features/brhium-platform/components/dashboard-client.tsx
+    ./src/app/(main)/dashboard/page.tsx @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[10686765ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1226
+[10688821ms] [ERROR] ./src/features/brhium-platform/components/dashboard-client.tsx:1390:7
+Expression expected
+  1388 |       </div>
+  1389 |
+> 1390 |       <button onClick={onSave} disabled={saving} className="mt-12 flex h-14 w-full items-center justify-center gap-3 rounded-xl bg-[var(--deep)] text-white font-bold transition hover:bg-[#10271f] ...
+       |       ^
+  1391 |         {saving ? <LoaderCircle className="h-5 w-5 animate-spin" /> : <BadgeCheck className="h-5 w-5" />}
+  1392 |         Guardar y Sincronizar con Retell AI
+  1393 |       </button>
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./src/features/brhium-platform/components/dashboard-client.tsx
+    ./src/app/(main)/dashboard/page.tsx @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[10688853ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1226
+[10706324ms] [ERROR] ./src/features/brhium-platform/components/dashboard-client.tsx:1390:7
+Expression expected
+  1388 |       </div>
+  1389 |
+> 1390 |       <button onClick={onSave} disabled={saving} className="mt-12 flex h-14 w-full items-center justify-center gap-3 rounded-xl bg-[var(--deep)] text-white font-bold transition hover:bg-[#10271f] ...
+       |       ^
+  1391 |         {saving ? <LoaderCircle className="h-5 w-5 animate-spin" /> : <BadgeCheck className="h-5 w-5" />}
+  1392 |         Guardar y Sincronizar con Retell AI
+  1393 |       </button>
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./src/features/brhium-platform/components/dashboard-client.tsx
+    ./src/app/(main)/dashboard/page.tsx @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[10706387ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1226
+[10718013ms] [ERROR] ./src/features/brhium-platform/components/dashboard-client.tsx:1390:7
+Expression expected
+  1388 |       </div>
+  1389 |
+> 1390 |       <button onClick={onSave} disabled={saving} className="mt-12 flex h-14 w-full items-center justify-center gap-3 rounded-xl bg-[var(--deep)] text-white font-bold transition hover:bg-[#10271f] ...
+       |       ^
+  1391 |         {saving ? <LoaderCircle className="h-5 w-5 animate-spin" /> : <BadgeCheck className="h-5 w-5" />}
+  1392 |         Guardar y Sincronizar con Retell AI
+  1393 |       </button>
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./src/features/brhium-platform/components/dashboard-client.tsx
+    ./src/app/(main)/dashboard/page.tsx @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[10718053ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1226
+[10743242ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1226
+[10744508ms] [LOG] [Fast Refresh] done in 333ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1226
+[10747156ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1226
+[10747446ms] [LOG] [Fast Refresh] done in 393ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1226
+[10748940ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[10749518ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[10782099ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[10782313ms] [ERROR] ./src/features/brhium-platform/components/dashboard-client.tsx:1404:15
+Expected '</', got 'ident'
+  1402 |       </div>
+  1403 |
+> 1404 |       <button onClick={onSave} disabled={saving} className="mt-12 flex h-14 w-full items-center justify-center gap-3 rounded-xl bg-[var(--deep)] text-white font-bold transition hover:bg-[#10271f] ...
+       |               ^^^^^^^
+  1405 |         {saving ? <LoaderCircle className="h-5 w-5 animate-spin" /> : <BadgeCheck className="h-5 w-5" />}
+  1406 |         Guardar y Sincronizar con Retell AI
+  1407 |       </button>
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./src/features/brhium-platform/components/dashboard-client.tsx
+    ./src/app/(main)/dashboard/page.tsx @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:3272
+[10782446ms] [ERROR] ./src/features/brhium-platform/components/dashboard-client.tsx:1404:15
+Expected '</', got 'ident'
+  1402 |       </div>
+  1403 |
+> 1404 |       <button onClick={onSave} disabled={saving} className="mt-12 flex h-14 w-full items-center justify-center gap-3 rounded-xl bg-[var(--deep)] text-white font-bold transition hover:bg-[#10271f] ...
+       |               ^^^^^^^
+  1405 |         {saving ? <LoaderCircle className="h-5 w-5 animate-spin" /> : <BadgeCheck className="h-5 w-5" />}
+  1406 |         Guardar y Sincronizar con Retell AI
+  1407 |       </button>
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./src/features/brhium-platform/components/dashboard-client.tsx
+    ./src/app/(main)/dashboard/page.tsx @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:3272
+[10782469ms] [ERROR] ./src/features/brhium-platform/components/dashboard-client.tsx:1404:15
+Expected '</', got 'ident'
+  1402 |       </div>
+  1403 |
+> 1404 |       <button onClick={onSave} disabled={saving} className="mt-12 flex h-14 w-full items-center justify-center gap-3 rounded-xl bg-[var(--deep)] text-white font-bold transition hover:bg-[#10271f] ...
+       |               ^^^^^^^
+  1405 |         {saving ? <LoaderCircle className="h-5 w-5 animate-spin" /> : <BadgeCheck className="h-5 w-5" />}
+  1406 |         Guardar y Sincronizar con Retell AI
+  1407 |       </button>
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./src/features/brhium-platform/components/dashboard-client.tsx
+    ./src/app/(main)/dashboard/page.tsx @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:3272
+[10782479ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/dashboard?_rsc=1g955:0
+[10782596ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[10782664ms] [ERROR] ./src/features/brhium-platform/components/dashboard-client.tsx:1404:15
+Expected '</', got 'ident'
+  1402 |       </div>
+  1403 |
+> 1404 |       <button onClick={onSave} disabled={saving} className="mt-12 flex h-14 w-full items-center justify-center gap-3 rounded-xl bg-[var(--deep)] text-white font-bold transition hover:bg-[#10271f] ...
+       |               ^^^^^^^
+  1405 |         {saving ? <LoaderCircle className="h-5 w-5 animate-spin" /> : <BadgeCheck className="h-5 w-5" />}
+  1406 |         Guardar y Sincronizar con Retell AI
+  1407 |       </button>
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./src/features/brhium-platform/components/dashboard-client.tsx
+    ./src/app/(main)/dashboard/page.tsx @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:3272
+[10782680ms] [ERROR] ./src/features/brhium-platform/components/dashboard-client.tsx:1404:15
+Expected '</', got 'ident'
+  1402 |       </div>
+  1403 |
+> 1404 |       <button onClick={onSave} disabled={saving} className="mt-12 flex h-14 w-full items-center justify-center gap-3 rounded-xl bg-[var(--deep)] text-white font-bold transition hover:bg-[#10271f] ...
+       |               ^^^^^^^
+  1405 |         {saving ? <LoaderCircle className="h-5 w-5 animate-spin" /> : <BadgeCheck className="h-5 w-5" />}
+  1406 |         Guardar y Sincronizar con Retell AI
+  1407 |       </button>
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./src/features/brhium-platform/components/dashboard-client.tsx
+    ./src/app/(main)/dashboard/page.tsx @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:3272
+[10782743ms] [ERROR] ./src/features/brhium-platform/components/dashboard-client.tsx:1404:15
+Expected '</', got 'ident'
+  1402 |       </div>
+  1403 |
+> 1404 |       <button onClick={onSave} disabled={saving} className="mt-12 flex h-14 w-full items-center justify-center gap-3 rounded-xl bg-[var(--deep)] text-white font-bold transition hover:bg-[#10271f] ...
+       |               ^^^^^^^
+  1405 |         {saving ? <LoaderCircle className="h-5 w-5 animate-spin" /> : <BadgeCheck className="h-5 w-5" />}
+  1406 |         Guardar y Sincronizar con Retell AI
+  1407 |       </button>
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./src/features/brhium-platform/components/dashboard-client.tsx
+    ./src/app/(main)/dashboard/page.tsx @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:3272
+[10782765ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/dashboard?_rsc=1g955:0
+[10782825ms] [ERROR] ./src/features/brhium-platform/components/dashboard-client.tsx:1404:15
+Expected '</', got 'ident'
+  1402 |       </div>
+  1403 |
+> 1404 |       <button onClick={onSave} disabled={saving} className="mt-12 flex h-14 w-full items-center justify-center gap-3 rounded-xl bg-[var(--deep)] text-white font-bold transition hover:bg-[#10271f] ...
+       |               ^^^^^^^
+  1405 |         {saving ? <LoaderCircle className="h-5 w-5 animate-spin" /> : <BadgeCheck className="h-5 w-5" />}
+  1406 |         Guardar y Sincronizar con Retell AI
+  1407 |       </button>
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./src/features/brhium-platform/components/dashboard-client.tsx
+    ./src/app/(main)/dashboard/page.tsx @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:3272
+[10782846ms] [ERROR] ./src/features/brhium-platform/components/dashboard-client.tsx:1404:15
+Expected '</', got 'ident'
+  1402 |       </div>
+  1403 |
+> 1404 |       <button onClick={onSave} disabled={saving} className="mt-12 flex h-14 w-full items-center justify-center gap-3 rounded-xl bg-[var(--deep)] text-white font-bold transition hover:bg-[#10271f] ...
+       |               ^^^^^^^
+  1405 |         {saving ? <LoaderCircle className="h-5 w-5 animate-spin" /> : <BadgeCheck className="h-5 w-5" />}
+  1406 |         Guardar y Sincronizar con Retell AI
+  1407 |       </button>
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./src/features/brhium-platform/components/dashboard-client.tsx
+    ./src/app/(main)/dashboard/page.tsx @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:3272
+[10782898ms] [ERROR] ./src/features/brhium-platform/components/dashboard-client.tsx:1404:15
+Expected '</', got 'ident'
+  1402 |       </div>
+  1403 |
+> 1404 |       <button onClick={onSave} disabled={saving} className="mt-12 flex h-14 w-full items-center justify-center gap-3 rounded-xl bg-[var(--deep)] text-white font-bold transition hover:bg-[#10271f] ...
+       |               ^^^^^^^
+  1405 |         {saving ? <LoaderCircle className="h-5 w-5 animate-spin" /> : <BadgeCheck className="h-5 w-5" />}
+  1406 |         Guardar y Sincronizar con Retell AI
+  1407 |       </button>
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./src/features/brhium-platform/components/dashboard-client.tsx
+    ./src/app/(main)/dashboard/page.tsx @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:3272
+[10783077ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/dashboard:0
+[10784065ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/node_modules_react-dom_0bruynb._.js:15305
+[10784216ms] Error: ./src/features/brhium-platform/components/dashboard-client.tsx:1404:15
+Expected '</', got 'ident'
+  1402 |       </div>
+  1403 |
+> 1404 |       <button onClick={onSave} disabled={saving} className="mt-12 flex h-14 w-full items-center justify-center gap-3 rounded-xl bg-[var(--deep)] text-white font-bold transition hover:bg-[#10271f] ...
+       |               ^^^^^^^
+  1405 |         {saving ? <LoaderCircle className="h-5 w-5 animate-spin" /> : <BadgeCheck className="h-5 w-5" />}
+  1406 |         Guardar y Sincronizar con Retell AI
+  1407 |       </button>
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./src/features/brhium-platform/components/dashboard-client.tsx
+    ./src/app/(main)/dashboard/page.tsx
+
+
+    at <unknown> (Error: ./src/features/brhium-platform/components/dashboard-client.tsx:1404:15)
+    at Object.getCompilationErrors (file:///home/plore/proyectos/software/Agente_voz_Brhium/node_modules/next/dist/server/dev/hot-reloader-turbopack.js:1186:59)
+    at DevBundlerService.getCompilationError (file:///home/plore/proyectos/software/Agente_voz_Brhium/node_modules/next/dist/server/lib/dev-bundler-service.js:44:55)
+    at DevServer.getCompilationError (file:///home/plore/proyectos/software/Agente_voz_Brhium/node_modules/next/dist/server/dev/next-dev-server.js:719:42)
+    at DevServer.findPageComponents (file:///home/plore/proyectos/software/Agente_voz_Brhium/node_modules/next/dist/server/dev/next-dev-server.js:689:43)
+    at async DevServer.renderErrorToResponseImpl (file:///home/plore/proyectos/software/Agente_voz_Brhium/node_modules/next/dist/server/base-server.js:1745:26)
+[10784301ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1226
+[10784396ms] [ERROR] ./src/features/brhium-platform/components/dashboard-client.tsx:1404:15
+Expected '</', got 'ident'
+  1402 |       </div>
+  1403 |
+> 1404 |       <button onClick={onSave} disabled={saving} className="mt-12 flex h-14 w-full items-center justify-center gap-3 rounded-xl bg-[var(--deep)] text-white font-bold transition hover:bg-[#10271f] ...
+       |               ^^^^^^^
+  1405 |         {saving ? <LoaderCircle className="h-5 w-5 animate-spin" /> : <BadgeCheck className="h-5 w-5" />}
+  1406 |         Guardar y Sincronizar con Retell AI
+  1407 |       </button>
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./src/features/brhium-platform/components/dashboard-client.tsx
+    ./src/app/(main)/dashboard/page.tsx @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[10784452ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1226
+[10784466ms] [ERROR] ./src/features/brhium-platform/components/dashboard-client.tsx:1404:15
+Expected '</', got 'ident'
+  1402 |       </div>
+  1403 |
+> 1404 |       <button onClick={onSave} disabled={saving} className="mt-12 flex h-14 w-full items-center justify-center gap-3 rounded-xl bg-[var(--deep)] text-white font-bold transition hover:bg-[#10271f] ...
+       |               ^^^^^^^
+  1405 |         {saving ? <LoaderCircle className="h-5 w-5 animate-spin" /> : <BadgeCheck className="h-5 w-5" />}
+  1406 |         Guardar y Sincronizar con Retell AI
+  1407 |       </button>
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./src/features/brhium-platform/components/dashboard-client.tsx
+    ./src/app/(main)/dashboard/page.tsx @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[10784580ms] [ERROR] ./src/features/brhium-platform/components/dashboard-client.tsx:1404:15
+Expected '</', got 'ident'
+  1402 |       </div>
+  1403 |
+> 1404 |       <button onClick={onSave} disabled={saving} className="mt-12 flex h-14 w-full items-center justify-center gap-3 rounded-xl bg-[var(--deep)] text-white font-bold transition hover:bg-[#10271f] ...
+       |               ^^^^^^^
+  1405 |         {saving ? <LoaderCircle className="h-5 w-5 animate-spin" /> : <BadgeCheck className="h-5 w-5" />}
+  1406 |         Guardar y Sincronizar con Retell AI
+  1407 |       </button>
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./src/features/brhium-platform/components/dashboard-client.tsx
+    ./src/app/(main)/dashboard/page.tsx @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[10784662ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1226
+[10786592ms] [ERROR] ./src/features/brhium-platform/components/dashboard-client.tsx:1404:15
+Expected '</', got 'ident'
+  1402 |       </div>
+  1403 |
+> 1404 |       <button onClick={onSave} disabled={saving} className="mt-12 flex h-14 w-full items-center justify-center gap-3 rounded-xl bg-[var(--deep)] text-white font-bold transition hover:bg-[#10271f] ...
+       |               ^^^^^^^
+  1405 |         {saving ? <LoaderCircle className="h-5 w-5 animate-spin" /> : <BadgeCheck className="h-5 w-5" />}
+  1406 |         Guardar y Sincronizar con Retell AI
+  1407 |       </button>
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./src/features/brhium-platform/components/dashboard-client.tsx
+    ./src/app/(main)/dashboard/page.tsx @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[10786657ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1226
+[10799348ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1226
+[10799607ms] [ERROR] ./src/features/brhium-platform/components/dashboard-client.tsx:1534:1
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  1532 |     </section>
+  1533 |   )
+> 1534 | }
+       | ^
+  1535 |
+  1536 | function SectionTitle({ icon: Icon, title }: { icon: any, title: string }) {
+  1537 |   return (
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./src/features/brhium-platform/components/dashboard-client.tsx
+    ./src/app/(main)/dashboard/page.tsx @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[10799724ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1226
+[10799751ms] [ERROR] ./src/features/brhium-platform/components/dashboard-client.tsx:1534:1
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  1532 |     </section>
+  1533 |   )
+> 1534 | }
+       | ^
+  1535 |
+  1536 | function SectionTitle({ icon: Icon, title }: { icon: any, title: string }) {
+  1537 |   return (
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./src/features/brhium-platform/components/dashboard-client.tsx
+    ./src/app/(main)/dashboard/page.tsx @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[10799812ms] [ERROR] ./src/features/brhium-platform/components/dashboard-client.tsx:1534:1
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  1532 |     </section>
+  1533 |   )
+> 1534 | }
+       | ^
+  1535 |
+  1536 | function SectionTitle({ icon: Icon, title }: { icon: any, title: string }) {
+  1537 |   return (
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./src/features/brhium-platform/components/dashboard-client.tsx
+    ./src/app/(main)/dashboard/page.tsx @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[10799886ms] [ERROR] ./src/features/brhium-platform/components/dashboard-client.tsx:1534:1
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  1532 |     </section>
+  1533 |   )
+> 1534 | }
+       | ^
+  1535 |
+  1536 | function SectionTitle({ icon: Icon, title }: { icon: any, title: string }) {
+  1537 |   return (
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./src/features/brhium-platform/components/dashboard-client.tsx
+    ./src/app/(main)/dashboard/page.tsx @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[10799916ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1226
+[10799928ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/dashboard:0
+[10800291ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/node_modules_react-dom_0bruynb._.js:15305
+[10800386ms] Error: ./src/features/brhium-platform/components/dashboard-client.tsx:1534:1
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  1532 |     </section>
+  1533 |   )
+> 1534 | }
+       | ^
+  1535 |
+  1536 | function SectionTitle({ icon: Icon, title }: { icon: any, title: string }) {
+  1537 |   return (
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./src/features/brhium-platform/components/dashboard-client.tsx
+    ./src/app/(main)/dashboard/page.tsx
+
+
+    at <unknown> (Error: ./src/features/brhium-platform/components/dashboard-client.tsx:1534:1)
+    at Object.getCompilationErrors (file:///home/plore/proyectos/software/Agente_voz_Brhium/node_modules/next/dist/server/dev/hot-reloader-turbopack.js:1186:59)
+    at DevBundlerService.getCompilationError (file:///home/plore/proyectos/software/Agente_voz_Brhium/node_modules/next/dist/server/lib/dev-bundler-service.js:44:55)
+    at DevServer.getCompilationError (file:///home/plore/proyectos/software/Agente_voz_Brhium/node_modules/next/dist/server/dev/next-dev-server.js:719:42)
+    at DevServer.findPageComponents (file:///home/plore/proyectos/software/Agente_voz_Brhium/node_modules/next/dist/server/dev/next-dev-server.js:689:43)
+    at async DevServer.renderErrorToResponseImpl (file:///home/plore/proyectos/software/Agente_voz_Brhium/node_modules/next/dist/server/base-server.js:1745:26)
+[10800462ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1226
+[10800502ms] [ERROR] ./src/features/brhium-platform/components/dashboard-client.tsx:1534:1
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  1532 |     </section>
+  1533 |   )
+> 1534 | }
+       | ^
+  1535 |
+  1536 | function SectionTitle({ icon: Icon, title }: { icon: any, title: string }) {
+  1537 |   return (
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./src/features/brhium-platform/components/dashboard-client.tsx
+    ./src/app/(main)/dashboard/page.tsx @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[10800700ms] [ERROR] ./src/features/brhium-platform/components/dashboard-client.tsx:1534:1
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  1532 |     </section>
+  1533 |   )
+> 1534 | }
+       | ^
+  1535 |
+  1536 | function SectionTitle({ icon: Icon, title }: { icon: any, title: string }) {
+  1537 |   return (
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./src/features/brhium-platform/components/dashboard-client.tsx
+    ./src/app/(main)/dashboard/page.tsx @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[10800713ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1226
+[10800727ms] [ERROR] ./src/features/brhium-platform/components/dashboard-client.tsx:1534:1
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  1532 |     </section>
+  1533 |   )
+> 1534 | }
+       | ^
+  1535 |
+  1536 | function SectionTitle({ icon: Icon, title }: { icon: any, title: string }) {
+  1537 |   return (
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./src/features/brhium-platform/components/dashboard-client.tsx
+    ./src/app/(main)/dashboard/page.tsx @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[10800820ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1226
+[10802473ms] [ERROR] ./src/features/brhium-platform/components/dashboard-client.tsx:1534:1
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  1532 |     </section>
+  1533 |   )
+> 1534 | }
+       | ^
+  1535 |
+  1536 | function SectionTitle({ icon: Icon, title }: { icon: any, title: string }) {
+  1537 |   return (
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./src/features/brhium-platform/components/dashboard-client.tsx
+    ./src/app/(main)/dashboard/page.tsx @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[10802535ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1226
+[10823189ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1226
+[10823344ms] [ERROR] ./src/features/brhium-platform/components/dashboard-client.tsx:1525:8
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  1523 |           </div>
+  1524 |         </div>
+> 1525 |       )}
+       |        ^
+  1526 |       </div>
+  1527 |
+  1528 |       <button onClick={onSave} disabled={saving} className="mt-12 flex h-14 w-full items-center justify-center gap-3 rounded-xl bg-[var(--deep)] text-white font-bold transition hover:bg-[#10271f] ...
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./src/features/brhium-platform/components/dashboard-client.tsx
+    ./src/app/(main)/dashboard/page.tsx @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[10827871ms] [ERROR] ./src/features/brhium-platform/components/dashboard-client.tsx:1525:8
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  1523 |           </div>
+  1524 |         </div>
+> 1525 |       )}
+       |        ^
+  1526 |       </div>
+  1527 |
+  1528 |       <button onClick={onSave} disabled={saving} className="mt-12 flex h-14 w-full items-center justify-center gap-3 rounded-xl bg-[var(--deep)] text-white font-bold transition hover:bg-[#10271f] ...
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./src/features/brhium-platform/components/dashboard-client.tsx
+    ./src/app/(main)/dashboard/page.tsx @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[10827934ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1226
+[10831686ms] [ERROR] ./src/features/brhium-platform/components/dashboard-client.tsx:1525:8
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+  1523 |           </div>
+  1524 |         </div>
+> 1525 |       )}
+       |        ^
+  1526 |       </div>
+  1527 |
+  1528 |       <button onClick={onSave} disabled={saving} className="mt-12 flex h-14 w-full items-center justify-center gap-3 rounded-xl bg-[var(--deep)] text-white font-bold transition hover:bg-[#10271f] ...
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./src/features/brhium-platform/components/dashboard-client.tsx
+    ./src/app/(main)/dashboard/page.tsx @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[10831744ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1226
+[10837920ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1226
+[10838321ms] [LOG] [Fast Refresh] done in 479ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1226
+[10840642ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1226
+[10840696ms] [LOG] [Fast Refresh] done in 154ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1226
+[10842765ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[10843012ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431

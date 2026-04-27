@@ -1,0 +1,45 @@
+- generic [ref=e3]:
+  - generic [ref=e4]:
+    - paragraph [ref=e5]:
+      - text: Brhium
+      - text: Voice Hub
+    - paragraph [ref=e6]: Un panel para ensenar el agente en directo, controlar numeros activos, revisar transcripciones y dar al cliente una vista clara de lo que esta ocurriendo.
+    - generic [ref=e7]:
+      - generic [ref=e8]:
+        - paragraph [ref=e9]: Demo web
+        - paragraph [ref=e10]: Browser voice
+      - generic [ref=e11]:
+        - paragraph [ref=e12]: Supervision
+        - paragraph [ref=e13]: Historial vivo
+      - generic [ref=e14]:
+        - paragraph [ref=e15]: Operacion
+        - paragraph [ref=e16]: Control total
+  - generic [ref=e17]:
+    - generic [ref=e18]:
+      - paragraph [ref=e19]: Entorno demo
+      - heading "Brhium Voice Hub" [level=1] [ref=e20]
+      - paragraph [ref=e21]: Accede al panel operativo para probar el agente, revisar llamadas y editar la configuracion guiada.
+    - generic [ref=e22]:
+      - button "Admin agencia admin@brhium.demo" [ref=e23] [cursor=pointer]:
+        - generic [ref=e24]: Admin agencia
+        - generic [ref=e25]: admin@brhium.demo
+      - button "Cliente Brhium cliente@brhium.demo" [ref=e26] [cursor=pointer]:
+        - generic [ref=e27]: Cliente Brhium
+        - generic [ref=e28]: cliente@brhium.demo
+    - generic [ref=e29]:
+      - generic [ref=e30]: Email
+      - generic [ref=e31]:
+        - img [ref=e32]
+        - textbox "Email" [ref=e35]:
+          - /placeholder: tu@email.com
+          - text: admin@brhium.demo
+    - generic [ref=e36]:
+      - generic [ref=e37]: Password
+      - generic [ref=e38]:
+        - img [ref=e39]
+        - textbox "Password" [ref=e42]:
+          - /placeholder: "********"
+          - text: brhium2026
+    - button "Entrar al panel" [ref=e43] [cursor=pointer]:
+      - img [ref=e44]
+      - text: Entrar al panel

@@ -1,0 +1,2 @@
+[    1689ms] [LOG] JQMIGRATE: Migrate is installed, version 3.4.1 @ https://sauteri.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1:1
+[    2571ms] [ERROR] Failed to load resource: net::ERR_HTTP2_PROTOCOL_ERROR @ https://linen-loris-680101.hostingersite.com/wp-content/uploads/elementor/google-fonts/fonts/roboto-fb5169d9.woff2:0
